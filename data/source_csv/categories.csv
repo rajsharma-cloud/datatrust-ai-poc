@@ -1,0 +1,40 @@
+id,name,slug,image,creationAt,updatedAt
+1,Updated Category Name,updated-category-name,https://placeimg.com/640/480/any,2026-10-12T13:58:35.000Z,2026-10-12T18:00:15.000Z
+2,Electronics,electronics,https://i.imgur.com/ZANVnHE.jpeg,2026-10-12T13:58:35.000Z,2026-10-12T13:58:35.000Z
+3,Furniture,furniture,https://i.imgur.com/Qphac99.jpeg,2026-10-12T13:58:35.000Z,2026-10-12T13:58:35.000Z
+4,Shoes,shoes,https://i.imgur.com/qNOjJje.jpeg,2026-10-12T13:58:35.000Z,2026-10-12T13:58:35.000Z
+5,Miscellaneous,miscellaneous,https://i.imgur.com/BG8J0Fj.jpg,2026-10-12T13:58:35.000Z,2026-10-12T13:58:35.000Z
+6,New Category 3,new-category-3,https://placeimg.com/640/480/any,2026-10-12T15:00:34.000Z,2026-10-12T15:00:34.000Z
+7,Mobiles,mobiles,https://api.escuelajs.co/api/v1/files/e294.jpeg,2026-10-12T15:24:15.000Z,2026-10-12T15:25:02.000Z
+8,samsung x,samsung-x,https://i.pinimg.com/originals/3a/0b/10/3a0b10e69ee7939be690826021560ec6.jpg,2026-10-12T17:02:42.000Z,2026-10-12T17:02:42.000Z
+9,Mie Ayam Spesial,mie-ayam-spesial,https://placeimg.com/640/480/any,2026-10-12T17:02:46.000Z,2026-10-12T17:02:46.000Z
+10,New Category,new-category,https://placeimg.com/640/480/any,2026-10-12T18:00:14.000Z,2026-10-12T18:00:14.000Z
+11,New Ctg,new-ctg,https://placeimg.com/640/480/any,2026-10-12T18:01:24.000Z,2026-10-12T18:01:24.000Z
+12,Test Category Baru,test-category-baru,https://placeimg.com/640/480/any,2026-10-12T19:00:12.000Z,2026-10-12T19:00:12.000Z
+15,string,string,https://pravatar.cc/,2026-10-12T21:01:24.000Z,2026-10-12T21:01:24.000Z
+16,category_B,category-b,https://pravatar.cc/,2026-10-12T21:03:30.000Z,2026-10-12T21:03:30.000Z
+27,text,text,https://i.imgur.com/O1LUkwy.jpeg,2026-10-13T04:39:23.000Z,2026-10-13T04:39:23.000Z
+28,Cat ej5q1siu,cat-ej5q1siu,https://placeimg.com/640/480/any,2026-10-13T05:15:10.000Z,2026-10-13T05:15:10.000Z
+31,Cat 6xqnpsn2,cat-6xqnpsn2,https://placeimg.com/640/480/any,2026-10-13T05:45:55.000Z,2026-10-13T05:45:55.000Z
+32,Cat sh85wyr7,cat-sh85wyr7,https://placeimg.com/640/480/any,2026-10-13T05:46:04.000Z,2026-10-13T05:46:04.000Z
+36,Cat ipzoljno,cat-ipzoljno,https://placeimg.com/640/480/any,2026-10-13T05:49:56.000Z,2026-10-13T05:49:56.000Z
+39,Cat h7o5nt4k,cat-h7o5nt4k,https://placeimg.com/640/480/any,2026-10-13T05:52:42.000Z,2026-10-13T05:52:42.000Z
+40,Cat zrcsc8lg,cat-zrcsc8lg,https://placeimg.com/640/480/any,2026-10-13T05:52:50.000Z,2026-10-13T05:52:50.000Z
+41,Cat i26kjery,cat-i26kjery,https://placeimg.com/640/480/any,2026-10-13T05:53:39.000Z,2026-10-13T05:53:39.000Z
+42,Cat zugpjjc5,cat-zugpjjc5,https://placeimg.com/640/480/any,2026-10-13T05:53:47.000Z,2026-10-13T05:53:47.000Z
+43,Cat xxl291uo,cat-xxl291uo,https://placeimg.com/640/480/any,2026-10-13T05:56:41.000Z,2026-10-13T05:56:41.000Z
+44,Cat u7ha5j6t,cat-u7ha5j6t,https://placeimg.com/640/480/any,2026-10-13T05:56:50.000Z,2026-10-13T05:56:50.000Z
+47,Testing Category,testing-category,https://placeimg.com/640/480/any,2026-10-13T06:00:59.000Z,2026-10-13T06:00:59.000Z
+50,testCategory8995f601f2a04d1c90aabcc6c0bae6d5,testcategory8995f601f2a04d1c90aabcc6c0bae6d5,https://bradley.info/,2026-10-13T06:05:13.000Z,2026-10-13T06:05:13.000Z
+51,test Category96f267515c404fd69811984f04690df2,test-category96f267515c404fd69811984f04690df2,https://www.knight-bowers.com/,2026-10-13T06:05:13.000Z,2026-10-13T06:05:13.000Z
+58,Sports & Fitness_f8c64625dac1492593139a240c72791a,sports-fitness-f8c64625dac1492593139a240c72791a,http://duarte-mosley.net/,2026-10-13T06:05:15.000Z,2026-10-13T06:05:15.000Z
+71,Cat jkx35zq1,cat-jkx35zq1,https://placeimg.com/640/480/any,2026-10-13T06:08:02.000Z,2026-10-13T06:08:02.000Z
+77,Cat cqtehybt,cat-cqtehybt,https://placeimg.com/640/480/any,2026-10-13T06:10:12.000Z,2026-10-13T06:10:12.000Z
+87,Cat vcrfrrr7,cat-vcrfrrr7,https://placeimg.com/640/480/any,2026-10-13T06:14:04.000Z,2026-10-13T06:14:04.000Z
+88,Cat nl5xibyq,cat-nl5xibyq,https://placeimg.com/640/480/any,2026-10-13T06:14:08.000Z,2026-10-13T06:14:08.000Z
+91,Cat 13mxofkx,cat-13mxofkx,https://placeimg.com/640/480/any,2026-10-13T06:15:08.000Z,2026-10-13T06:15:08.000Z
+92,Cat gom53wsp,cat-gom53wsp,https://placeimg.com/640/480/any,2026-10-13T06:16:05.000Z,2026-10-13T06:16:05.000Z
+93,Cat 3ra3ljk7,cat-3ra3ljk7,https://placeimg.com/640/480/any,2026-10-13T06:16:11.000Z,2026-10-13T06:16:11.000Z
+98,Cat tk4dj6px,cat-tk4dj6px,https://placeimg.com/640/480/any,2026-10-13T06:17:41.000Z,2026-10-13T06:17:41.000Z
+99,Cat e0qrwe0g,cat-e0qrwe0g,https://placeimg.com/640/480/any,2026-10-13T06:18:29.000Z,2026-10-13T06:18:29.000Z
+100,Cat 4zpsu3dq,cat-4zpsu3dq,https://placeimg.com/640/480/any,2026-10-13T06:18:39.000Z,2026-10-13T06:18:39.000Z

@@ -1,0 +1,1481 @@
+CUSTOMER_ID,OPERATION,CHANGED_AT,BUSINESS_DATE,CUSTOMER_NAME,EMAIL,CITY,STATE,REGION,SEGMENT
+C00001,I,2026-10-01 00:05:07,2026-10-01,Arjun Sharma,customer00001@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00002,I,2026-10-01 00:05:14,2026-10-01,Anika Pillai,customer00002@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00003,I,2026-10-01 00:05:21,2026-10-01,Kabir Das,customer00003@example.com,Chandigarh,Punjab,North,CONSUMER
+C00004,I,2026-10-01 00:05:28,2026-10-01,Anika Nair,customer00004@example.com,Patna,Bihar,East,CONSUMER
+C00005,I,2026-10-01 00:05:35,2026-10-01,Anika Iyer,customer00005@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00006,I,2026-10-01 00:05:42,2026-10-01,Nikhil Verma,customer00006@example.com,Hyderabad,Telangana,South,CONSUMER
+C00007,I,2026-10-01 00:05:49,2026-10-01,Kabir Kulkarni,customer00007@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00008,I,2026-10-01 00:05:56,2026-10-01,Karan Das,customer00008@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00009,I,2026-10-01 00:06:03,2026-10-01,Meera Singh,customer00009@example.com,Kochi,Kerala,South,CONSUMER
+C00010,I,2026-10-01 00:06:10,2026-10-01,Riya Joshi,customer00010@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00011,I,2026-10-01 00:06:17,2026-10-01,Kabir Nair,customer00011@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00012,I,2026-10-01 00:06:24,2026-10-01,Aarav Nair,customer00012@example.com,Pune,Maharashtra,West,PREMIUM
+C00013,I,2026-10-01 00:06:31,2026-10-01,Tara Sharma,customer00013@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00014,I,2026-10-01 00:06:38,2026-10-01,Dev Sharma,customer00014@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00015,I,2026-10-01 00:06:45,2026-10-01,Dev Joshi,customer00015@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00016,I,2026-10-01 00:06:52,2026-10-01,Kabir Iyer,customer00016@example.com,Pune,Maharashtra,West,CONSUMER
+C00017,I,2026-10-01 00:06:59,2026-10-01,Aditya Patel,customer00017@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00018,I,2026-10-01 00:07:06,2026-10-01,Karan Reddy,customer00018@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00019,I,2026-10-01 00:07:13,2026-10-01,Dev Pillai,customer00019@example.com,Pune,Maharashtra,West,CONSUMER
+C00020,I,2026-10-01 00:07:20,2026-10-01,Rahul Reddy,customer00020@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00021,I,2026-10-01 00:07:27,2026-10-01,Anika Kulkarni,customer00021@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00022,I,2026-10-01 00:07:34,2026-10-01,Aditya Rao,customer00022@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00023,I,2026-10-01 00:07:41,2026-10-01,Rohan Menon,customer00023@example.com,Kochi,Kerala,South,CONSUMER
+C00024,I,2026-10-01 00:07:48,2026-10-01,Sneha Reddy,customer00024@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00025,I,2026-10-01 00:07:55,2026-10-01,Aarav Nair,customer00025@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00026,I,2026-10-01 00:08:02,2026-10-01,Sara Verma,customer00026@example.com,Chandigarh,Punjab,North,CONSUMER
+C00027,I,2026-10-01 00:08:09,2026-10-01,Kabir Das,customer00027@example.com,Hyderabad,Telangana,South,CONSUMER
+C00028,I,2026-10-01 00:08:16,2026-10-01,Meera Bose,customer00028@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00029,I,2026-10-01 00:08:23,2026-10-01,Diya Joshi,customer00029@example.com,Kolkata,West Bengal,East,CONSUMER
+C00030,I,2026-10-01 00:08:30,2026-10-01,Diya Menon,customer00030@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00031,I,2026-10-01 00:08:37,2026-10-01,Sneha Kulkarni,customer00031@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00032,I,2026-10-01 00:08:44,2026-10-01,Dev Joshi,customer00032@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00033,I,2026-10-01 00:08:51,2026-10-01,Vivek Iyer,customer00033@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00034,I,2026-10-01 00:08:58,2026-10-01,Anika Rao,customer00034@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00035,I,2026-10-01 00:09:05,2026-10-01,Nisha Menon,customer00035@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00036,I,2026-10-01 00:09:12,2026-10-01,Isha Menon,customer00036@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00037,I,2026-10-01 00:09:19,2026-10-01,Diya Sharma,customer00037@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00038,I,2026-10-01 00:09:26,2026-10-01,Pooja Nair,customer00038@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00039,I,2026-10-01 00:09:33,2026-10-01,Isha Menon,customer00039@example.com,Kochi,Kerala,South,CONSUMER
+C00040,I,2026-10-01 00:09:40,2026-10-01,Kabir Bose,customer00040@example.com,Pune,Maharashtra,West,CONSUMER
+C00041,I,2026-10-01 00:09:47,2026-10-01,Kabir Bose,customer00041@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00042,I,2026-10-01 00:09:54,2026-10-01,Kabir Gupta,customer00042@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00043,I,2026-10-01 00:10:01,2026-10-01,Sara Rao,customer00043@example.com,Hyderabad,Telangana,South,CONSUMER
+C00044,I,2026-10-01 00:10:08,2026-10-01,Aditya Iyer,customer00044@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00045,I,2026-10-01 00:10:15,2026-10-01,Dev Nair,customer00045@example.com,Chandigarh,Punjab,North,PREMIUM
+C00046,I,2026-10-01 00:10:22,2026-10-01,Arjun Gupta,customer00046@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00047,I,2026-10-01 00:10:29,2026-10-01,Dev Verma,customer00047@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00048,I,2026-10-01 00:10:36,2026-10-01,Aditya Pillai,customer00048@example.com,Kolkata,West Bengal,East,PREMIUM
+C00049,I,2026-10-01 00:10:43,2026-10-01,Arjun Sharma,customer00049@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00050,I,2026-10-01 00:10:50,2026-10-01,Kabir Singh,customer00050@example.com,Pune,Maharashtra,West,PREMIUM
+C00051,I,2026-10-01 00:10:57,2026-10-01,Karan Pillai,customer00051@example.com,Patna,Bihar,East,CONSUMER
+C00052,I,2026-10-01 00:11:04,2026-10-01,Karan Bose,customer00052@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00053,I,2026-10-01 00:11:11,2026-10-01,Tara Kulkarni,customer00053@example.com,Pune,Maharashtra,West,CONSUMER
+C00054,I,2026-10-01 00:11:18,2026-10-01,Riya Singh,customer00054@example.com,Pune,Maharashtra,West,CONSUMER
+C00055,I,2026-10-01 00:11:25,2026-10-01,Pooja Rao,customer00055@example.com,Kochi,Kerala,South,CONSUMER
+C00056,I,2026-10-01 00:11:32,2026-10-01,Arjun Gupta,customer00056@example.com,Chandigarh,Punjab,North,CONSUMER
+C00057,I,2026-10-01 00:11:39,2026-10-01,Diya Reddy,customer00057@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00058,I,2026-10-01 00:11:46,2026-10-01,Meera Singh,customer00058@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00059,I,2026-10-01 00:11:53,2026-10-01,Karan Das,customer00059@example.com,Patna,Bihar,East,PREMIUM
+C00060,I,2026-10-01 00:12:00,2026-10-01,Diya Singh,customer00060@example.com,Delhi,Delhi,North,CONSUMER
+C00061,I,2026-10-01 00:12:07,2026-10-01,Anika Rao,customer00061@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00062,I,2026-10-01 00:12:14,2026-10-01,Sara Verma,customer00062@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00063,I,2026-10-01 00:12:21,2026-10-01,Sara Menon,customer00063@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00064,I,2026-10-01 00:12:28,2026-10-01,Aarav Das,customer00064@example.com,Hyderabad,Telangana,South,PREMIUM
+C00065,I,2026-10-01 00:12:35,2026-10-01,Karan Joshi,customer00065@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00066,I,2026-10-01 00:12:42,2026-10-01,Diya Rao,customer00066@example.com,Kochi,Kerala,South,CONSUMER
+C00067,I,2026-10-01 00:12:49,2026-10-01,Anika Nair,customer00067@example.com,Hyderabad,Telangana,South,CONSUMER
+C00068,I,2026-10-01 00:12:56,2026-10-01,Rohan Rao,customer00068@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00069,I,2026-10-01 00:13:03,2026-10-01,Pooja Menon,customer00069@example.com,Hyderabad,Telangana,South,CONSUMER
+C00070,I,2026-10-01 00:13:10,2026-10-01,Anika Pillai,customer00070@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00071,I,2026-10-01 00:13:17,2026-10-01,Riya Rao,customer00071@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00072,I,2026-10-01 00:13:24,2026-10-01,Sara Pillai,customer00072@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00073,I,2026-10-01 00:13:31,2026-10-01,Rahul Iyer,customer00073@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00074,I,2026-10-01 00:13:38,2026-10-01,Meera Das,customer00074@example.com,Pune,Maharashtra,West,CONSUMER
+C00075,I,2026-10-01 00:13:45,2026-10-01,Diya Singh,customer00075@example.com,Delhi,Delhi,North,CONSUMER
+C00076,I,2026-10-01 00:13:52,2026-10-01,Arjun Reddy,customer00076@example.com,Chandigarh,Punjab,North,CONSUMER
+C00077,I,2026-10-01 00:13:59,2026-10-01,Isha Iyer,customer00077@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00078,I,2026-10-01 00:14:06,2026-10-01,Arjun Menon,customer00078@example.com,Kolkata,West Bengal,East,CONSUMER
+C00079,I,2026-10-01 00:14:13,2026-10-01,Sara Gupta,customer00079@example.com,Kochi,Kerala,South,CONSUMER
+C00080,I,2026-10-01 00:14:20,2026-10-01,Anika Sharma,customer00080@example.com,Chandigarh,Punjab,North,PREMIUM
+C00081,I,2026-10-01 00:14:27,2026-10-01,Dev Rao,customer00081@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00082,I,2026-10-01 00:14:34,2026-10-01,Kabir Gupta,customer00082@example.com,Pune,Maharashtra,West,PREMIUM
+C00083,I,2026-10-01 00:14:41,2026-10-01,Arjun Bose,customer00083@example.com,Delhi,Delhi,North,CONSUMER
+C00084,I,2026-10-01 00:14:48,2026-10-01,Rohan Verma,customer00084@example.com,Hyderabad,Telangana,South,CONSUMER
+C00085,I,2026-10-01 00:14:55,2026-10-01,Diya Bose,customer00085@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00086,I,2026-10-01 00:15:02,2026-10-01,Aarav Menon,customer00086@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00087,I,2026-10-01 00:15:09,2026-10-01,Tara Sharma,customer00087@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00088,I,2026-10-01 00:15:16,2026-10-01,Isha Patel,customer00088@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00089,I,2026-10-01 00:15:23,2026-10-01,Vivek Kulkarni,customer00089@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00090,I,2026-10-01 00:15:30,2026-10-01,Aditya Reddy,customer00090@example.com,Pune,Maharashtra,West,CONSUMER
+C00091,I,2026-10-01 00:15:37,2026-10-01,Riya Reddy,customer00091@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00092,I,2026-10-01 00:15:44,2026-10-01,Sara Verma,customer00092@example.com,Hyderabad,Telangana,South,CONSUMER
+C00093,I,2026-10-01 00:15:51,2026-10-01,Vivek Kulkarni,customer00093@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00094,I,2026-10-01 00:15:58,2026-10-01,Meera Kulkarni,customer00094@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00095,I,2026-10-01 00:16:05,2026-10-01,Rahul Verma,customer00095@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00096,I,2026-10-01 00:16:12,2026-10-01,Aarav Joshi,customer00096@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00097,I,2026-10-01 00:16:19,2026-10-01,Anika Gupta,customer00097@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00098,I,2026-10-01 00:16:26,2026-10-01,Aditya Singh,customer00098@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00099,I,2026-10-01 00:16:33,2026-10-01,Pooja Gupta,customer00099@example.com,Chandigarh,Punjab,North,CONSUMER
+C00100,I,2026-10-01 00:16:40,2026-10-01,Meera Patel,customer00100@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00101,I,2026-10-01 00:16:47,2026-10-01,Kabir Joshi,customer00101@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00102,I,2026-10-01 00:16:54,2026-10-01,Sara Reddy,customer00102@example.com,Pune,Maharashtra,West,CONSUMER
+C00103,I,2026-10-01 00:17:01,2026-10-01,Meera Singh,customer00103@example.com,Pune,Maharashtra,West,CONSUMER
+C00104,I,2026-10-01 00:17:08,2026-10-01,Arjun Joshi,customer00104@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00105,I,2026-10-01 00:17:15,2026-10-01,Dev Joshi,customer00105@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00106,I,2026-10-01 00:17:22,2026-10-01,Arjun Gupta,customer00106@example.com,Patna,Bihar,East,CONSUMER
+C00107,I,2026-10-01 00:17:29,2026-10-01,Vivek Bose,customer00107@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00108,I,2026-10-01 00:17:36,2026-10-01,Rahul Joshi,customer00108@example.com,Kochi,Kerala,South,CONSUMER
+C00109,I,2026-10-01 00:17:43,2026-10-01,Arjun Das,customer00109@example.com,Patna,Bihar,East,CONSUMER
+C00110,I,2026-10-01 00:17:50,2026-10-01,Sara Sharma,customer00110@example.com,Hyderabad,Telangana,South,CONSUMER
+C00111,I,2026-10-01 00:17:57,2026-10-01,Aarav Kulkarni,customer00111@example.com,Kolkata,West Bengal,East,CONSUMER
+C00112,I,2026-10-01 00:18:04,2026-10-01,Tara Das,customer00112@example.com,Delhi,Delhi,North,CONSUMER
+C00113,I,2026-10-01 00:18:11,2026-10-01,Karan Verma,customer00113@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00114,I,2026-10-01 00:18:18,2026-10-01,Aditya Das,customer00114@example.com,Kochi,Kerala,South,PREMIUM
+C00115,I,2026-10-01 00:18:25,2026-10-01,Kabir Nair,customer00115@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00116,I,2026-10-01 00:18:32,2026-10-01,Anika Verma,customer00116@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00117,I,2026-10-01 00:18:39,2026-10-01,Karan Singh,customer00117@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00118,I,2026-10-01 00:18:46,2026-10-01,Tara Menon,customer00118@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00119,I,2026-10-01 00:18:53,2026-10-01,Rohan Gupta,customer00119@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00120,I,2026-10-01 00:19:00,2026-10-01,Sara Kulkarni,customer00120@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00121,I,2026-10-01 00:19:07,2026-10-01,Aditya Reddy,customer00121@example.com,Delhi,Delhi,North,CONSUMER
+C00122,I,2026-10-01 00:19:14,2026-10-01,Nikhil Bose,customer00122@example.com,Chandigarh,Punjab,North,CONSUMER
+C00123,I,2026-10-01 00:19:21,2026-10-01,Dev Patel,customer00123@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00124,I,2026-10-01 00:19:28,2026-10-01,Tara Pillai,customer00124@example.com,Pune,Maharashtra,West,CONSUMER
+C00125,I,2026-10-01 00:19:35,2026-10-01,Anika Iyer,customer00125@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00126,I,2026-10-01 00:19:42,2026-10-01,Arjun Kulkarni,customer00126@example.com,Delhi,Delhi,North,CONSUMER
+C00127,I,2026-10-01 00:19:49,2026-10-01,Aditya Verma,customer00127@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00128,I,2026-10-01 00:19:56,2026-10-01,Arjun Sharma,customer00128@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00129,I,2026-10-01 00:20:03,2026-10-01,Aditya Reddy,customer00129@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00130,I,2026-10-01 00:20:10,2026-10-01,Aditya Reddy,customer00130@example.com,Delhi,Delhi,North,CONSUMER
+C00131,I,2026-10-01 00:20:17,2026-10-01,Meera Pillai,customer00131@example.com,Patna,Bihar,East,PREMIUM
+C00132,I,2026-10-01 00:20:24,2026-10-01,Diya Gupta,customer00132@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00133,I,2026-10-01 00:20:31,2026-10-01,Nisha Kulkarni,customer00133@example.com,Patna,Bihar,East,CONSUMER
+C00134,I,2026-10-01 00:20:38,2026-10-01,Nisha Bose,customer00134@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00135,I,2026-10-01 00:20:45,2026-10-01,Dev Bose,customer00135@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00136,I,2026-10-01 00:20:52,2026-10-01,Karan Bose,customer00136@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00137,I,2026-10-01 00:20:59,2026-10-01,Sara Pillai,customer00137@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00138,I,2026-10-01 00:21:06,2026-10-01,Sara Das,customer00138@example.com,Patna,Bihar,East,CONSUMER
+C00139,I,2026-10-01 00:21:13,2026-10-01,Meera Nair,customer00139@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00140,I,2026-10-01 00:21:20,2026-10-01,Sara Reddy,customer00140@example.com,Kochi,Kerala,South,CONSUMER
+C00141,I,2026-10-01 00:21:27,2026-10-01,Kabir Reddy,customer00141@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00142,I,2026-10-01 00:21:34,2026-10-01,Isha Menon,customer00142@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00143,I,2026-10-01 00:21:41,2026-10-01,Sara Bose,customer00143@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00144,I,2026-10-01 00:21:48,2026-10-01,Rohan Nair,customer00144@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00145,I,2026-10-01 00:21:55,2026-10-01,Arjun Gupta,customer00145@example.com,Patna,Bihar,East,PREMIUM
+C00146,I,2026-10-01 00:22:02,2026-10-01,Diya Kulkarni,customer00146@example.com,Kolkata,West Bengal,East,PREMIUM
+C00147,I,2026-10-01 00:22:09,2026-10-01,Sara Patel,customer00147@example.com,Pune,Maharashtra,West,PREMIUM
+C00148,I,2026-10-01 00:22:16,2026-10-01,Isha Sharma,customer00148@example.com,Kochi,Kerala,South,CONSUMER
+C00149,I,2026-10-01 00:22:23,2026-10-01,Riya Pillai,customer00149@example.com,Pune,Maharashtra,West,PREMIUM
+C00150,I,2026-10-01 00:22:30,2026-10-01,Nikhil Rao,customer00150@example.com,Kolkata,West Bengal,East,CONSUMER
+C00151,I,2026-10-01 00:22:37,2026-10-01,Anika Verma,customer00151@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00152,I,2026-10-01 00:22:44,2026-10-01,Diya Sharma,customer00152@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00153,I,2026-10-01 00:22:51,2026-10-01,Dev Verma,customer00153@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00154,I,2026-10-01 00:22:58,2026-10-01,Nikhil Iyer,customer00154@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00155,I,2026-10-01 00:23:05,2026-10-01,Vivek Pillai,customer00155@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00156,I,2026-10-01 00:23:12,2026-10-01,Sara Sharma,customer00156@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00157,I,2026-10-01 00:23:19,2026-10-01,Rohan Kulkarni,customer00157@example.com,Kochi,Kerala,South,PREMIUM
+C00158,I,2026-10-01 00:23:26,2026-10-01,Sara Pillai,customer00158@example.com,Delhi,Delhi,North,CONSUMER
+C00159,I,2026-10-01 00:23:33,2026-10-01,Rahul Nair,customer00159@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00160,I,2026-10-01 00:23:40,2026-10-01,Meera Nair,customer00160@example.com,Chandigarh,Punjab,North,CONSUMER
+C00161,I,2026-10-01 00:23:47,2026-10-01,Kabir Rao,customer00161@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00162,I,2026-10-01 00:23:54,2026-10-01,Aditya Iyer,customer00162@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00163,I,2026-10-01 00:24:01,2026-10-01,Aarav Rao,customer00163@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00164,I,2026-10-01 00:24:08,2026-10-01,Nikhil Menon,customer00164@example.com,Delhi,Delhi,North,PREMIUM
+C00165,I,2026-10-01 00:24:15,2026-10-01,Meera Bose,customer00165@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00166,I,2026-10-01 00:24:22,2026-10-01,Sneha Das,customer00166@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00167,I,2026-10-01 00:24:29,2026-10-01,Riya Patel,customer00167@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00168,I,2026-10-01 00:24:36,2026-10-01,Rahul Reddy,customer00168@example.com,Chandigarh,Punjab,North,CONSUMER
+C00169,I,2026-10-01 00:24:43,2026-10-01,Riya Singh,customer00169@example.com,Chandigarh,Punjab,North,PREMIUM
+C00170,I,2026-10-01 00:24:50,2026-10-01,Sneha Iyer,customer00170@example.com,Kochi,Kerala,South,CONSUMER
+C00171,I,2026-10-01 00:24:57,2026-10-01,Tara Rao,customer00171@example.com,Kolkata,West Bengal,East,CONSUMER
+C00172,I,2026-10-01 00:25:04,2026-10-01,Aditya Pillai,customer00172@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00173,I,2026-10-01 00:25:11,2026-10-01,Diya Reddy,customer00173@example.com,Chandigarh,Punjab,North,CONSUMER
+C00174,I,2026-10-01 00:25:18,2026-10-01,Tara Patel,customer00174@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00175,I,2026-10-01 00:25:25,2026-10-01,Vivek Bose,customer00175@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00176,I,2026-10-01 00:25:32,2026-10-01,Sneha Singh,customer00176@example.com,Patna,Bihar,East,PREMIUM
+C00177,I,2026-10-01 00:25:39,2026-10-01,Arjun Gupta,customer00177@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00178,I,2026-10-01 00:25:46,2026-10-01,Dev Bose,customer00178@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00179,I,2026-10-01 00:25:53,2026-10-01,Nikhil Nair,customer00179@example.com,Patna,Bihar,East,CONSUMER
+C00180,I,2026-10-01 00:26:00,2026-10-01,Anika Pillai,customer00180@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00181,I,2026-10-01 00:26:07,2026-10-01,Diya Iyer,customer00181@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00182,I,2026-10-01 00:26:14,2026-10-01,Sara Bose,customer00182@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00183,I,2026-10-01 00:26:21,2026-10-01,Sara Nair,customer00183@example.com,Delhi,Delhi,North,CONSUMER
+C00184,I,2026-10-01 00:26:28,2026-10-01,Dev Verma,customer00184@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00185,I,2026-10-01 00:26:35,2026-10-01,Nikhil Reddy,customer00185@example.com,Patna,Bihar,East,CONSUMER
+C00186,I,2026-10-01 00:26:42,2026-10-01,Anika Iyer,customer00186@example.com,Pune,Maharashtra,West,CONSUMER
+C00187,I,2026-10-01 00:26:49,2026-10-01,Vivek Nair,customer00187@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00188,I,2026-10-01 00:26:56,2026-10-01,Sara Reddy,customer00188@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00189,I,2026-10-01 00:27:03,2026-10-01,Nisha Rao,customer00189@example.com,Pune,Maharashtra,West,CONSUMER
+C00190,I,2026-10-01 00:27:10,2026-10-01,Rohan Das,customer00190@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00191,I,2026-10-01 00:27:17,2026-10-01,Diya Gupta,customer00191@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00192,I,2026-10-01 00:27:24,2026-10-01,Sneha Gupta,customer00192@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00193,I,2026-10-01 00:27:31,2026-10-01,Aarav Reddy,customer00193@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00194,I,2026-10-01 00:27:38,2026-10-01,Rahul Kulkarni,customer00194@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00195,I,2026-10-01 00:27:45,2026-10-01,Kabir Singh,customer00195@example.com,Kochi,Kerala,South,CONSUMER
+C00196,I,2026-10-01 00:27:52,2026-10-01,Sneha Pillai,customer00196@example.com,Chandigarh,Punjab,North,CONSUMER
+C00197,I,2026-10-01 00:27:59,2026-10-01,Aditya Das,customer00197@example.com,Pune,Maharashtra,West,CONSUMER
+C00198,I,2026-10-01 00:28:06,2026-10-01,Pooja Gupta,customer00198@example.com,Patna,Bihar,East,CONSUMER
+C00199,I,2026-10-01 00:28:13,2026-10-01,Meera Das,customer00199@example.com,Pune,Maharashtra,West,PREMIUM
+C00200,I,2026-10-01 00:28:20,2026-10-01,Meera Verma,customer00200@example.com,Kochi,Kerala,South,CONSUMER
+C00201,I,2026-10-01 00:28:27,2026-10-01,Tara Gupta,customer00201@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00202,I,2026-10-01 00:28:34,2026-10-01,Anika Bose,customer00202@example.com,Chandigarh,Punjab,North,CONSUMER
+C00203,I,2026-10-01 00:28:41,2026-10-01,Rahul Singh,customer00203@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00204,I,2026-10-01 00:28:48,2026-10-01,Rahul Verma,customer00204@example.com,Delhi,Delhi,North,PREMIUM
+C00205,I,2026-10-01 00:28:55,2026-10-01,Isha Sharma,customer00205@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00206,I,2026-10-01 00:29:02,2026-10-01,Aarav Verma,customer00206@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00207,I,2026-10-01 00:29:09,2026-10-01,Tara Joshi,customer00207@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00208,I,2026-10-01 00:29:16,2026-10-01,Meera Bose,customer00208@example.com,Patna,Bihar,East,CONSUMER
+C00209,I,2026-10-01 00:29:23,2026-10-01,Sneha Rao,customer00209@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00210,I,2026-10-01 00:29:30,2026-10-01,Nisha Pillai,customer00210@example.com,Delhi,Delhi,North,PREMIUM
+C00211,I,2026-10-01 00:29:37,2026-10-01,Karan Nair,customer00211@example.com,Pune,Maharashtra,West,CONSUMER
+C00212,I,2026-10-01 00:29:44,2026-10-01,Anika Kulkarni,customer00212@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00213,I,2026-10-01 00:29:51,2026-10-01,Anika Kulkarni,customer00213@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00214,I,2026-10-01 00:29:58,2026-10-01,Pooja Sharma,customer00214@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00215,I,2026-10-01 00:30:05,2026-10-01,Tara Gupta,customer00215@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00216,I,2026-10-01 00:30:12,2026-10-01,Arjun Sharma,customer00216@example.com,Patna,Bihar,East,CONSUMER
+C00217,I,2026-10-01 00:30:19,2026-10-01,Arjun Patel,customer00217@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00218,I,2026-10-01 00:30:26,2026-10-01,Nikhil Nair,customer00218@example.com,Pune,Maharashtra,West,CONSUMER
+C00219,I,2026-10-01 00:30:33,2026-10-01,Nisha Joshi,customer00219@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00220,I,2026-10-01 00:30:40,2026-10-01,Aditya Pillai,customer00220@example.com,Patna,Bihar,East,CONSUMER
+C00221,I,2026-10-01 00:30:47,2026-10-01,Riya Rao,customer00221@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00222,I,2026-10-01 00:30:54,2026-10-01,Karan Das,customer00222@example.com,Pune,Maharashtra,West,CONSUMER
+C00223,I,2026-10-01 00:31:01,2026-10-01,Nikhil Singh,customer00223@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00224,I,2026-10-01 00:31:08,2026-10-01,Aarav Nair,customer00224@example.com,Chandigarh,Punjab,North,CONSUMER
+C00225,I,2026-10-01 00:31:15,2026-10-01,Nisha Sharma,customer00225@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00226,I,2026-10-01 00:31:22,2026-10-01,Meera Kulkarni,customer00226@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00227,I,2026-10-01 00:31:29,2026-10-01,Rohan Bose,customer00227@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00228,I,2026-10-01 00:31:36,2026-10-01,Rahul Joshi,customer00228@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00229,I,2026-10-01 00:31:43,2026-10-01,Riya Kulkarni,customer00229@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00230,I,2026-10-01 00:31:50,2026-10-01,Kabir Verma,customer00230@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00231,I,2026-10-01 00:31:57,2026-10-01,Karan Patel,customer00231@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00232,I,2026-10-01 00:32:04,2026-10-01,Aditya Das,customer00232@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00233,I,2026-10-01 00:32:11,2026-10-01,Isha Menon,customer00233@example.com,Kochi,Kerala,South,CONSUMER
+C00234,I,2026-10-01 00:32:18,2026-10-01,Nikhil Bose,customer00234@example.com,Hyderabad,Telangana,South,PREMIUM
+C00235,I,2026-10-01 00:32:25,2026-10-01,Diya Iyer,customer00235@example.com,Pune,Maharashtra,West,PREMIUM
+C00236,I,2026-10-01 00:32:32,2026-10-01,Vivek Iyer,customer00236@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00237,I,2026-10-01 00:32:39,2026-10-01,Meera Singh,customer00237@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00238,I,2026-10-01 00:32:46,2026-10-01,Nikhil Gupta,customer00238@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00239,I,2026-10-01 00:32:53,2026-10-01,Aditya Gupta,customer00239@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00240,I,2026-10-01 00:33:00,2026-10-01,Isha Singh,customer00240@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00241,I,2026-10-01 00:33:07,2026-10-01,Pooja Gupta,customer00241@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00242,I,2026-10-01 00:33:14,2026-10-01,Rohan Joshi,customer00242@example.com,Kolkata,West Bengal,East,CONSUMER
+C00243,I,2026-10-01 00:33:21,2026-10-01,Nisha Rao,customer00243@example.com,Pune,Maharashtra,West,CONSUMER
+C00244,I,2026-10-01 00:33:28,2026-10-01,Aarav Bose,customer00244@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00245,I,2026-10-01 00:33:35,2026-10-01,Rohan Kulkarni,customer00245@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00246,I,2026-10-01 00:33:42,2026-10-01,Nikhil Iyer,customer00246@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00247,I,2026-10-01 00:33:49,2026-10-01,Meera Das,customer00247@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00248,I,2026-10-01 00:33:56,2026-10-01,Dev Menon,customer00248@example.com,Kolkata,West Bengal,East,CONSUMER
+C00249,I,2026-10-01 00:34:03,2026-10-01,Meera Das,customer00249@example.com,Delhi,Delhi,North,CONSUMER
+C00250,I,2026-10-01 00:34:10,2026-10-01,Vivek Das,customer00250@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00251,I,2026-10-01 00:34:17,2026-10-01,Anika Nair,customer00251@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00252,I,2026-10-01 00:34:24,2026-10-01,Aditya Das,customer00252@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00253,I,2026-10-01 00:34:31,2026-10-01,Pooja Das,customer00253@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00254,I,2026-10-01 00:34:38,2026-10-01,Aarav Verma,customer00254@example.com,Patna,Bihar,East,CONSUMER
+C00255,I,2026-10-01 00:34:45,2026-10-01,Sara Singh,customer00255@example.com,Delhi,Delhi,North,CONSUMER
+C00256,I,2026-10-01 00:34:52,2026-10-01,Rohan Bose,customer00256@example.com,Kolkata,West Bengal,East,PREMIUM
+C00257,I,2026-10-01 00:34:59,2026-10-01,Anika Gupta,customer00257@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00258,I,2026-10-01 00:35:06,2026-10-01,Isha Iyer,customer00258@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00259,I,2026-10-01 00:35:13,2026-10-01,Aarav Patel,customer00259@example.com,Delhi,Delhi,North,CONSUMER
+C00260,I,2026-10-01 00:35:20,2026-10-01,Vivek Kulkarni,customer00260@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00261,I,2026-10-01 00:35:27,2026-10-01,Rahul Das,customer00261@example.com,Hyderabad,Telangana,South,CONSUMER
+C00262,I,2026-10-01 00:35:34,2026-10-01,Meera Reddy,customer00262@example.com,Kochi,Kerala,South,CONSUMER
+C00263,I,2026-10-01 00:35:41,2026-10-01,Diya Menon,customer00263@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00264,I,2026-10-01 00:35:48,2026-10-01,Dev Kulkarni,customer00264@example.com,Hyderabad,Telangana,South,CONSUMER
+C00265,I,2026-10-01 00:35:55,2026-10-01,Rohan Sharma,customer00265@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00266,I,2026-10-01 00:36:02,2026-10-01,Isha Singh,customer00266@example.com,Patna,Bihar,East,CONSUMER
+C00267,I,2026-10-01 00:36:09,2026-10-01,Nikhil Das,customer00267@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00268,I,2026-10-01 00:36:16,2026-10-01,Riya Patel,customer00268@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00269,I,2026-10-01 00:36:23,2026-10-01,Isha Menon,customer00269@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00270,I,2026-10-01 00:36:30,2026-10-01,Rahul Menon,customer00270@example.com,Kolkata,West Bengal,East,PREMIUM
+C00271,I,2026-10-01 00:36:37,2026-10-01,Rahul Nair,customer00271@example.com,Chandigarh,Punjab,North,CONSUMER
+C00272,I,2026-10-01 00:36:44,2026-10-01,Aditya Verma,customer00272@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00273,I,2026-10-01 00:36:51,2026-10-01,Rohan Gupta,customer00273@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00274,I,2026-10-01 00:36:58,2026-10-01,Vivek Iyer,customer00274@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00275,I,2026-10-01 00:37:05,2026-10-01,Aarav Menon,customer00275@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00276,I,2026-10-01 00:37:12,2026-10-01,Sneha Rao,customer00276@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00277,I,2026-10-01 00:37:19,2026-10-01,Vivek Singh,customer00277@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00278,I,2026-10-01 00:37:26,2026-10-01,Dev Verma,customer00278@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00279,I,2026-10-01 00:37:33,2026-10-01,Kabir Das,customer00279@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00280,I,2026-10-01 00:37:40,2026-10-01,Nisha Singh,customer00280@example.com,Hyderabad,Telangana,South,CONSUMER
+C00281,I,2026-10-01 00:37:47,2026-10-01,Vivek Singh,customer00281@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00282,I,2026-10-01 00:37:54,2026-10-01,Rahul Das,customer00282@example.com,Pune,Maharashtra,West,CONSUMER
+C00283,I,2026-10-01 00:38:01,2026-10-01,Nisha Verma,customer00283@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00284,I,2026-10-01 00:38:08,2026-10-01,Rohan Rao,customer00284@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00285,I,2026-10-01 00:38:15,2026-10-01,Aditya Verma,customer00285@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00286,I,2026-10-01 00:38:22,2026-10-01,Kabir Pillai,customer00286@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00287,I,2026-10-01 00:38:29,2026-10-01,Sneha Reddy,customer00287@example.com,Chandigarh,Punjab,North,CONSUMER
+C00288,I,2026-10-01 00:38:36,2026-10-01,Anika Verma,customer00288@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00289,I,2026-10-01 00:38:43,2026-10-01,Pooja Nair,customer00289@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00290,I,2026-10-01 00:38:50,2026-10-01,Riya Iyer,customer00290@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00291,I,2026-10-01 00:38:57,2026-10-01,Tara Menon,customer00291@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00292,I,2026-10-01 00:39:04,2026-10-01,Arjun Singh,customer00292@example.com,Kochi,Kerala,South,CONSUMER
+C00293,I,2026-10-01 00:39:11,2026-10-01,Karan Bose,customer00293@example.com,Hyderabad,Telangana,South,CONSUMER
+C00294,I,2026-10-01 00:39:18,2026-10-01,Vivek Patel,customer00294@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00295,I,2026-10-01 00:39:25,2026-10-01,Aarav Menon,customer00295@example.com,Delhi,Delhi,North,CONSUMER
+C00296,I,2026-10-01 00:39:32,2026-10-01,Vivek Menon,customer00296@example.com,Kolkata,West Bengal,East,CONSUMER
+C00297,I,2026-10-01 00:39:39,2026-10-01,Arjun Rao,customer00297@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00298,I,2026-10-01 00:39:46,2026-10-01,Riya Bose,customer00298@example.com,Chandigarh,Punjab,North,PREMIUM
+C00299,I,2026-10-01 00:39:53,2026-10-01,Rahul Pillai,customer00299@example.com,Patna,Bihar,East,CONSUMER
+C00300,I,2026-10-01 00:40:00,2026-10-01,Meera Kulkarni,customer00300@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00301,I,2026-10-01 00:40:07,2026-10-01,Anika Iyer,customer00301@example.com,Patna,Bihar,East,CONSUMER
+C00302,I,2026-10-01 00:40:14,2026-10-01,Meera Nair,customer00302@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00303,I,2026-10-01 00:40:21,2026-10-01,Vivek Das,customer00303@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00304,I,2026-10-01 00:40:28,2026-10-01,Kabir Pillai,customer00304@example.com,Kolkata,West Bengal,East,PREMIUM
+C00305,I,2026-10-01 00:40:35,2026-10-01,Riya Menon,customer00305@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00306,I,2026-10-01 00:40:42,2026-10-01,Rahul Joshi,customer00306@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00307,I,2026-10-01 00:40:49,2026-10-01,Pooja Kulkarni,customer00307@example.com,Patna,Bihar,East,CONSUMER
+C00308,I,2026-10-01 00:40:56,2026-10-01,Dev Das,customer00308@example.com,Hyderabad,Telangana,South,PREMIUM
+C00309,I,2026-10-01 00:41:03,2026-10-01,Nikhil Verma,customer00309@example.com,Kolkata,West Bengal,East,PREMIUM
+C00310,I,2026-10-01 00:41:10,2026-10-01,Vivek Das,customer00310@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00311,I,2026-10-01 00:41:17,2026-10-01,Karan Kulkarni,customer00311@example.com,Patna,Bihar,East,CONSUMER
+C00312,I,2026-10-01 00:41:24,2026-10-01,Arjun Joshi,customer00312@example.com,Delhi,Delhi,North,PREMIUM
+C00313,I,2026-10-01 00:41:31,2026-10-01,Aarav Pillai,customer00313@example.com,Pune,Maharashtra,West,CONSUMER
+C00314,I,2026-10-01 00:41:38,2026-10-01,Aditya Bose,customer00314@example.com,Pune,Maharashtra,West,CONSUMER
+C00315,I,2026-10-01 00:41:45,2026-10-01,Aditya Menon,customer00315@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00316,I,2026-10-01 00:41:52,2026-10-01,Dev Joshi,customer00316@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00317,I,2026-10-01 00:41:59,2026-10-01,Riya Menon,customer00317@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00318,I,2026-10-01 00:42:06,2026-10-01,Anika Gupta,customer00318@example.com,Kolkata,West Bengal,East,CONSUMER
+C00319,I,2026-10-01 00:42:13,2026-10-01,Rahul Bose,customer00319@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00320,I,2026-10-01 00:42:20,2026-10-01,Tara Joshi,customer00320@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00321,I,2026-10-01 00:42:27,2026-10-01,Nikhil Reddy,customer00321@example.com,Patna,Bihar,East,CONSUMER
+C00322,I,2026-10-01 00:42:34,2026-10-01,Tara Singh,customer00322@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00323,I,2026-10-01 00:42:41,2026-10-01,Aditya Pillai,customer00323@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00324,I,2026-10-01 00:42:48,2026-10-01,Rahul Gupta,customer00324@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00325,I,2026-10-01 00:42:55,2026-10-01,Aarav Verma,customer00325@example.com,Kochi,Kerala,South,CONSUMER
+C00326,I,2026-10-01 00:43:02,2026-10-01,Vivek Patel,customer00326@example.com,Hyderabad,Telangana,South,CONSUMER
+C00327,I,2026-10-01 00:43:09,2026-10-01,Karan Patel,customer00327@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00328,I,2026-10-01 00:43:16,2026-10-01,Nisha Nair,customer00328@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00329,I,2026-10-01 00:43:23,2026-10-01,Arjun Gupta,customer00329@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00330,I,2026-10-01 00:43:30,2026-10-01,Aditya Reddy,customer00330@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00331,I,2026-10-01 00:43:37,2026-10-01,Karan Gupta,customer00331@example.com,Pune,Maharashtra,West,CONSUMER
+C00332,I,2026-10-01 00:43:44,2026-10-01,Meera Bose,customer00332@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00333,I,2026-10-01 00:43:51,2026-10-01,Nisha Kulkarni,customer00333@example.com,Patna,Bihar,East,CONSUMER
+C00334,I,2026-10-01 00:43:58,2026-10-01,Sara Das,customer00334@example.com,Kolkata,West Bengal,East,CONSUMER
+C00335,I,2026-10-01 00:44:05,2026-10-01,Pooja Pillai,customer00335@example.com,Chandigarh,Punjab,North,PREMIUM
+C00336,I,2026-10-01 00:44:12,2026-10-01,Pooja Kulkarni,customer00336@example.com,Kochi,Kerala,South,CONSUMER
+C00337,I,2026-10-01 00:44:19,2026-10-01,Anika Reddy,customer00337@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00338,I,2026-10-01 00:44:26,2026-10-01,Arjun Pillai,customer00338@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00339,I,2026-10-01 00:44:33,2026-10-01,Sara Rao,customer00339@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00340,I,2026-10-01 00:44:40,2026-10-01,Aarav Kulkarni,customer00340@example.com,Kolkata,West Bengal,East,PREMIUM
+C00341,I,2026-10-01 00:44:47,2026-10-01,Sara Rao,customer00341@example.com,Pune,Maharashtra,West,CONSUMER
+C00342,I,2026-10-01 00:44:54,2026-10-01,Rahul Singh,customer00342@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00343,I,2026-10-01 00:45:01,2026-10-01,Meera Das,customer00343@example.com,Kolkata,West Bengal,East,PREMIUM
+C00344,I,2026-10-01 00:45:08,2026-10-01,Vivek Nair,customer00344@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00345,I,2026-10-01 00:45:15,2026-10-01,Nikhil Das,customer00345@example.com,Patna,Bihar,East,CONSUMER
+C00346,I,2026-10-01 00:45:22,2026-10-01,Dev Iyer,customer00346@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00347,I,2026-10-01 00:45:29,2026-10-01,Tara Verma,customer00347@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00348,I,2026-10-01 00:45:36,2026-10-01,Karan Verma,customer00348@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00349,I,2026-10-01 00:45:43,2026-10-01,Sneha Pillai,customer00349@example.com,Pune,Maharashtra,West,CONSUMER
+C00350,I,2026-10-01 00:45:50,2026-10-01,Aditya Verma,customer00350@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00351,I,2026-10-01 00:45:57,2026-10-01,Meera Patel,customer00351@example.com,Delhi,Delhi,North,CONSUMER
+C00352,I,2026-10-01 00:46:04,2026-10-01,Rahul Sharma,customer00352@example.com,Chandigarh,Punjab,North,PREMIUM
+C00353,I,2026-10-01 00:46:11,2026-10-01,Sneha Gupta,customer00353@example.com,Kochi,Kerala,South,CONSUMER
+C00354,I,2026-10-01 00:46:18,2026-10-01,Vivek Singh,customer00354@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00355,I,2026-10-01 00:46:25,2026-10-01,Karan Menon,customer00355@example.com,Kochi,Kerala,South,CONSUMER
+C00356,I,2026-10-01 00:46:32,2026-10-01,Dev Rao,customer00356@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00357,I,2026-10-01 00:46:39,2026-10-01,Anika Joshi,customer00357@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00358,I,2026-10-01 00:46:46,2026-10-01,Arjun Iyer,customer00358@example.com,Pune,Maharashtra,West,CONSUMER
+C00359,I,2026-10-01 00:46:53,2026-10-01,Riya Iyer,customer00359@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00360,I,2026-10-01 00:47:00,2026-10-01,Arjun Rao,customer00360@example.com,Pune,Maharashtra,West,CONSUMER
+C00361,I,2026-10-01 00:47:07,2026-10-01,Nikhil Das,customer00361@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00362,I,2026-10-01 00:47:14,2026-10-01,Sneha Singh,customer00362@example.com,Delhi,Delhi,North,PREMIUM
+C00363,I,2026-10-01 00:47:21,2026-10-01,Aarav Joshi,customer00363@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00364,I,2026-10-01 00:47:28,2026-10-01,Rohan Singh,customer00364@example.com,Kochi,Kerala,South,CONSUMER
+C00365,I,2026-10-01 00:47:35,2026-10-01,Diya Verma,customer00365@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00366,I,2026-10-01 00:47:42,2026-10-01,Vivek Nair,customer00366@example.com,Delhi,Delhi,North,CONSUMER
+C00367,I,2026-10-01 00:47:49,2026-10-01,Aditya Menon,customer00367@example.com,Pune,Maharashtra,West,CONSUMER
+C00368,I,2026-10-01 00:47:56,2026-10-01,Nisha Kulkarni,customer00368@example.com,Pune,Maharashtra,West,CONSUMER
+C00369,I,2026-10-01 00:48:03,2026-10-01,Nikhil Pillai,customer00369@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00370,I,2026-10-01 00:48:10,2026-10-01,Arjun Patel,customer00370@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00371,I,2026-10-01 00:48:17,2026-10-01,Tara Bose,customer00371@example.com,Hyderabad,Telangana,South,CONSUMER
+C00372,I,2026-10-01 00:48:24,2026-10-01,Isha Bose,customer00372@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00373,I,2026-10-01 00:48:31,2026-10-01,Kabir Nair,customer00373@example.com,Delhi,Delhi,North,PREMIUM
+C00374,I,2026-10-01 00:48:38,2026-10-01,Pooja Joshi,customer00374@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00375,I,2026-10-01 00:48:45,2026-10-01,Isha Reddy,customer00375@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00376,I,2026-10-01 00:48:52,2026-10-01,Rohan Patel,customer00376@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00377,I,2026-10-01 00:48:59,2026-10-01,Arjun Bose,customer00377@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00378,I,2026-10-01 00:49:06,2026-10-01,Aditya Joshi,customer00378@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00379,I,2026-10-01 00:49:13,2026-10-01,Riya Kulkarni,customer00379@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00380,I,2026-10-01 00:49:20,2026-10-01,Diya Das,customer00380@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00381,I,2026-10-01 00:49:27,2026-10-01,Rahul Pillai,customer00381@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00382,I,2026-10-01 00:49:34,2026-10-01,Tara Rao,customer00382@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00383,I,2026-10-01 00:49:41,2026-10-01,Riya Singh,customer00383@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00384,I,2026-10-01 00:49:48,2026-10-01,Isha Patel,customer00384@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00385,I,2026-10-01 00:49:55,2026-10-01,Aarav Das,customer00385@example.com,Chandigarh,Punjab,North,PREMIUM
+C00386,I,2026-10-01 00:50:02,2026-10-01,Sneha Kulkarni,customer00386@example.com,Kolkata,West Bengal,East,PREMIUM
+C00387,I,2026-10-01 00:50:09,2026-10-01,Tara Rao,customer00387@example.com,Delhi,Delhi,North,CONSUMER
+C00388,I,2026-10-01 00:50:16,2026-10-01,Isha Nair,customer00388@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00389,I,2026-10-01 00:50:23,2026-10-01,Sara Menon,customer00389@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00390,I,2026-10-01 00:50:30,2026-10-01,Rahul Pillai,customer00390@example.com,Hyderabad,Telangana,South,CONSUMER
+C00391,I,2026-10-01 00:50:37,2026-10-01,Pooja Menon,customer00391@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00392,I,2026-10-01 00:50:44,2026-10-01,Anika Nair,customer00392@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00393,I,2026-10-01 00:50:51,2026-10-01,Dev Reddy,customer00393@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00394,I,2026-10-01 00:50:58,2026-10-01,Rahul Singh,customer00394@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00395,I,2026-10-01 00:51:05,2026-10-01,Aditya Kulkarni,customer00395@example.com,Patna,Bihar,East,CONSUMER
+C00396,I,2026-10-01 00:51:12,2026-10-01,Anika Sharma,customer00396@example.com,Chandigarh,Punjab,North,CONSUMER
+C00397,I,2026-10-01 00:51:19,2026-10-01,Aditya Kulkarni,customer00397@example.com,Patna,Bihar,East,CONSUMER
+C00398,I,2026-10-01 00:51:26,2026-10-01,Aditya Joshi,customer00398@example.com,Kolkata,West Bengal,East,CONSUMER
+C00399,I,2026-10-01 00:51:33,2026-10-01,Isha Iyer,customer00399@example.com,Chandigarh,Punjab,North,CONSUMER
+C00400,I,2026-10-01 00:51:40,2026-10-01,Dev Kulkarni,customer00400@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00401,I,2026-10-01 00:51:47,2026-10-01,Aarav Nair,customer00401@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00402,I,2026-10-01 00:51:54,2026-10-01,Rahul Das,customer00402@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00403,I,2026-10-01 00:52:01,2026-10-01,Nikhil Patel,customer00403@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00404,I,2026-10-01 00:52:08,2026-10-01,Kabir Bose,customer00404@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00405,I,2026-10-01 00:52:15,2026-10-01,Arjun Kulkarni,customer00405@example.com,Patna,Bihar,East,CONSUMER
+C00406,I,2026-10-01 00:52:22,2026-10-01,Karan Bose,customer00406@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00407,I,2026-10-01 00:52:29,2026-10-01,Sneha Iyer,customer00407@example.com,Kochi,Kerala,South,CONSUMER
+C00408,I,2026-10-01 00:52:36,2026-10-01,Aarav Patel,customer00408@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00409,I,2026-10-01 00:52:43,2026-10-01,Sneha Reddy,customer00409@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00410,I,2026-10-01 00:52:50,2026-10-01,Anika Sharma,customer00410@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00411,I,2026-10-01 00:52:57,2026-10-01,Aarav Patel,customer00411@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00412,I,2026-10-01 00:53:04,2026-10-01,Isha Iyer,customer00412@example.com,Hyderabad,Telangana,South,CONSUMER
+C00413,I,2026-10-01 00:53:11,2026-10-01,Pooja Kulkarni,customer00413@example.com,Patna,Bihar,East,CONSUMER
+C00414,I,2026-10-01 00:53:18,2026-10-01,Tara Rao,customer00414@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00415,I,2026-10-01 00:53:25,2026-10-01,Aarav Joshi,customer00415@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00416,I,2026-10-01 00:53:32,2026-10-01,Rohan Singh,customer00416@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00417,I,2026-10-01 00:53:39,2026-10-01,Sara Joshi,customer00417@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00418,I,2026-10-01 00:53:46,2026-10-01,Aarav Kulkarni,customer00418@example.com,Patna,Bihar,East,CONSUMER
+C00419,I,2026-10-01 00:53:53,2026-10-01,Aditya Verma,customer00419@example.com,Kochi,Kerala,South,CONSUMER
+C00420,I,2026-10-01 00:54:00,2026-10-01,Meera Menon,customer00420@example.com,Delhi,Delhi,North,CONSUMER
+C00421,I,2026-10-01 00:54:07,2026-10-01,Aarav Patel,customer00421@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00422,I,2026-10-01 00:54:14,2026-10-01,Nikhil Pillai,customer00422@example.com,Patna,Bihar,East,PREMIUM
+C00423,I,2026-10-01 00:54:21,2026-10-01,Nikhil Sharma,customer00423@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00424,I,2026-10-01 00:54:28,2026-10-01,Nisha Bose,customer00424@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00425,I,2026-10-01 00:54:35,2026-10-01,Pooja Singh,customer00425@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00426,I,2026-10-01 00:54:42,2026-10-01,Dev Iyer,customer00426@example.com,Pune,Maharashtra,West,CONSUMER
+C00427,I,2026-10-01 00:54:49,2026-10-01,Aditya Das,customer00427@example.com,Hyderabad,Telangana,South,PREMIUM
+C00428,I,2026-10-01 00:54:56,2026-10-01,Arjun Singh,customer00428@example.com,Pune,Maharashtra,West,PREMIUM
+C00429,I,2026-10-01 00:55:03,2026-10-01,Dev Das,customer00429@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00430,I,2026-10-01 00:55:10,2026-10-01,Diya Kulkarni,customer00430@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00431,I,2026-10-01 00:55:17,2026-10-01,Karan Nair,customer00431@example.com,Patna,Bihar,East,CONSUMER
+C00432,I,2026-10-01 00:55:24,2026-10-01,Sneha Patel,customer00432@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00433,I,2026-10-01 00:55:31,2026-10-01,Nikhil Kulkarni,customer00433@example.com,Kolkata,West Bengal,East,CONSUMER
+C00434,I,2026-10-01 00:55:38,2026-10-01,Arjun Joshi,customer00434@example.com,Patna,Bihar,East,CONSUMER
+C00435,I,2026-10-01 00:55:45,2026-10-01,Rahul Menon,customer00435@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00436,I,2026-10-01 00:55:52,2026-10-01,Sneha Joshi,customer00436@example.com,Pune,Maharashtra,West,PREMIUM
+C00437,I,2026-10-01 00:55:59,2026-10-01,Sneha Rao,customer00437@example.com,Pune,Maharashtra,West,CONSUMER
+C00438,I,2026-10-01 00:56:06,2026-10-01,Aditya Das,customer00438@example.com,Delhi,Delhi,North,CONSUMER
+C00439,I,2026-10-01 00:56:13,2026-10-01,Diya Reddy,customer00439@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00440,I,2026-10-01 00:56:20,2026-10-01,Nikhil Verma,customer00440@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00441,I,2026-10-01 00:56:27,2026-10-01,Riya Patel,customer00441@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00442,I,2026-10-01 00:56:34,2026-10-01,Dev Das,customer00442@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00443,I,2026-10-01 00:56:41,2026-10-01,Nisha Patel,customer00443@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00444,I,2026-10-01 00:56:48,2026-10-01,Aditya Menon,customer00444@example.com,Patna,Bihar,East,CONSUMER
+C00445,I,2026-10-01 00:56:55,2026-10-01,Dev Iyer,customer00445@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00446,I,2026-10-01 00:57:02,2026-10-01,Aarav Singh,customer00446@example.com,Chandigarh,Punjab,North,CONSUMER
+C00447,I,2026-10-01 00:57:09,2026-10-01,Arjun Reddy,customer00447@example.com,Kochi,Kerala,South,PREMIUM
+C00448,I,2026-10-01 00:57:16,2026-10-01,Aarav Menon,customer00448@example.com,Hyderabad,Telangana,South,PREMIUM
+C00449,I,2026-10-01 00:57:23,2026-10-01,Riya Menon,customer00449@example.com,Patna,Bihar,East,CONSUMER
+C00450,I,2026-10-01 00:57:30,2026-10-01,Diya Singh,customer00450@example.com,Pune,Maharashtra,West,CONSUMER
+C00451,I,2026-10-01 00:57:37,2026-10-01,Nikhil Patel,customer00451@example.com,Kochi,Kerala,South,CONSUMER
+C00452,I,2026-10-01 00:57:44,2026-10-01,Sara Gupta,customer00452@example.com,Delhi,Delhi,North,CONSUMER
+C00453,I,2026-10-01 00:57:51,2026-10-01,Kabir Reddy,customer00453@example.com,Kochi,Kerala,South,PREMIUM
+C00454,I,2026-10-01 00:57:58,2026-10-01,Nikhil Verma,customer00454@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00455,I,2026-10-01 00:58:05,2026-10-01,Aarav Rao,customer00455@example.com,Chandigarh,Punjab,North,CONSUMER
+C00456,I,2026-10-01 00:58:12,2026-10-01,Sneha Reddy,customer00456@example.com,Delhi,Delhi,North,CONSUMER
+C00457,I,2026-10-01 00:58:19,2026-10-01,Isha Singh,customer00457@example.com,Pune,Maharashtra,West,PREMIUM
+C00458,I,2026-10-01 00:58:26,2026-10-01,Rahul Gupta,customer00458@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00459,I,2026-10-01 00:58:33,2026-10-01,Tara Menon,customer00459@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00460,I,2026-10-01 00:58:40,2026-10-01,Rohan Pillai,customer00460@example.com,Delhi,Delhi,North,CONSUMER
+C00461,I,2026-10-01 00:58:47,2026-10-01,Arjun Verma,customer00461@example.com,Delhi,Delhi,North,CONSUMER
+C00462,I,2026-10-01 00:58:54,2026-10-01,Karan Rao,customer00462@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00463,I,2026-10-01 00:59:01,2026-10-01,Arjun Nair,customer00463@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00464,I,2026-10-01 00:59:08,2026-10-01,Karan Singh,customer00464@example.com,Hyderabad,Telangana,South,CONSUMER
+C00465,I,2026-10-01 00:59:15,2026-10-01,Sneha Pillai,customer00465@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00466,I,2026-10-01 00:59:22,2026-10-01,Arjun Pillai,customer00466@example.com,Pune,Maharashtra,West,CONSUMER
+C00467,I,2026-10-01 00:59:29,2026-10-01,Aarav Menon,customer00467@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00468,I,2026-10-01 00:59:36,2026-10-01,Vivek Patel,customer00468@example.com,Patna,Bihar,East,PREMIUM
+C00469,I,2026-10-01 00:59:43,2026-10-01,Sneha Nair,customer00469@example.com,Kolkata,West Bengal,East,CONSUMER
+C00470,I,2026-10-01 00:59:50,2026-10-01,Vivek Verma,customer00470@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00471,I,2026-10-01 00:59:57,2026-10-01,Vivek Menon,customer00471@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00472,I,2026-10-01 01:00:04,2026-10-01,Aditya Reddy,customer00472@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00473,I,2026-10-01 01:00:11,2026-10-01,Nikhil Sharma,customer00473@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00474,I,2026-10-01 01:00:18,2026-10-01,Rahul Bose,customer00474@example.com,Chandigarh,Punjab,North,CONSUMER
+C00475,I,2026-10-01 01:00:25,2026-10-01,Isha Das,customer00475@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00476,I,2026-10-01 01:00:32,2026-10-01,Tara Singh,customer00476@example.com,Kolkata,West Bengal,East,CONSUMER
+C00477,I,2026-10-01 01:00:39,2026-10-01,Tara Sharma,customer00477@example.com,Delhi,Delhi,North,CONSUMER
+C00478,I,2026-10-01 01:00:46,2026-10-01,Aarav Nair,customer00478@example.com,Patna,Bihar,East,PREMIUM
+C00479,I,2026-10-01 01:00:53,2026-10-01,Sneha Sharma,customer00479@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00480,I,2026-10-01 01:01:00,2026-10-01,Nisha Pillai,customer00480@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00481,I,2026-10-01 01:01:07,2026-10-01,Karan Verma,customer00481@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00482,I,2026-10-01 01:01:14,2026-10-01,Karan Das,customer00482@example.com,Chandigarh,Punjab,North,PREMIUM
+C00483,I,2026-10-01 01:01:21,2026-10-01,Rohan Kulkarni,customer00483@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00484,I,2026-10-01 01:01:28,2026-10-01,Arjun Gupta,customer00484@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00485,I,2026-10-01 01:01:35,2026-10-01,Isha Rao,customer00485@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00486,I,2026-10-01 01:01:42,2026-10-01,Karan Patel,customer00486@example.com,Hyderabad,Telangana,South,CONSUMER
+C00487,I,2026-10-01 01:01:49,2026-10-01,Meera Patel,customer00487@example.com,Hyderabad,Telangana,South,CONSUMER
+C00488,I,2026-10-01 01:01:56,2026-10-01,Rahul Singh,customer00488@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00489,I,2026-10-01 01:02:03,2026-10-01,Arjun Gupta,customer00489@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00490,I,2026-10-01 01:02:10,2026-10-01,Sneha Bose,customer00490@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00491,I,2026-10-01 01:02:17,2026-10-01,Aditya Reddy,customer00491@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00492,I,2026-10-01 01:02:24,2026-10-01,Anika Nair,customer00492@example.com,Pune,Maharashtra,West,PREMIUM
+C00493,I,2026-10-01 01:02:31,2026-10-01,Dev Nair,customer00493@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00494,I,2026-10-01 01:02:38,2026-10-01,Sneha Patel,customer00494@example.com,Chandigarh,Punjab,North,PREMIUM
+C00495,I,2026-10-01 01:02:45,2026-10-01,Sara Kulkarni,customer00495@example.com,Delhi,Delhi,North,CONSUMER
+C00496,I,2026-10-01 01:02:52,2026-10-01,Arjun Menon,customer00496@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00497,I,2026-10-01 01:02:59,2026-10-01,Vivek Pillai,customer00497@example.com,Chandigarh,Punjab,North,CONSUMER
+C00498,I,2026-10-01 01:03:06,2026-10-01,Anika Nair,customer00498@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00499,I,2026-10-01 01:03:13,2026-10-01,Anika Reddy,customer00499@example.com,Kolkata,West Bengal,East,PREMIUM
+C00500,I,2026-10-01 01:03:20,2026-10-01,Dev Pillai,customer00500@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00501,I,2026-10-01 01:03:27,2026-10-01,Isha Menon,customer00501@example.com,Hyderabad,Telangana,South,CONSUMER
+C00502,I,2026-10-01 01:03:34,2026-10-01,Sneha Bose,customer00502@example.com,Patna,Bihar,East,CONSUMER
+C00503,I,2026-10-01 01:03:41,2026-10-01,Sneha Joshi,customer00503@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00504,I,2026-10-01 01:03:48,2026-10-01,Aditya Nair,customer00504@example.com,Patna,Bihar,East,CONSUMER
+C00505,I,2026-10-01 01:03:55,2026-10-01,Sara Singh,customer00505@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00506,I,2026-10-01 01:04:02,2026-10-01,Arjun Pillai,customer00506@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00507,I,2026-10-01 01:04:09,2026-10-01,Isha Kulkarni,customer00507@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00508,I,2026-10-01 01:04:16,2026-10-01,Meera Gupta,customer00508@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00509,I,2026-10-01 01:04:23,2026-10-01,Riya Das,customer00509@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00510,I,2026-10-01 01:04:30,2026-10-01,Anika Nair,customer00510@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00511,I,2026-10-01 01:04:37,2026-10-01,Sara Gupta,customer00511@example.com,Pune,Maharashtra,West,CONSUMER
+C00512,I,2026-10-01 01:04:44,2026-10-01,Isha Das,customer00512@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00513,I,2026-10-01 01:04:51,2026-10-01,Nikhil Kulkarni,customer00513@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00514,I,2026-10-01 01:04:58,2026-10-01,Vivek Sharma,customer00514@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00515,I,2026-10-01 01:05:05,2026-10-01,Arjun Joshi,customer00515@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00516,I,2026-10-01 01:05:12,2026-10-01,Isha Iyer,customer00516@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00517,I,2026-10-01 01:05:19,2026-10-01,Nisha Sharma,customer00517@example.com,Kolkata,West Bengal,East,PREMIUM
+C00518,I,2026-10-01 01:05:26,2026-10-01,Karan Singh,customer00518@example.com,Patna,Bihar,East,PREMIUM
+C00519,I,2026-10-01 01:05:33,2026-10-01,Riya Patel,customer00519@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00520,I,2026-10-01 01:05:40,2026-10-01,Karan Das,customer00520@example.com,Kochi,Kerala,South,CONSUMER
+C00521,I,2026-10-01 01:05:47,2026-10-01,Rahul Verma,customer00521@example.com,Kolkata,West Bengal,East,CONSUMER
+C00522,I,2026-10-01 01:05:54,2026-10-01,Diya Menon,customer00522@example.com,Kochi,Kerala,South,CONSUMER
+C00523,I,2026-10-01 01:06:01,2026-10-01,Meera Sharma,customer00523@example.com,Delhi,Delhi,North,CONSUMER
+C00524,I,2026-10-01 01:06:08,2026-10-01,Sneha Menon,customer00524@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00525,I,2026-10-01 01:06:15,2026-10-01,Isha Kulkarni,customer00525@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00526,I,2026-10-01 01:06:22,2026-10-01,Aditya Nair,customer00526@example.com,Hyderabad,Telangana,South,CONSUMER
+C00527,I,2026-10-01 01:06:29,2026-10-01,Arjun Das,customer00527@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00528,I,2026-10-01 01:06:36,2026-10-01,Riya Reddy,customer00528@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00529,I,2026-10-01 01:06:43,2026-10-01,Aarav Reddy,customer00529@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00530,I,2026-10-01 01:06:50,2026-10-01,Riya Gupta,customer00530@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00531,I,2026-10-01 01:06:57,2026-10-01,Riya Verma,customer00531@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00532,I,2026-10-01 01:07:04,2026-10-01,Pooja Rao,customer00532@example.com,Chandigarh,Punjab,North,PREMIUM
+C00533,I,2026-10-01 01:07:11,2026-10-01,Arjun Iyer,customer00533@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00534,I,2026-10-01 01:07:18,2026-10-01,Rohan Bose,customer00534@example.com,Kolkata,West Bengal,East,PREMIUM
+C00535,I,2026-10-01 01:07:25,2026-10-01,Sara Patel,customer00535@example.com,Kolkata,West Bengal,East,PREMIUM
+C00536,I,2026-10-01 01:07:32,2026-10-01,Rahul Verma,customer00536@example.com,Patna,Bihar,East,CONSUMER
+C00537,I,2026-10-01 01:07:39,2026-10-01,Aarav Menon,customer00537@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00538,I,2026-10-01 01:07:46,2026-10-01,Diya Verma,customer00538@example.com,Kochi,Kerala,South,CONSUMER
+C00539,I,2026-10-01 01:07:53,2026-10-01,Dev Menon,customer00539@example.com,Patna,Bihar,East,PREMIUM
+C00540,I,2026-10-01 01:08:00,2026-10-01,Aditya Sharma,customer00540@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00541,I,2026-10-01 01:08:07,2026-10-01,Sneha Das,customer00541@example.com,Kolkata,West Bengal,East,CONSUMER
+C00542,I,2026-10-01 01:08:14,2026-10-01,Nikhil Rao,customer00542@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00543,I,2026-10-01 01:08:21,2026-10-01,Sara Verma,customer00543@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00544,I,2026-10-01 01:08:28,2026-10-01,Nikhil Patel,customer00544@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00545,I,2026-10-01 01:08:35,2026-10-01,Sneha Das,customer00545@example.com,Kochi,Kerala,South,PREMIUM
+C00546,I,2026-10-01 01:08:42,2026-10-01,Rahul Iyer,customer00546@example.com,Kochi,Kerala,South,PREMIUM
+C00547,I,2026-10-01 01:08:49,2026-10-01,Dev Kulkarni,customer00547@example.com,Kolkata,West Bengal,East,CONSUMER
+C00548,I,2026-10-01 01:08:56,2026-10-01,Tara Rao,customer00548@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00549,I,2026-10-01 01:09:03,2026-10-01,Isha Menon,customer00549@example.com,Hyderabad,Telangana,South,PREMIUM
+C00550,I,2026-10-01 01:09:10,2026-10-01,Aarav Gupta,customer00550@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00551,I,2026-10-01 01:09:17,2026-10-01,Meera Pillai,customer00551@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00552,I,2026-10-01 01:09:24,2026-10-01,Karan Kulkarni,customer00552@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00553,I,2026-10-01 01:09:31,2026-10-01,Kabir Singh,customer00553@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00554,I,2026-10-01 01:09:38,2026-10-01,Aditya Pillai,customer00554@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00555,I,2026-10-01 01:09:45,2026-10-01,Vivek Patel,customer00555@example.com,Delhi,Delhi,North,CONSUMER
+C00556,I,2026-10-01 01:09:52,2026-10-01,Riya Kulkarni,customer00556@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00557,I,2026-10-01 01:09:59,2026-10-01,Nisha Nair,customer00557@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00558,I,2026-10-01 01:10:06,2026-10-01,Aditya Das,customer00558@example.com,Hyderabad,Telangana,South,CONSUMER
+C00559,I,2026-10-01 01:10:13,2026-10-01,Aditya Sharma,customer00559@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00560,I,2026-10-01 01:10:20,2026-10-01,Pooja Reddy,customer00560@example.com,Chandigarh,Punjab,North,CONSUMER
+C00561,I,2026-10-01 01:10:27,2026-10-01,Pooja Nair,customer00561@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00562,I,2026-10-01 01:10:34,2026-10-01,Dev Sharma,customer00562@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00563,I,2026-10-01 01:10:41,2026-10-01,Meera Menon,customer00563@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00564,I,2026-10-01 01:10:48,2026-10-01,Arjun Rao,customer00564@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00565,I,2026-10-01 01:10:55,2026-10-01,Pooja Joshi,customer00565@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00566,I,2026-10-01 01:11:02,2026-10-01,Nisha Iyer,customer00566@example.com,Kolkata,West Bengal,East,CONSUMER
+C00567,I,2026-10-01 01:11:09,2026-10-01,Kabir Verma,customer00567@example.com,Delhi,Delhi,North,CONSUMER
+C00568,I,2026-10-01 01:11:16,2026-10-01,Sneha Menon,customer00568@example.com,Pune,Maharashtra,West,CONSUMER
+C00569,I,2026-10-01 01:11:23,2026-10-01,Karan Pillai,customer00569@example.com,Delhi,Delhi,North,PREMIUM
+C00570,I,2026-10-01 01:11:30,2026-10-01,Pooja Das,customer00570@example.com,Chandigarh,Punjab,North,CONSUMER
+C00571,I,2026-10-01 01:11:37,2026-10-01,Pooja Das,customer00571@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00572,I,2026-10-01 01:11:44,2026-10-01,Aditya Kulkarni,customer00572@example.com,Pune,Maharashtra,West,CONSUMER
+C00573,I,2026-10-01 01:11:51,2026-10-01,Kabir Iyer,customer00573@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00574,I,2026-10-01 01:11:58,2026-10-01,Vivek Gupta,customer00574@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00575,I,2026-10-01 01:12:05,2026-10-01,Arjun Verma,customer00575@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00576,I,2026-10-01 01:12:12,2026-10-01,Aditya Joshi,customer00576@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00577,I,2026-10-01 01:12:19,2026-10-01,Riya Singh,customer00577@example.com,Kolkata,West Bengal,East,CONSUMER
+C00578,I,2026-10-01 01:12:26,2026-10-01,Anika Patel,customer00578@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00579,I,2026-10-01 01:12:33,2026-10-01,Sneha Nair,customer00579@example.com,Hyderabad,Telangana,South,CONSUMER
+C00580,I,2026-10-01 01:12:40,2026-10-01,Isha Bose,customer00580@example.com,Pune,Maharashtra,West,CONSUMER
+C00581,I,2026-10-01 01:12:47,2026-10-01,Sara Singh,customer00581@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00582,I,2026-10-01 01:12:54,2026-10-01,Rohan Singh,customer00582@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00583,I,2026-10-01 01:13:01,2026-10-01,Kabir Pillai,customer00583@example.com,Chandigarh,Punjab,North,CONSUMER
+C00584,I,2026-10-01 01:13:08,2026-10-01,Sara Joshi,customer00584@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00585,I,2026-10-01 01:13:15,2026-10-01,Arjun Verma,customer00585@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00586,I,2026-10-01 01:13:22,2026-10-01,Isha Sharma,customer00586@example.com,Kolkata,West Bengal,East,CONSUMER
+C00587,I,2026-10-01 01:13:29,2026-10-01,Isha Verma,customer00587@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00588,I,2026-10-01 01:13:36,2026-10-01,Rohan Das,customer00588@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00589,I,2026-10-01 01:13:43,2026-10-01,Nikhil Menon,customer00589@example.com,Hyderabad,Telangana,South,CONSUMER
+C00590,I,2026-10-01 01:13:50,2026-10-01,Rahul Iyer,customer00590@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00591,I,2026-10-01 01:13:57,2026-10-01,Tara Reddy,customer00591@example.com,Hyderabad,Telangana,South,PREMIUM
+C00592,I,2026-10-01 01:14:04,2026-10-01,Dev Das,customer00592@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00593,I,2026-10-01 01:14:11,2026-10-01,Nisha Iyer,customer00593@example.com,Chandigarh,Punjab,North,CONSUMER
+C00594,I,2026-10-01 01:14:18,2026-10-01,Anika Rao,customer00594@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00595,I,2026-10-01 01:14:25,2026-10-01,Kabir Patel,customer00595@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00596,I,2026-10-01 01:14:32,2026-10-01,Isha Nair,customer00596@example.com,Delhi,Delhi,North,CONSUMER
+C00597,I,2026-10-01 01:14:39,2026-10-01,Isha Kulkarni,customer00597@example.com,Delhi,Delhi,North,PREMIUM
+C00598,I,2026-10-01 01:14:46,2026-10-01,Aarav Joshi,customer00598@example.com,Patna,Bihar,East,CONSUMER
+C00599,I,2026-10-01 01:14:53,2026-10-01,Pooja Singh,customer00599@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00600,I,2026-10-01 01:15:00,2026-10-01,Arjun Patel,customer00600@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00601,I,2026-10-01 01:15:07,2026-10-01,Karan Menon,customer00601@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00602,I,2026-10-01 01:15:14,2026-10-01,Nikhil Bose,customer00602@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00603,I,2026-10-01 01:15:21,2026-10-01,Arjun Sharma,customer00603@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00604,I,2026-10-01 01:15:28,2026-10-01,Nisha Iyer,customer00604@example.com,Kochi,Kerala,South,CONSUMER
+C00605,I,2026-10-01 01:15:35,2026-10-01,Arjun Reddy,customer00605@example.com,Kochi,Kerala,South,CONSUMER
+C00606,I,2026-10-01 01:15:42,2026-10-01,Nisha Singh,customer00606@example.com,Hyderabad,Telangana,South,CONSUMER
+C00607,I,2026-10-01 01:15:49,2026-10-01,Rahul Rao,customer00607@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00608,I,2026-10-01 01:15:56,2026-10-01,Aarav Pillai,customer00608@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00609,I,2026-10-01 01:16:03,2026-10-01,Sara Iyer,customer00609@example.com,Chandigarh,Punjab,North,CONSUMER
+C00610,I,2026-10-01 01:16:10,2026-10-01,Rohan Rao,customer00610@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00611,I,2026-10-01 01:16:17,2026-10-01,Anika Das,customer00611@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00612,I,2026-10-01 01:16:24,2026-10-01,Rahul Bose,customer00612@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00613,I,2026-10-01 01:16:31,2026-10-01,Dev Rao,customer00613@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00614,I,2026-10-01 01:16:38,2026-10-01,Vivek Rao,customer00614@example.com,Hyderabad,Telangana,South,PREMIUM
+C00615,I,2026-10-01 01:16:45,2026-10-01,Diya Menon,customer00615@example.com,Hyderabad,Telangana,South,PREMIUM
+C00616,I,2026-10-01 01:16:52,2026-10-01,Meera Rao,customer00616@example.com,Delhi,Delhi,North,CONSUMER
+C00617,I,2026-10-01 01:16:59,2026-10-01,Meera Bose,customer00617@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00618,I,2026-10-01 01:17:06,2026-10-01,Sara Sharma,customer00618@example.com,Kolkata,West Bengal,East,PREMIUM
+C00619,I,2026-10-01 01:17:13,2026-10-01,Riya Reddy,customer00619@example.com,Pune,Maharashtra,West,CONSUMER
+C00620,I,2026-10-01 01:17:20,2026-10-01,Nikhil Menon,customer00620@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00621,I,2026-10-01 01:17:27,2026-10-01,Riya Singh,customer00621@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00622,I,2026-10-01 01:17:34,2026-10-01,Diya Patel,customer00622@example.com,Chandigarh,Punjab,North,PREMIUM
+C00623,I,2026-10-01 01:17:41,2026-10-01,Diya Menon,customer00623@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00624,I,2026-10-01 01:17:48,2026-10-01,Nikhil Bose,customer00624@example.com,Kochi,Kerala,South,CONSUMER
+C00625,I,2026-10-01 01:17:55,2026-10-01,Sneha Das,customer00625@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00626,I,2026-10-01 01:18:02,2026-10-01,Rahul Reddy,customer00626@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00627,I,2026-10-01 01:18:09,2026-10-01,Riya Singh,customer00627@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00628,I,2026-10-01 01:18:16,2026-10-01,Tara Pillai,customer00628@example.com,Patna,Bihar,East,PREMIUM
+C00629,I,2026-10-01 01:18:23,2026-10-01,Karan Gupta,customer00629@example.com,Delhi,Delhi,North,CONSUMER
+C00630,I,2026-10-01 01:18:30,2026-10-01,Rahul Reddy,customer00630@example.com,Kochi,Kerala,South,CONSUMER
+C00631,I,2026-10-01 01:18:37,2026-10-01,Nisha Menon,customer00631@example.com,Patna,Bihar,East,CONSUMER
+C00632,I,2026-10-01 01:18:44,2026-10-01,Aarav Verma,customer00632@example.com,Kochi,Kerala,South,CONSUMER
+C00633,I,2026-10-01 01:18:51,2026-10-01,Anika Bose,customer00633@example.com,Delhi,Delhi,North,CONSUMER
+C00634,I,2026-10-01 01:18:58,2026-10-01,Nisha Kulkarni,customer00634@example.com,Kolkata,West Bengal,East,CONSUMER
+C00635,I,2026-10-01 01:19:05,2026-10-01,Aditya Reddy,customer00635@example.com,Chandigarh,Punjab,North,CONSUMER
+C00636,I,2026-10-01 01:19:12,2026-10-01,Aditya Iyer,customer00636@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00637,I,2026-10-01 01:19:19,2026-10-01,Sneha Nair,customer00637@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00638,I,2026-10-01 01:19:26,2026-10-01,Aditya Pillai,customer00638@example.com,Pune,Maharashtra,West,CONSUMER
+C00639,I,2026-10-01 01:19:33,2026-10-01,Pooja Iyer,customer00639@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00640,I,2026-10-01 01:19:40,2026-10-01,Anika Singh,customer00640@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00641,I,2026-10-01 01:19:47,2026-10-01,Sara Bose,customer00641@example.com,Hyderabad,Telangana,South,PREMIUM
+C00642,I,2026-10-01 01:19:54,2026-10-01,Anika Kulkarni,customer00642@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00643,I,2026-10-01 01:20:01,2026-10-01,Aarav Reddy,customer00643@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00644,I,2026-10-01 01:20:08,2026-10-01,Karan Nair,customer00644@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00645,I,2026-10-01 01:20:15,2026-10-01,Isha Joshi,customer00645@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00646,I,2026-10-01 01:20:22,2026-10-01,Rohan Das,customer00646@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00647,I,2026-10-01 01:20:29,2026-10-01,Nisha Reddy,customer00647@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00648,I,2026-10-01 01:20:36,2026-10-01,Nikhil Kulkarni,customer00648@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00649,I,2026-10-01 01:20:43,2026-10-01,Pooja Joshi,customer00649@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00650,I,2026-10-01 01:20:50,2026-10-01,Aarav Joshi,customer00650@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00651,I,2026-10-01 01:20:57,2026-10-01,Arjun Menon,customer00651@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00652,I,2026-10-01 01:21:04,2026-10-01,Vivek Bose,customer00652@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00653,I,2026-10-01 01:21:11,2026-10-01,Vivek Reddy,customer00653@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00654,I,2026-10-01 01:21:18,2026-10-01,Rahul Menon,customer00654@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00655,I,2026-10-01 01:21:25,2026-10-01,Rahul Joshi,customer00655@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00656,I,2026-10-01 01:21:32,2026-10-01,Pooja Joshi,customer00656@example.com,Chandigarh,Punjab,North,CONSUMER
+C00657,I,2026-10-01 01:21:39,2026-10-01,Tara Das,customer00657@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00658,I,2026-10-01 01:21:46,2026-10-01,Dev Reddy,customer00658@example.com,Patna,Bihar,East,PREMIUM
+C00659,I,2026-10-01 01:21:53,2026-10-01,Tara Iyer,customer00659@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00660,I,2026-10-01 01:22:00,2026-10-01,Rahul Pillai,customer00660@example.com,Kolkata,West Bengal,East,PREMIUM
+C00661,I,2026-10-01 01:22:07,2026-10-01,Anika Patel,customer00661@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00662,I,2026-10-01 01:22:14,2026-10-01,Kabir Patel,customer00662@example.com,Hyderabad,Telangana,South,PREMIUM
+C00663,I,2026-10-01 01:22:21,2026-10-01,Pooja Gupta,customer00663@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00664,I,2026-10-01 01:22:28,2026-10-01,Rohan Joshi,customer00664@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00665,I,2026-10-01 01:22:35,2026-10-01,Tara Patel,customer00665@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00666,I,2026-10-01 01:22:42,2026-10-01,Anika Sharma,customer00666@example.com,Kolkata,West Bengal,East,CONSUMER
+C00667,I,2026-10-01 01:22:49,2026-10-01,Rohan Sharma,customer00667@example.com,Patna,Bihar,East,CONSUMER
+C00668,I,2026-10-01 01:22:56,2026-10-01,Nikhil Sharma,customer00668@example.com,Chandigarh,Punjab,North,CONSUMER
+C00669,I,2026-10-01 01:23:03,2026-10-01,Aarav Bose,customer00669@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00670,I,2026-10-01 01:23:10,2026-10-01,Rohan Bose,customer00670@example.com,Hyderabad,Telangana,South,CONSUMER
+C00671,I,2026-10-01 01:23:17,2026-10-01,Tara Sharma,customer00671@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00672,I,2026-10-01 01:23:24,2026-10-01,Sara Singh,customer00672@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00673,I,2026-10-01 01:23:31,2026-10-01,Rahul Nair,customer00673@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00674,I,2026-10-01 01:23:38,2026-10-01,Karan Sharma,customer00674@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00675,I,2026-10-01 01:23:45,2026-10-01,Meera Gupta,customer00675@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00676,I,2026-10-01 01:23:52,2026-10-01,Sara Pillai,customer00676@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00677,I,2026-10-01 01:23:59,2026-10-01,Arjun Singh,customer00677@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00678,I,2026-10-01 01:24:06,2026-10-01,Dev Verma,customer00678@example.com,Kochi,Kerala,South,PREMIUM
+C00679,I,2026-10-01 01:24:13,2026-10-01,Diya Nair,customer00679@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00680,I,2026-10-01 01:24:20,2026-10-01,Kabir Rao,customer00680@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00681,I,2026-10-01 01:24:27,2026-10-01,Tara Pillai,customer00681@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00682,I,2026-10-01 01:24:34,2026-10-01,Vivek Singh,customer00682@example.com,Hyderabad,Telangana,South,CONSUMER
+C00683,I,2026-10-01 01:24:41,2026-10-01,Riya Pillai,customer00683@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00684,I,2026-10-01 01:24:48,2026-10-01,Nikhil Pillai,customer00684@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00685,I,2026-10-01 01:24:55,2026-10-01,Aarav Kulkarni,customer00685@example.com,Chandigarh,Punjab,North,CONSUMER
+C00686,I,2026-10-01 01:25:02,2026-10-01,Sara Nair,customer00686@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00687,I,2026-10-01 01:25:09,2026-10-01,Anika Reddy,customer00687@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00688,I,2026-10-01 01:25:16,2026-10-01,Arjun Menon,customer00688@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00689,I,2026-10-01 01:25:23,2026-10-01,Dev Kulkarni,customer00689@example.com,Pune,Maharashtra,West,CONSUMER
+C00690,I,2026-10-01 01:25:30,2026-10-01,Meera Rao,customer00690@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00691,I,2026-10-01 01:25:37,2026-10-01,Sneha Rao,customer00691@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00692,I,2026-10-01 01:25:44,2026-10-01,Nisha Das,customer00692@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00693,I,2026-10-01 01:25:51,2026-10-01,Diya Patel,customer00693@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00694,I,2026-10-01 01:25:58,2026-10-01,Tara Kulkarni,customer00694@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00695,I,2026-10-01 01:26:05,2026-10-01,Rohan Iyer,customer00695@example.com,Kochi,Kerala,South,CONSUMER
+C00696,I,2026-10-01 01:26:12,2026-10-01,Arjun Sharma,customer00696@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00697,I,2026-10-01 01:26:19,2026-10-01,Anika Bose,customer00697@example.com,Patna,Bihar,East,PREMIUM
+C00698,I,2026-10-01 01:26:26,2026-10-01,Diya Nair,customer00698@example.com,Delhi,Delhi,North,PREMIUM
+C00699,I,2026-10-01 01:26:33,2026-10-01,Sara Nair,customer00699@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00700,I,2026-10-01 01:26:40,2026-10-01,Arjun Gupta,customer00700@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00701,I,2026-10-01 01:26:47,2026-10-01,Rahul Sharma,customer00701@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00702,I,2026-10-01 01:26:54,2026-10-01,Meera Joshi,customer00702@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00703,I,2026-10-01 01:27:01,2026-10-01,Riya Nair,customer00703@example.com,Delhi,Delhi,North,CONSUMER
+C00704,I,2026-10-01 01:27:08,2026-10-01,Rahul Bose,customer00704@example.com,Hyderabad,Telangana,South,PREMIUM
+C00705,I,2026-10-01 01:27:15,2026-10-01,Dev Singh,customer00705@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00706,I,2026-10-01 01:27:22,2026-10-01,Rahul Verma,customer00706@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00707,I,2026-10-01 01:27:29,2026-10-01,Pooja Reddy,customer00707@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00708,I,2026-10-01 01:27:36,2026-10-01,Anika Iyer,customer00708@example.com,Kolkata,West Bengal,East,PREMIUM
+C00709,I,2026-10-01 01:27:43,2026-10-01,Dev Singh,customer00709@example.com,Kolkata,West Bengal,East,CONSUMER
+C00710,I,2026-10-01 01:27:50,2026-10-01,Pooja Kulkarni,customer00710@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00711,I,2026-10-01 01:27:57,2026-10-01,Dev Bose,customer00711@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00712,I,2026-10-01 01:28:04,2026-10-01,Rahul Reddy,customer00712@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00713,I,2026-10-01 01:28:11,2026-10-01,Karan Patel,customer00713@example.com,Kochi,Kerala,South,CONSUMER
+C00714,I,2026-10-01 01:28:18,2026-10-01,Vivek Iyer,customer00714@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00715,I,2026-10-01 01:28:25,2026-10-01,Sara Reddy,customer00715@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00716,I,2026-10-01 01:28:32,2026-10-01,Aarav Bose,customer00716@example.com,Kochi,Kerala,South,PREMIUM
+C00717,I,2026-10-01 01:28:39,2026-10-01,Nisha Joshi,customer00717@example.com,Delhi,Delhi,North,PREMIUM
+C00718,I,2026-10-01 01:28:46,2026-10-01,Nikhil Iyer,customer00718@example.com,Delhi,Delhi,North,CONSUMER
+C00719,I,2026-10-01 01:28:53,2026-10-01,Kabir Joshi,customer00719@example.com,Pune,Maharashtra,West,CONSUMER
+C00720,I,2026-10-01 01:29:00,2026-10-01,Aditya Patel,customer00720@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00721,I,2026-10-01 01:29:07,2026-10-01,Sneha Menon,customer00721@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00722,I,2026-10-01 01:29:14,2026-10-01,Nisha Sharma,customer00722@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00723,I,2026-10-01 01:29:21,2026-10-01,Nisha Singh,customer00723@example.com,Kochi,Kerala,South,PREMIUM
+C00724,I,2026-10-01 01:29:28,2026-10-01,Isha Menon,customer00724@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00725,I,2026-10-01 01:29:35,2026-10-01,Karan Gupta,customer00725@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00726,I,2026-10-01 01:29:42,2026-10-01,Riya Joshi,customer00726@example.com,Kochi,Kerala,South,CONSUMER
+C00727,I,2026-10-01 01:29:49,2026-10-01,Kabir Reddy,customer00727@example.com,Hyderabad,Telangana,South,PREMIUM
+C00728,I,2026-10-01 01:29:56,2026-10-01,Rohan Singh,customer00728@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00729,I,2026-10-01 01:30:03,2026-10-01,Arjun Kulkarni,customer00729@example.com,Pune,Maharashtra,West,PREMIUM
+C00730,I,2026-10-01 01:30:10,2026-10-01,Arjun Reddy,customer00730@example.com,Chandigarh,Punjab,North,CONSUMER
+C00731,I,2026-10-01 01:30:17,2026-10-01,Pooja Patel,customer00731@example.com,Hyderabad,Telangana,South,PREMIUM
+C00732,I,2026-10-01 01:30:24,2026-10-01,Sara Verma,customer00732@example.com,Kochi,Kerala,South,PREMIUM
+C00733,I,2026-10-01 01:30:31,2026-10-01,Sara Das,customer00733@example.com,Patna,Bihar,East,CONSUMER
+C00734,I,2026-10-01 01:30:38,2026-10-01,Rahul Das,customer00734@example.com,Kolkata,West Bengal,East,PREMIUM
+C00735,I,2026-10-01 01:30:45,2026-10-01,Karan Singh,customer00735@example.com,Hyderabad,Telangana,South,PREMIUM
+C00736,I,2026-10-01 01:30:52,2026-10-01,Nikhil Iyer,customer00736@example.com,Pune,Maharashtra,West,CONSUMER
+C00737,I,2026-10-01 01:30:59,2026-10-01,Aditya Pillai,customer00737@example.com,Kochi,Kerala,South,CONSUMER
+C00738,I,2026-10-01 01:31:06,2026-10-01,Riya Verma,customer00738@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00739,I,2026-10-01 01:31:13,2026-10-01,Kabir Reddy,customer00739@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00740,I,2026-10-01 01:31:20,2026-10-01,Pooja Rao,customer00740@example.com,Delhi,Delhi,North,CONSUMER
+C00741,I,2026-10-01 01:31:27,2026-10-01,Riya Nair,customer00741@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00742,I,2026-10-01 01:31:34,2026-10-01,Rohan Bose,customer00742@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00743,I,2026-10-01 01:31:41,2026-10-01,Aarav Rao,customer00743@example.com,Patna,Bihar,East,PREMIUM
+C00744,I,2026-10-01 01:31:48,2026-10-01,Tara Menon,customer00744@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00745,I,2026-10-01 01:31:55,2026-10-01,Rohan Nair,customer00745@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00746,I,2026-10-01 01:32:02,2026-10-01,Pooja Gupta,customer00746@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00747,I,2026-10-01 01:32:09,2026-10-01,Aarav Verma,customer00747@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00748,I,2026-10-01 01:32:16,2026-10-01,Vivek Verma,customer00748@example.com,Pune,Maharashtra,West,CONSUMER
+C00749,I,2026-10-01 01:32:23,2026-10-01,Meera Rao,customer00749@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00750,I,2026-10-01 01:32:30,2026-10-01,Riya Verma,customer00750@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00751,I,2026-10-01 01:32:37,2026-10-01,Sara Verma,customer00751@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00752,I,2026-10-01 01:32:44,2026-10-01,Diya Kulkarni,customer00752@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00753,I,2026-10-01 01:32:51,2026-10-01,Dev Joshi,customer00753@example.com,Patna,Bihar,East,CONSUMER
+C00754,I,2026-10-01 01:32:58,2026-10-01,Rohan Reddy,customer00754@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00755,I,2026-10-01 01:33:05,2026-10-01,Anika Sharma,customer00755@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00756,I,2026-10-01 01:33:12,2026-10-01,Riya Bose,customer00756@example.com,Patna,Bihar,East,CONSUMER
+C00757,I,2026-10-01 01:33:19,2026-10-01,Isha Iyer,customer00757@example.com,Hyderabad,Telangana,South,CONSUMER
+C00758,I,2026-10-01 01:33:26,2026-10-01,Riya Kulkarni,customer00758@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00759,I,2026-10-01 01:33:33,2026-10-01,Sara Pillai,customer00759@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00760,I,2026-10-01 01:33:40,2026-10-01,Rohan Reddy,customer00760@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00761,I,2026-10-01 01:33:47,2026-10-01,Anika Verma,customer00761@example.com,Patna,Bihar,East,CONSUMER
+C00762,I,2026-10-01 01:33:54,2026-10-01,Rahul Reddy,customer00762@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00763,I,2026-10-01 01:34:01,2026-10-01,Vivek Gupta,customer00763@example.com,Delhi,Delhi,North,CONSUMER
+C00764,I,2026-10-01 01:34:08,2026-10-01,Arjun Pillai,customer00764@example.com,Kochi,Kerala,South,CONSUMER
+C00765,I,2026-10-01 01:34:15,2026-10-01,Anika Reddy,customer00765@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00766,I,2026-10-01 01:34:22,2026-10-01,Vivek Sharma,customer00766@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00767,I,2026-10-01 01:34:29,2026-10-01,Pooja Reddy,customer00767@example.com,Patna,Bihar,East,CONSUMER
+C00768,I,2026-10-01 01:34:36,2026-10-01,Rahul Gupta,customer00768@example.com,Kolkata,West Bengal,East,CONSUMER
+C00769,I,2026-10-01 01:34:43,2026-10-01,Kabir Kulkarni,customer00769@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00770,I,2026-10-01 01:34:50,2026-10-01,Sneha Menon,customer00770@example.com,Pune,Maharashtra,West,CONSUMER
+C00771,I,2026-10-01 01:34:57,2026-10-01,Diya Iyer,customer00771@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00772,I,2026-10-01 01:35:04,2026-10-01,Nikhil Verma,customer00772@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00773,I,2026-10-01 01:35:11,2026-10-01,Meera Reddy,customer00773@example.com,Chandigarh,Punjab,North,CONSUMER
+C00774,I,2026-10-01 01:35:18,2026-10-01,Riya Gupta,customer00774@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00775,I,2026-10-01 01:35:25,2026-10-01,Anika Singh,customer00775@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00776,I,2026-10-01 01:35:32,2026-10-01,Pooja Sharma,customer00776@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00777,I,2026-10-01 01:35:39,2026-10-01,Dev Sharma,customer00777@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00778,I,2026-10-01 01:35:46,2026-10-01,Nisha Gupta,customer00778@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00779,I,2026-10-01 01:35:53,2026-10-01,Sara Rao,customer00779@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00780,I,2026-10-01 01:36:00,2026-10-01,Diya Reddy,customer00780@example.com,Delhi,Delhi,North,CONSUMER
+C00781,I,2026-10-01 01:36:07,2026-10-01,Meera Pillai,customer00781@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00782,I,2026-10-01 01:36:14,2026-10-01,Nikhil Sharma,customer00782@example.com,Chandigarh,Punjab,North,PREMIUM
+C00783,I,2026-10-01 01:36:21,2026-10-01,Nisha Joshi,customer00783@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00784,I,2026-10-01 01:36:28,2026-10-01,Meera Das,customer00784@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00785,I,2026-10-01 01:36:35,2026-10-01,Rohan Reddy,customer00785@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00786,I,2026-10-01 01:36:42,2026-10-01,Nisha Kulkarni,customer00786@example.com,Delhi,Delhi,North,CONSUMER
+C00787,I,2026-10-01 01:36:49,2026-10-01,Aditya Gupta,customer00787@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00788,I,2026-10-01 01:36:56,2026-10-01,Dev Singh,customer00788@example.com,Hyderabad,Telangana,South,CONSUMER
+C00789,I,2026-10-01 01:37:03,2026-10-01,Diya Iyer,customer00789@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00790,I,2026-10-01 01:37:10,2026-10-01,Karan Gupta,customer00790@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00791,I,2026-10-01 01:37:17,2026-10-01,Sara Reddy,customer00791@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00792,I,2026-10-01 01:37:24,2026-10-01,Pooja Bose,customer00792@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00793,I,2026-10-01 01:37:31,2026-10-01,Rohan Patel,customer00793@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00794,I,2026-10-01 01:37:38,2026-10-01,Pooja Sharma,customer00794@example.com,Patna,Bihar,East,CONSUMER
+C00795,I,2026-10-01 01:37:45,2026-10-01,Anika Reddy,customer00795@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00796,I,2026-10-01 01:37:52,2026-10-01,Nisha Joshi,customer00796@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00797,I,2026-10-01 01:37:59,2026-10-01,Arjun Rao,customer00797@example.com,Patna,Bihar,East,CONSUMER
+C00798,I,2026-10-01 01:38:06,2026-10-01,Rohan Reddy,customer00798@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00799,I,2026-10-01 01:38:13,2026-10-01,Vivek Rao,customer00799@example.com,Kolkata,West Bengal,East,CONSUMER
+C00800,I,2026-10-01 01:38:20,2026-10-01,Arjun Kulkarni,customer00800@example.com,Kochi,Kerala,South,CONSUMER
+C00801,I,2026-10-01 01:38:27,2026-10-01,Karan Rao,customer00801@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00802,I,2026-10-01 01:38:34,2026-10-01,Sneha Menon,customer00802@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00803,I,2026-10-01 01:38:41,2026-10-01,Sara Verma,customer00803@example.com,Kochi,Kerala,South,CONSUMER
+C00804,I,2026-10-01 01:38:48,2026-10-01,Nikhil Patel,customer00804@example.com,Kochi,Kerala,South,CONSUMER
+C00805,I,2026-10-01 01:38:55,2026-10-01,Aditya Patel,customer00805@example.com,Delhi,Delhi,North,PREMIUM
+C00806,I,2026-10-01 01:39:02,2026-10-01,Arjun Menon,customer00806@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00807,I,2026-10-01 01:39:09,2026-10-01,Anika Rao,customer00807@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00808,I,2026-10-01 01:39:16,2026-10-01,Tara Menon,customer00808@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C00809,I,2026-10-01 01:39:23,2026-10-01,Arjun Reddy,customer00809@example.com,Kolkata,West Bengal,East,CONSUMER
+C00810,I,2026-10-01 01:39:30,2026-10-01,Vivek Das,customer00810@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00811,I,2026-10-01 01:39:37,2026-10-01,Sara Joshi,customer00811@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00812,I,2026-10-01 01:39:44,2026-10-01,Tara Kulkarni,customer00812@example.com,Pune,Maharashtra,West,CONSUMER
+C00813,I,2026-10-01 01:39:51,2026-10-01,Pooja Singh,customer00813@example.com,Delhi,Delhi,North,CONSUMER
+C00814,I,2026-10-01 01:39:58,2026-10-01,Arjun Iyer,customer00814@example.com,Kolkata,West Bengal,East,CONSUMER
+C00815,I,2026-10-01 01:40:05,2026-10-01,Vivek Sharma,customer00815@example.com,Pune,Maharashtra,West,CONSUMER
+C00816,I,2026-10-01 01:40:12,2026-10-01,Arjun Verma,customer00816@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00817,I,2026-10-01 01:40:19,2026-10-01,Aarav Das,customer00817@example.com,Kochi,Kerala,South,PREMIUM
+C00818,I,2026-10-01 01:40:26,2026-10-01,Nikhil Joshi,customer00818@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00819,I,2026-10-01 01:40:33,2026-10-01,Dev Menon,customer00819@example.com,Delhi,Delhi,North,CONSUMER
+C00820,I,2026-10-01 01:40:40,2026-10-01,Riya Reddy,customer00820@example.com,Chandigarh,Punjab,North,CONSUMER
+C00821,I,2026-10-01 01:40:47,2026-10-01,Diya Bose,customer00821@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00822,I,2026-10-01 01:40:54,2026-10-01,Rahul Pillai,customer00822@example.com,Pune,Maharashtra,West,CONSUMER
+C00823,I,2026-10-01 01:41:01,2026-10-01,Anika Sharma,customer00823@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00824,I,2026-10-01 01:41:08,2026-10-01,Rohan Kulkarni,customer00824@example.com,Pune,Maharashtra,West,CONSUMER
+C00825,I,2026-10-01 01:41:15,2026-10-01,Anika Gupta,customer00825@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00826,I,2026-10-01 01:41:22,2026-10-01,Rohan Pillai,customer00826@example.com,Kochi,Kerala,South,CONSUMER
+C00827,I,2026-10-01 01:41:29,2026-10-01,Sneha Kulkarni,customer00827@example.com,Chandigarh,Punjab,North,CONSUMER
+C00828,I,2026-10-01 01:41:36,2026-10-01,Rahul Sharma,customer00828@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00829,I,2026-10-01 01:41:43,2026-10-01,Rohan Pillai,customer00829@example.com,Kolkata,West Bengal,East,CONSUMER
+C00830,I,2026-10-01 01:41:50,2026-10-01,Tara Verma,customer00830@example.com,Kolkata,West Bengal,East,PREMIUM
+C00831,I,2026-10-01 01:41:57,2026-10-01,Dev Bose,customer00831@example.com,Chandigarh,Punjab,North,CONSUMER
+C00832,I,2026-10-01 01:42:04,2026-10-01,Aarav Verma,customer00832@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00833,I,2026-10-01 01:42:11,2026-10-01,Anika Das,customer00833@example.com,Kolkata,West Bengal,East,CONSUMER
+C00834,I,2026-10-01 01:42:18,2026-10-01,Vivek Bose,customer00834@example.com,Kochi,Kerala,South,CONSUMER
+C00835,I,2026-10-01 01:42:25,2026-10-01,Vivek Gupta,customer00835@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00836,I,2026-10-01 01:42:32,2026-10-01,Rohan Das,customer00836@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00837,I,2026-10-01 01:42:39,2026-10-01,Meera Singh,customer00837@example.com,Kochi,Kerala,South,CONSUMER
+C00838,I,2026-10-01 01:42:46,2026-10-01,Vivek Singh,customer00838@example.com,Kolkata,West Bengal,East,CONSUMER
+C00839,I,2026-10-01 01:42:53,2026-10-01,Sara Sharma,customer00839@example.com,Delhi,Delhi,North,CONSUMER
+C00840,I,2026-10-01 01:43:00,2026-10-01,Pooja Nair,customer00840@example.com,Patna,Bihar,East,CONSUMER
+C00841,I,2026-10-01 01:43:07,2026-10-01,Meera Iyer,customer00841@example.com,Kolkata,West Bengal,East,PREMIUM
+C00842,I,2026-10-01 01:43:14,2026-10-01,Meera Pillai,customer00842@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00843,I,2026-10-01 01:43:21,2026-10-01,Sneha Kulkarni,customer00843@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00844,I,2026-10-01 01:43:28,2026-10-01,Nisha Das,customer00844@example.com,Delhi,Delhi,North,CONSUMER
+C00845,I,2026-10-01 01:43:35,2026-10-01,Vivek Sharma,customer00845@example.com,Kochi,Kerala,South,CONSUMER
+C00846,I,2026-10-01 01:43:42,2026-10-01,Aarav Singh,customer00846@example.com,Delhi,Delhi,North,PREMIUM
+C00847,I,2026-10-01 01:43:49,2026-10-01,Pooja Rao,customer00847@example.com,Hyderabad,Telangana,South,CONSUMER
+C00848,I,2026-10-01 01:43:56,2026-10-01,Aditya Singh,customer00848@example.com,Kolkata,West Bengal,East,PREMIUM
+C00849,I,2026-10-01 01:44:03,2026-10-01,Rohan Gupta,customer00849@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00850,I,2026-10-01 01:44:10,2026-10-01,Isha Nair,customer00850@example.com,Hyderabad,Telangana,South,CONSUMER
+C00851,I,2026-10-01 01:44:17,2026-10-01,Rohan Joshi,customer00851@example.com,Hyderabad,Telangana,South,CONSUMER
+C00852,I,2026-10-01 01:44:24,2026-10-01,Nisha Singh,customer00852@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00853,I,2026-10-01 01:44:31,2026-10-01,Pooja Menon,customer00853@example.com,Kochi,Kerala,South,CONSUMER
+C00854,I,2026-10-01 01:44:38,2026-10-01,Isha Nair,customer00854@example.com,Patna,Bihar,East,CONSUMER
+C00855,I,2026-10-01 01:44:45,2026-10-01,Anika Rao,customer00855@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00856,I,2026-10-01 01:44:52,2026-10-01,Aarav Joshi,customer00856@example.com,Patna,Bihar,East,PREMIUM
+C00857,I,2026-10-01 01:44:59,2026-10-01,Sneha Rao,customer00857@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00858,I,2026-10-01 01:45:06,2026-10-01,Diya Pillai,customer00858@example.com,Patna,Bihar,East,CONSUMER
+C00859,I,2026-10-01 01:45:13,2026-10-01,Nisha Pillai,customer00859@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00860,I,2026-10-01 01:45:20,2026-10-01,Nisha Sharma,customer00860@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00861,I,2026-10-01 01:45:27,2026-10-01,Isha Rao,customer00861@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00862,I,2026-10-01 01:45:34,2026-10-01,Aarav Rao,customer00862@example.com,Delhi,Delhi,North,CONSUMER
+C00863,I,2026-10-01 01:45:41,2026-10-01,Karan Sharma,customer00863@example.com,Pune,Maharashtra,West,CONSUMER
+C00864,I,2026-10-01 01:45:48,2026-10-01,Kabir Verma,customer00864@example.com,Hyderabad,Telangana,South,PREMIUM
+C00865,I,2026-10-01 01:45:55,2026-10-01,Rohan Verma,customer00865@example.com,Delhi,Delhi,North,PREMIUM
+C00866,I,2026-10-01 01:46:02,2026-10-01,Kabir Reddy,customer00866@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00867,I,2026-10-01 01:46:09,2026-10-01,Isha Singh,customer00867@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00868,I,2026-10-01 01:46:16,2026-10-01,Pooja Bose,customer00868@example.com,Pune,Maharashtra,West,CONSUMER
+C00869,I,2026-10-01 01:46:23,2026-10-01,Vivek Menon,customer00869@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00870,I,2026-10-01 01:46:30,2026-10-01,Tara Iyer,customer00870@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00871,I,2026-10-01 01:46:37,2026-10-01,Nikhil Gupta,customer00871@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00872,I,2026-10-01 01:46:44,2026-10-01,Sara Iyer,customer00872@example.com,Patna,Bihar,East,PREMIUM
+C00873,I,2026-10-01 01:46:51,2026-10-01,Aditya Gupta,customer00873@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00874,I,2026-10-01 01:46:58,2026-10-01,Dev Patel,customer00874@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00875,I,2026-10-01 01:47:05,2026-10-01,Dev Singh,customer00875@example.com,Kochi,Kerala,South,PREMIUM
+C00876,I,2026-10-01 01:47:12,2026-10-01,Karan Kulkarni,customer00876@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00877,I,2026-10-01 01:47:19,2026-10-01,Vivek Patel,customer00877@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00878,I,2026-10-01 01:47:26,2026-10-01,Vivek Iyer,customer00878@example.com,Kochi,Kerala,South,CONSUMER
+C00879,I,2026-10-01 01:47:33,2026-10-01,Aditya Verma,customer00879@example.com,Pune,Maharashtra,West,CONSUMER
+C00880,I,2026-10-01 01:47:40,2026-10-01,Nikhil Verma,customer00880@example.com,Pune,Maharashtra,West,CONSUMER
+C00881,I,2026-10-01 01:47:47,2026-10-01,Sneha Pillai,customer00881@example.com,Patna,Bihar,East,CONSUMER
+C00882,I,2026-10-01 01:47:54,2026-10-01,Tara Pillai,customer00882@example.com,Hyderabad,Telangana,South,PREMIUM
+C00883,I,2026-10-01 01:48:01,2026-10-01,Sneha Patel,customer00883@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00884,I,2026-10-01 01:48:08,2026-10-01,Karan Patel,customer00884@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00885,I,2026-10-01 01:48:15,2026-10-01,Nisha Das,customer00885@example.com,Patna,Bihar,East,CONSUMER
+C00886,I,2026-10-01 01:48:22,2026-10-01,Rahul Gupta,customer00886@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00887,I,2026-10-01 01:48:29,2026-10-01,Rahul Singh,customer00887@example.com,Pune,Maharashtra,West,CONSUMER
+C00888,I,2026-10-01 01:48:36,2026-10-01,Meera Pillai,customer00888@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00889,I,2026-10-01 01:48:43,2026-10-01,Aarav Iyer,customer00889@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00890,I,2026-10-01 01:48:50,2026-10-01,Diya Nair,customer00890@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00891,I,2026-10-01 01:48:57,2026-10-01,Aditya Reddy,customer00891@example.com,Kochi,Kerala,South,CONSUMER
+C00892,I,2026-10-01 01:49:04,2026-10-01,Diya Verma,customer00892@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00893,I,2026-10-01 01:49:11,2026-10-01,Isha Rao,customer00893@example.com,Kolkata,West Bengal,East,CONSUMER
+C00894,I,2026-10-01 01:49:18,2026-10-01,Rahul Gupta,customer00894@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00895,I,2026-10-01 01:49:25,2026-10-01,Aarav Reddy,customer00895@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00896,I,2026-10-01 01:49:32,2026-10-01,Sara Nair,customer00896@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00897,I,2026-10-01 01:49:39,2026-10-01,Vivek Reddy,customer00897@example.com,Pune,Maharashtra,West,CONSUMER
+C00898,I,2026-10-01 01:49:46,2026-10-01,Rohan Verma,customer00898@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00899,I,2026-10-01 01:49:53,2026-10-01,Riya Verma,customer00899@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00900,I,2026-10-01 01:50:00,2026-10-01,Rohan Patel,customer00900@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00901,I,2026-10-01 01:50:07,2026-10-01,Karan Sharma,customer00901@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00902,I,2026-10-01 01:50:14,2026-10-01,Pooja Das,customer00902@example.com,Pune,Maharashtra,West,CONSUMER
+C00903,I,2026-10-01 01:50:21,2026-10-01,Dev Reddy,customer00903@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00904,I,2026-10-01 01:50:28,2026-10-01,Aarav Menon,customer00904@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00905,I,2026-10-01 01:50:35,2026-10-01,Meera Verma,customer00905@example.com,Kolkata,West Bengal,East,CONSUMER
+C00906,I,2026-10-01 01:50:42,2026-10-01,Meera Iyer,customer00906@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00907,I,2026-10-01 01:50:49,2026-10-01,Arjun Nair,customer00907@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00908,I,2026-10-01 01:50:56,2026-10-01,Isha Gupta,customer00908@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00909,I,2026-10-01 01:51:03,2026-10-01,Aditya Kulkarni,customer00909@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00910,I,2026-10-01 01:51:10,2026-10-01,Meera Reddy,customer00910@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00911,I,2026-10-01 01:51:17,2026-10-01,Nikhil Verma,customer00911@example.com,Chandigarh,Punjab,North,PREMIUM
+C00912,I,2026-10-01 01:51:24,2026-10-01,Meera Sharma,customer00912@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00913,I,2026-10-01 01:51:31,2026-10-01,Sara Sharma,customer00913@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00914,I,2026-10-01 01:51:38,2026-10-01,Rohan Gupta,customer00914@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00915,I,2026-10-01 01:51:45,2026-10-01,Diya Bose,customer00915@example.com,Hyderabad,Telangana,South,CONSUMER
+C00916,I,2026-10-01 01:51:52,2026-10-01,Isha Pillai,customer00916@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00917,I,2026-10-01 01:51:59,2026-10-01,Sara Sharma,customer00917@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00918,I,2026-10-01 01:52:06,2026-10-01,Riya Singh,customer00918@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00919,I,2026-10-01 01:52:13,2026-10-01,Karan Menon,customer00919@example.com,Kochi,Kerala,South,CONSUMER
+C00920,I,2026-10-01 01:52:20,2026-10-01,Karan Nair,customer00920@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00921,I,2026-10-01 01:52:27,2026-10-01,Meera Das,customer00921@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00922,I,2026-10-01 01:52:34,2026-10-01,Nikhil Menon,customer00922@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00923,I,2026-10-01 01:52:41,2026-10-01,Diya Das,customer00923@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00924,I,2026-10-01 01:52:48,2026-10-01,Nikhil Rao,customer00924@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00925,I,2026-10-01 01:52:55,2026-10-01,Riya Gupta,customer00925@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00926,I,2026-10-01 01:53:02,2026-10-01,Pooja Bose,customer00926@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00927,I,2026-10-01 01:53:09,2026-10-01,Dev Bose,customer00927@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00928,I,2026-10-01 01:53:16,2026-10-01,Isha Sharma,customer00928@example.com,Pune,Maharashtra,West,CONSUMER
+C00929,I,2026-10-01 01:53:23,2026-10-01,Aarav Joshi,customer00929@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00930,I,2026-10-01 01:53:30,2026-10-01,Anika Patel,customer00930@example.com,Delhi,Delhi,North,CONSUMER
+C00931,I,2026-10-01 01:53:37,2026-10-01,Rahul Menon,customer00931@example.com,Pune,Maharashtra,West,CONSUMER
+C00932,I,2026-10-01 01:53:44,2026-10-01,Anika Menon,customer00932@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00933,I,2026-10-01 01:53:51,2026-10-01,Aarav Rao,customer00933@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00934,I,2026-10-01 01:53:58,2026-10-01,Kabir Kulkarni,customer00934@example.com,Chandigarh,Punjab,North,CONSUMER
+C00935,I,2026-10-01 01:54:05,2026-10-01,Nisha Singh,customer00935@example.com,Kolkata,West Bengal,East,CONSUMER
+C00936,I,2026-10-01 01:54:12,2026-10-01,Meera Gupta,customer00936@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00937,I,2026-10-01 01:54:19,2026-10-01,Vivek Kulkarni,customer00937@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00938,I,2026-10-01 01:54:26,2026-10-01,Meera Reddy,customer00938@example.com,Pune,Maharashtra,West,CONSUMER
+C00939,I,2026-10-01 01:54:33,2026-10-01,Pooja Reddy,customer00939@example.com,Kolkata,West Bengal,East,CONSUMER
+C00940,I,2026-10-01 01:54:40,2026-10-01,Nikhil Iyer,customer00940@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00941,I,2026-10-01 01:54:47,2026-10-01,Nikhil Patel,customer00941@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00942,I,2026-10-01 01:54:54,2026-10-01,Anika Nair,customer00942@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00943,I,2026-10-01 01:55:01,2026-10-01,Rohan Gupta,customer00943@example.com,Kochi,Kerala,South,CONSUMER
+C00944,I,2026-10-01 01:55:08,2026-10-01,Arjun Nair,customer00944@example.com,Kochi,Kerala,South,CONSUMER
+C00945,I,2026-10-01 01:55:15,2026-10-01,Meera Gupta,customer00945@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00946,I,2026-10-01 01:55:22,2026-10-01,Isha Kulkarni,customer00946@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00947,I,2026-10-01 01:55:29,2026-10-01,Aditya Menon,customer00947@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00948,I,2026-10-01 01:55:36,2026-10-01,Aditya Gupta,customer00948@example.com,Hyderabad,Telangana,South,CONSUMER
+C00949,I,2026-10-01 01:55:43,2026-10-01,Tara Rao,customer00949@example.com,Kolkata,West Bengal,East,CONSUMER
+C00950,I,2026-10-01 01:55:50,2026-10-01,Anika Rao,customer00950@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00951,I,2026-10-01 01:55:57,2026-10-01,Nisha Gupta,customer00951@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00952,I,2026-10-01 01:56:04,2026-10-01,Nikhil Menon,customer00952@example.com,Kolkata,West Bengal,East,CONSUMER
+C00953,I,2026-10-01 01:56:11,2026-10-01,Sara Patel,customer00953@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00954,I,2026-10-01 01:56:18,2026-10-01,Dev Iyer,customer00954@example.com,Kochi,Kerala,South,CONSUMER
+C00955,I,2026-10-01 01:56:25,2026-10-01,Tara Reddy,customer00955@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00956,I,2026-10-01 01:56:32,2026-10-01,Sneha Bose,customer00956@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00957,I,2026-10-01 01:56:39,2026-10-01,Arjun Bose,customer00957@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00958,I,2026-10-01 01:56:46,2026-10-01,Diya Pillai,customer00958@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00959,I,2026-10-01 01:56:53,2026-10-01,Riya Patel,customer00959@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00960,I,2026-10-01 01:57:00,2026-10-01,Rahul Patel,customer00960@example.com,Chandigarh,Punjab,North,CONSUMER
+C00961,I,2026-10-01 01:57:07,2026-10-01,Nikhil Gupta,customer00961@example.com,Patna,Bihar,East,CONSUMER
+C00962,I,2026-10-01 01:57:14,2026-10-01,Kabir Verma,customer00962@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00963,I,2026-10-01 01:57:21,2026-10-01,Nisha Das,customer00963@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00964,I,2026-10-01 01:57:28,2026-10-01,Arjun Menon,customer00964@example.com,Kolkata,West Bengal,East,CONSUMER
+C00965,I,2026-10-01 01:57:35,2026-10-01,Sneha Singh,customer00965@example.com,Patna,Bihar,East,CONSUMER
+C00966,I,2026-10-01 01:57:42,2026-10-01,Sara Gupta,customer00966@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00967,I,2026-10-01 01:57:49,2026-10-01,Riya Patel,customer00967@example.com,Kochi,Kerala,South,CONSUMER
+C00968,I,2026-10-01 01:57:56,2026-10-01,Kabir Sharma,customer00968@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00969,I,2026-10-01 01:58:03,2026-10-01,Sneha Iyer,customer00969@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00970,I,2026-10-01 01:58:10,2026-10-01,Aditya Rao,customer00970@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00971,I,2026-10-01 01:58:17,2026-10-01,Tara Iyer,customer00971@example.com,Hyderabad,Telangana,South,CONSUMER
+C00972,I,2026-10-01 01:58:24,2026-10-01,Sneha Bose,customer00972@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00973,I,2026-10-01 01:58:31,2026-10-01,Sara Singh,customer00973@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00974,I,2026-10-01 01:58:38,2026-10-01,Aditya Patel,customer00974@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00975,I,2026-10-01 01:58:45,2026-10-01,Sneha Pillai,customer00975@example.com,Chandigarh,Punjab,North,CONSUMER
+C00976,I,2026-10-01 01:58:52,2026-10-01,Sneha Menon,customer00976@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00977,I,2026-10-01 01:58:59,2026-10-01,Pooja Iyer,customer00977@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00978,I,2026-10-01 01:59:06,2026-10-01,Sneha Das,customer00978@example.com,Patna,Bihar,East,CONSUMER
+C00979,I,2026-10-01 01:59:13,2026-10-01,Diya Rao,customer00979@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00980,I,2026-10-01 01:59:20,2026-10-01,Pooja Nair,customer00980@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00981,I,2026-10-01 01:59:27,2026-10-01,Aditya Bose,customer00981@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00982,I,2026-10-01 01:59:34,2026-10-01,Nisha Verma,customer00982@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00983,I,2026-10-01 01:59:41,2026-10-01,Riya Das,customer00983@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00984,I,2026-10-01 01:59:48,2026-10-01,Arjun Joshi,customer00984@example.com,Chandigarh,Punjab,North,CONSUMER
+C00985,I,2026-10-01 01:59:55,2026-10-01,Sara Iyer,customer00985@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00986,I,2026-10-01 02:00:02,2026-10-01,Arjun Iyer,customer00986@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00987,I,2026-10-01 02:00:09,2026-10-01,Meera Sharma,customer00987@example.com,Kolkata,West Bengal,East,CONSUMER
+C00988,I,2026-10-01 02:00:16,2026-10-01,Riya Iyer,customer00988@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00989,I,2026-10-01 02:00:23,2026-10-01,Sneha Verma,customer00989@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00990,I,2026-10-01 02:00:30,2026-10-01,Arjun Gupta,customer00990@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00991,I,2026-10-01 02:00:37,2026-10-01,Kabir Singh,customer00991@example.com,Hyderabad,Telangana,South,PREMIUM
+C00992,I,2026-10-01 02:00:44,2026-10-01,Rahul Singh,customer00992@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00993,I,2026-10-01 02:00:51,2026-10-01,Arjun Gupta,customer00993@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00994,I,2026-10-01 02:00:58,2026-10-01,Diya Singh,customer00994@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00995,I,2026-10-01 02:01:05,2026-10-01,Aditya Reddy,customer00995@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00996,I,2026-10-01 02:01:12,2026-10-01,Rahul Gupta,customer00996@example.com,Kolkata,West Bengal,East,CONSUMER
+C00997,I,2026-10-01 02:01:19,2026-10-01,Pooja Reddy,customer00997@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00998,I,2026-10-01 02:01:26,2026-10-01,Rohan Nair,customer00998@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00999,I,2026-10-01 02:01:33,2026-10-01,Kabir Reddy,customer00999@example.com,Kolkata,West Bengal,East,CONSUMER
+C01000,I,2026-10-01 02:01:40,2026-10-01,Rahul Bose,customer01000@example.com,Pune,Maharashtra,West,CONSUMER
+C01001,I,2026-10-01 02:01:47,2026-10-01,Vivek Kulkarni,customer01001@example.com,Chandigarh,Punjab,North,CONSUMER
+C01002,I,2026-10-01 02:01:54,2026-10-01,Aarav Pillai,customer01002@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01003,I,2026-10-01 02:02:01,2026-10-01,Tara Kulkarni,customer01003@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C01004,I,2026-10-01 02:02:08,2026-10-01,Sneha Singh,customer01004@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C01005,I,2026-10-01 02:02:15,2026-10-01,Isha Pillai,customer01005@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C01006,I,2026-10-01 02:02:22,2026-10-01,Isha Das,customer01006@example.com,Pune,Maharashtra,West,CONSUMER
+C01007,I,2026-10-01 02:02:29,2026-10-01,Karan Sharma,customer01007@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01008,I,2026-10-01 02:02:36,2026-10-01,Vivek Reddy,customer01008@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01009,I,2026-10-01 02:02:43,2026-10-01,Karan Gupta,customer01009@example.com,Kochi,Kerala,South,CONSUMER
+C01010,I,2026-10-01 02:02:50,2026-10-01,Aditya Reddy,customer01010@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C01011,I,2026-10-01 02:02:57,2026-10-01,Aarav Reddy,customer01011@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C01012,I,2026-10-01 02:03:04,2026-10-01,Meera Nair,customer01012@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C01013,I,2026-10-01 02:03:11,2026-10-01,Dev Bose,customer01013@example.com,Jaipur,Rajasthan,North,CONSUMER
+C01014,I,2026-10-01 02:03:18,2026-10-01,Arjun Joshi,customer01014@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C01015,I,2026-10-01 02:03:25,2026-10-01,Pooja Gupta,customer01015@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01016,I,2026-10-01 02:03:32,2026-10-01,Karan Gupta,customer01016@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C01017,I,2026-10-01 02:03:39,2026-10-01,Arjun Gupta,customer01017@example.com,Chandigarh,Punjab,North,CONSUMER
+C01018,I,2026-10-01 02:03:46,2026-10-01,Sara Joshi,customer01018@example.com,Patna,Bihar,East,CONSUMER
+C01019,I,2026-10-01 02:03:53,2026-10-01,Rohan Das,customer01019@example.com,Jaipur,Rajasthan,North,CONSUMER
+C01020,I,2026-10-01 02:04:00,2026-10-01,Meera Pillai,customer01020@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C01021,I,2026-10-01 02:04:07,2026-10-01,Rahul Menon,customer01021@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C01022,I,2026-10-01 02:04:14,2026-10-01,Rohan Patel,customer01022@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C01023,I,2026-10-01 02:04:21,2026-10-01,Pooja Iyer,customer01023@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01024,I,2026-10-01 02:04:28,2026-10-01,Sara Gupta,customer01024@example.com,Pune,Maharashtra,West,CONSUMER
+C01025,I,2026-10-01 02:04:35,2026-10-01,Karan Bose,customer01025@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C01026,I,2026-10-01 02:04:42,2026-10-01,Rahul Joshi,customer01026@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C01027,I,2026-10-01 02:04:49,2026-10-01,Diya Rao,customer01027@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C01028,I,2026-10-01 02:04:56,2026-10-01,Riya Reddy,customer01028@example.com,Delhi,Delhi,North,PREMIUM
+C01029,I,2026-10-01 02:05:03,2026-10-01,Anika Gupta,customer01029@example.com,Chandigarh,Punjab,North,CONSUMER
+C01030,I,2026-10-01 02:05:10,2026-10-01,Kabir Patel,customer01030@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C01031,I,2026-10-01 02:05:17,2026-10-01,Arjun Iyer,customer01031@example.com,Bengaluru,Karnataka,South,PREMIUM
+C01032,I,2026-10-01 02:05:24,2026-10-01,Anika Bose,customer01032@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C01033,I,2026-10-01 02:05:31,2026-10-01,Sneha Bose,customer01033@example.com,Kochi,Kerala,South,CONSUMER
+C01034,I,2026-10-01 02:05:38,2026-10-01,Nisha Singh,customer01034@example.com,Pune,Maharashtra,West,PREMIUM
+C01035,I,2026-10-01 02:05:45,2026-10-01,Sneha Pillai,customer01035@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C01036,I,2026-10-01 02:05:52,2026-10-01,Pooja Singh,customer01036@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C01037,I,2026-10-01 02:05:59,2026-10-01,Kabir Singh,customer01037@example.com,Kolkata,West Bengal,East,CONSUMER
+C01038,I,2026-10-01 02:06:06,2026-10-01,Nikhil Singh,customer01038@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C01039,I,2026-10-01 02:06:13,2026-10-01,Rahul Joshi,customer01039@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01040,I,2026-10-01 02:06:20,2026-10-01,Kabir Rao,customer01040@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01041,I,2026-10-01 02:06:27,2026-10-01,Aarav Das,customer01041@example.com,Kolkata,West Bengal,East,CONSUMER
+C01042,I,2026-10-01 02:06:34,2026-10-01,Tara Menon,customer01042@example.com,Pune,Maharashtra,West,CONSUMER
+C01043,I,2026-10-01 02:06:41,2026-10-01,Rohan Rao,customer01043@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01044,I,2026-10-01 02:06:48,2026-10-01,Diya Kulkarni,customer01044@example.com,Pune,Maharashtra,West,PREMIUM
+C01045,I,2026-10-01 02:06:55,2026-10-01,Vivek Bose,customer01045@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C01046,I,2026-10-01 02:07:02,2026-10-01,Anika Menon,customer01046@example.com,Kolkata,West Bengal,East,CONSUMER
+C01047,I,2026-10-01 02:07:09,2026-10-01,Isha Singh,customer01047@example.com,Patna,Bihar,East,CONSUMER
+C01048,I,2026-10-01 02:07:16,2026-10-01,Nikhil Das,customer01048@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01049,I,2026-10-01 02:07:23,2026-10-01,Vivek Menon,customer01049@example.com,Kolkata,West Bengal,East,CONSUMER
+C01050,I,2026-10-01 02:07:30,2026-10-01,Kabir Das,customer01050@example.com,Kochi,Kerala,South,CONSUMER
+C01051,I,2026-10-01 02:07:37,2026-10-01,Tara Pillai,customer01051@example.com,Delhi,Delhi,North,CONSUMER
+C01052,I,2026-10-01 02:07:44,2026-10-01,Karan Kulkarni,customer01052@example.com,Delhi,Delhi,North,CONSUMER
+C01053,I,2026-10-01 02:07:51,2026-10-01,Tara Reddy,customer01053@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C01054,I,2026-10-01 02:07:58,2026-10-01,Tara Reddy,customer01054@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C01055,I,2026-10-01 02:08:05,2026-10-01,Sara Patel,customer01055@example.com,Jaipur,Rajasthan,North,CONSUMER
+C01056,I,2026-10-01 02:08:12,2026-10-01,Vivek Menon,customer01056@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01057,I,2026-10-01 02:08:19,2026-10-01,Arjun Menon,customer01057@example.com,Patna,Bihar,East,CONSUMER
+C01058,I,2026-10-01 02:08:26,2026-10-01,Arjun Singh,customer01058@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C01059,I,2026-10-01 02:08:33,2026-10-01,Arjun Sharma,customer01059@example.com,Kochi,Kerala,South,CONSUMER
+C01060,I,2026-10-01 02:08:40,2026-10-01,Nikhil Kulkarni,customer01060@example.com,Kochi,Kerala,South,CONSUMER
+C01061,I,2026-10-01 02:08:47,2026-10-01,Tara Nair,customer01061@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C01062,I,2026-10-01 02:08:54,2026-10-01,Diya Kulkarni,customer01062@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C01063,I,2026-10-01 02:09:01,2026-10-01,Isha Reddy,customer01063@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C01064,I,2026-10-01 02:09:08,2026-10-01,Vivek Menon,customer01064@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C01065,I,2026-10-01 02:09:15,2026-10-01,Kabir Sharma,customer01065@example.com,Kolkata,West Bengal,East,CONSUMER
+C01066,I,2026-10-01 02:09:22,2026-10-01,Arjun Menon,customer01066@example.com,Hyderabad,Telangana,South,CONSUMER
+C01067,I,2026-10-01 02:09:29,2026-10-01,Dev Pillai,customer01067@example.com,Kolkata,West Bengal,East,CONSUMER
+C01068,I,2026-10-01 02:09:36,2026-10-01,Sara Pillai,customer01068@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C01069,I,2026-10-01 02:09:43,2026-10-01,Pooja Bose,customer01069@example.com,Kolkata,West Bengal,East,PREMIUM
+C01070,I,2026-10-01 02:09:50,2026-10-01,Anika Kulkarni,customer01070@example.com,Chandigarh,Punjab,North,PREMIUM
+C01071,I,2026-10-01 02:09:57,2026-10-01,Dev Nair,customer01071@example.com,Kolkata,West Bengal,East,PREMIUM
+C01072,I,2026-10-01 02:10:04,2026-10-01,Pooja Das,customer01072@example.com,Patna,Bihar,East,CONSUMER
+C01073,I,2026-10-01 02:10:11,2026-10-01,Sneha Menon,customer01073@example.com,Kolkata,West Bengal,East,PREMIUM
+C01074,I,2026-10-01 02:10:18,2026-10-01,Meera Iyer,customer01074@example.com,Delhi,Delhi,North,CONSUMER
+C01075,I,2026-10-01 02:10:25,2026-10-01,Dev Sharma,customer01075@example.com,Patna,Bihar,East,CONSUMER
+C01076,I,2026-10-01 02:10:32,2026-10-01,Nikhil Rao,customer01076@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01077,I,2026-10-01 02:10:39,2026-10-01,Riya Rao,customer01077@example.com,Mumbai,Maharashtra,West,PREMIUM
+C01078,I,2026-10-01 02:10:46,2026-10-01,Rohan Nair,customer01078@example.com,Patna,Bihar,East,CONSUMER
+C01079,I,2026-10-01 02:10:53,2026-10-01,Sara Pillai,customer01079@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C01080,I,2026-10-01 02:11:00,2026-10-01,Nikhil Gupta,customer01080@example.com,Pune,Maharashtra,West,CONSUMER
+C01081,I,2026-10-01 02:11:07,2026-10-01,Aditya Das,customer01081@example.com,Pune,Maharashtra,West,CONSUMER
+C01082,I,2026-10-01 02:11:14,2026-10-01,Meera Verma,customer01082@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C01083,I,2026-10-01 02:11:21,2026-10-01,Tara Verma,customer01083@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C01084,I,2026-10-01 02:11:28,2026-10-01,Sneha Pillai,customer01084@example.com,Kolkata,West Bengal,East,CONSUMER
+C01085,I,2026-10-01 02:11:35,2026-10-01,Aditya Singh,customer01085@example.com,Kolkata,West Bengal,East,PREMIUM
+C01086,I,2026-10-01 02:11:42,2026-10-01,Riya Nair,customer01086@example.com,Kolkata,West Bengal,East,CONSUMER
+C01087,I,2026-10-01 02:11:49,2026-10-01,Nisha Kulkarni,customer01087@example.com,Chandigarh,Punjab,North,CONSUMER
+C01088,I,2026-10-01 02:11:56,2026-10-01,Karan Verma,customer01088@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C01089,I,2026-10-01 02:12:03,2026-10-01,Aditya Rao,customer01089@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01090,I,2026-10-01 02:12:10,2026-10-01,Sara Nair,customer01090@example.com,Kochi,Kerala,South,CONSUMER
+C01091,I,2026-10-01 02:12:17,2026-10-01,Meera Kulkarni,customer01091@example.com,Jaipur,Rajasthan,North,PREMIUM
+C01092,I,2026-10-01 02:12:24,2026-10-01,Rahul Rao,customer01092@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01093,I,2026-10-01 02:12:31,2026-10-01,Aditya Patel,customer01093@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C01094,I,2026-10-01 02:12:38,2026-10-01,Isha Patel,customer01094@example.com,Chandigarh,Punjab,North,CONSUMER
+C01095,I,2026-10-01 02:12:45,2026-10-01,Karan Das,customer01095@example.com,Kochi,Kerala,South,PREMIUM
+C01096,I,2026-10-01 02:12:52,2026-10-01,Arjun Kulkarni,customer01096@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C01097,I,2026-10-01 02:12:59,2026-10-01,Pooja Das,customer01097@example.com,Patna,Bihar,East,CONSUMER
+C01098,I,2026-10-01 02:13:06,2026-10-01,Meera Verma,customer01098@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01099,I,2026-10-01 02:13:13,2026-10-01,Kabir Bose,customer01099@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C01100,I,2026-10-01 02:13:20,2026-10-01,Karan Das,customer01100@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C01101,I,2026-10-01 02:13:27,2026-10-01,Meera Kulkarni,customer01101@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C01102,I,2026-10-01 02:13:34,2026-10-01,Sara Menon,customer01102@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01103,I,2026-10-01 02:13:41,2026-10-01,Diya Rao,customer01103@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C01104,I,2026-10-01 02:13:48,2026-10-01,Aarav Menon,customer01104@example.com,Mumbai,Maharashtra,West,PREMIUM
+C01105,I,2026-10-01 02:13:55,2026-10-01,Nisha Menon,customer01105@example.com,Pune,Maharashtra,West,PREMIUM
+C01106,I,2026-10-01 02:14:02,2026-10-01,Tara Das,customer01106@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C01107,I,2026-10-01 02:14:09,2026-10-01,Aditya Reddy,customer01107@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C01108,I,2026-10-01 02:14:16,2026-10-01,Vivek Das,customer01108@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C01109,I,2026-10-01 02:14:23,2026-10-01,Tara Nair,customer01109@example.com,Kolkata,West Bengal,East,CONSUMER
+C01110,I,2026-10-01 02:14:30,2026-10-01,Arjun Rao,customer01110@example.com,Delhi,Delhi,North,CONSUMER
+C01111,I,2026-10-01 02:14:37,2026-10-01,Nikhil Singh,customer01111@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01112,I,2026-10-01 02:14:44,2026-10-01,Rohan Pillai,customer01112@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01113,I,2026-10-01 02:14:51,2026-10-01,Meera Bose,customer01113@example.com,Jaipur,Rajasthan,North,CONSUMER
+C01114,I,2026-10-01 02:14:58,2026-10-01,Nisha Pillai,customer01114@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01115,I,2026-10-01 02:15:05,2026-10-01,Diya Sharma,customer01115@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01116,I,2026-10-01 02:15:12,2026-10-01,Sneha Reddy,customer01116@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01117,I,2026-10-01 02:15:19,2026-10-01,Pooja Nair,customer01117@example.com,Kochi,Kerala,South,CONSUMER
+C01118,I,2026-10-01 02:15:26,2026-10-01,Tara Patel,customer01118@example.com,Delhi,Delhi,North,CONSUMER
+C01119,I,2026-10-01 02:15:33,2026-10-01,Tara Menon,customer01119@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01120,I,2026-10-01 02:15:40,2026-10-01,Sneha Reddy,customer01120@example.com,Kolkata,West Bengal,East,CONSUMER
+C01121,I,2026-10-01 02:15:47,2026-10-01,Arjun Reddy,customer01121@example.com,Patna,Bihar,East,CONSUMER
+C01122,I,2026-10-01 02:15:54,2026-10-01,Nikhil Iyer,customer01122@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01123,I,2026-10-01 02:16:01,2026-10-01,Diya Verma,customer01123@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01124,I,2026-10-01 02:16:08,2026-10-01,Rahul Nair,customer01124@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C01125,I,2026-10-01 02:16:15,2026-10-01,Rohan Patel,customer01125@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C01126,I,2026-10-01 02:16:22,2026-10-01,Nikhil Rao,customer01126@example.com,Chandigarh,Punjab,North,CONSUMER
+C01127,I,2026-10-01 02:16:29,2026-10-01,Sneha Bose,customer01127@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C01128,I,2026-10-01 02:16:36,2026-10-01,Vivek Gupta,customer01128@example.com,Delhi,Delhi,North,CONSUMER
+C01129,I,2026-10-01 02:16:43,2026-10-01,Pooja Joshi,customer01129@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C01130,I,2026-10-01 02:16:50,2026-10-01,Aarav Reddy,customer01130@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01131,I,2026-10-01 02:16:57,2026-10-01,Aditya Patel,customer01131@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C01132,I,2026-10-01 02:17:04,2026-10-01,Diya Nair,customer01132@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C01133,I,2026-10-01 02:17:11,2026-10-01,Nisha Verma,customer01133@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C01134,I,2026-10-01 02:17:18,2026-10-01,Dev Singh,customer01134@example.com,Pune,Maharashtra,West,CONSUMER
+C01135,I,2026-10-01 02:17:25,2026-10-01,Nikhil Kulkarni,customer01135@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C01136,I,2026-10-01 02:17:32,2026-10-01,Sneha Das,customer01136@example.com,Pune,Maharashtra,West,PREMIUM
+C01137,I,2026-10-01 02:17:39,2026-10-01,Anika Rao,customer01137@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C01138,I,2026-10-01 02:17:46,2026-10-01,Tara Nair,customer01138@example.com,Kolkata,West Bengal,East,CONSUMER
+C01139,I,2026-10-01 02:17:53,2026-10-01,Nisha Rao,customer01139@example.com,Kochi,Kerala,South,PREMIUM
+C01140,I,2026-10-01 02:18:00,2026-10-01,Sneha Kulkarni,customer01140@example.com,Jaipur,Rajasthan,North,PREMIUM
+C01141,I,2026-10-01 02:18:07,2026-10-01,Pooja Rao,customer01141@example.com,Kochi,Kerala,South,CONSUMER
+C01142,I,2026-10-01 02:18:14,2026-10-01,Diya Nair,customer01142@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C01143,I,2026-10-01 02:18:21,2026-10-01,Aarav Rao,customer01143@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C01144,I,2026-10-01 02:18:28,2026-10-01,Tara Patel,customer01144@example.com,Jaipur,Rajasthan,North,CONSUMER
+C01145,I,2026-10-01 02:18:35,2026-10-01,Rahul Nair,customer01145@example.com,Hyderabad,Telangana,South,CONSUMER
+C01146,I,2026-10-01 02:18:42,2026-10-01,Riya Reddy,customer01146@example.com,Kolkata,West Bengal,East,CONSUMER
+C01147,I,2026-10-01 02:18:49,2026-10-01,Aditya Iyer,customer01147@example.com,Patna,Bihar,East,PREMIUM
+C01148,I,2026-10-01 02:18:56,2026-10-01,Meera Pillai,customer01148@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C01149,I,2026-10-01 02:19:03,2026-10-01,Nikhil Verma,customer01149@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01150,I,2026-10-01 02:19:10,2026-10-01,Kabir Nair,customer01150@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01151,I,2026-10-01 02:19:17,2026-10-01,Dev Sharma,customer01151@example.com,Hyderabad,Telangana,South,CONSUMER
+C01152,I,2026-10-01 02:19:24,2026-10-01,Anika Patel,customer01152@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C01153,I,2026-10-01 02:19:31,2026-10-01,Tara Joshi,customer01153@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01154,I,2026-10-01 02:19:38,2026-10-01,Diya Rao,customer01154@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C01155,I,2026-10-01 02:19:45,2026-10-01,Vivek Kulkarni,customer01155@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01156,I,2026-10-01 02:19:52,2026-10-01,Pooja Rao,customer01156@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C01157,I,2026-10-01 02:19:59,2026-10-01,Arjun Gupta,customer01157@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C01158,I,2026-10-01 02:20:06,2026-10-01,Aarav Sharma,customer01158@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C01159,I,2026-10-01 02:20:13,2026-10-01,Aditya Joshi,customer01159@example.com,Delhi,Delhi,North,PREMIUM
+C01160,I,2026-10-01 02:20:20,2026-10-01,Anika Sharma,customer01160@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01161,I,2026-10-01 02:20:27,2026-10-01,Rohan Verma,customer01161@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C01162,I,2026-10-01 02:20:34,2026-10-01,Tara Das,customer01162@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C01163,I,2026-10-01 02:20:41,2026-10-01,Karan Verma,customer01163@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01164,I,2026-10-01 02:20:48,2026-10-01,Sneha Das,customer01164@example.com,Pune,Maharashtra,West,CONSUMER
+C01165,I,2026-10-01 02:20:55,2026-10-01,Pooja Pillai,customer01165@example.com,Patna,Bihar,East,PREMIUM
+C01166,I,2026-10-01 02:21:02,2026-10-01,Nikhil Rao,customer01166@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01167,I,2026-10-01 02:21:09,2026-10-01,Aarav Bose,customer01167@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C01168,I,2026-10-01 02:21:16,2026-10-01,Diya Kulkarni,customer01168@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C01169,I,2026-10-01 02:21:23,2026-10-01,Rohan Joshi,customer01169@example.com,Kochi,Kerala,South,CONSUMER
+C01170,I,2026-10-01 02:21:30,2026-10-01,Meera Joshi,customer01170@example.com,Hyderabad,Telangana,South,CONSUMER
+C01171,I,2026-10-01 02:21:37,2026-10-01,Aarav Pillai,customer01171@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C01172,I,2026-10-01 02:21:44,2026-10-01,Aditya Joshi,customer01172@example.com,Delhi,Delhi,North,CONSUMER
+C01173,I,2026-10-01 02:21:51,2026-10-01,Rohan Rao,customer01173@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C01174,I,2026-10-01 02:21:58,2026-10-01,Aarav Menon,customer01174@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C01175,I,2026-10-01 02:22:05,2026-10-01,Kabir Iyer,customer01175@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01176,I,2026-10-01 02:22:12,2026-10-01,Sara Das,customer01176@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C01177,I,2026-10-01 02:22:19,2026-10-01,Rohan Bose,customer01177@example.com,Chandigarh,Punjab,North,CONSUMER
+C01178,I,2026-10-01 02:22:26,2026-10-01,Rahul Verma,customer01178@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01179,I,2026-10-01 02:22:33,2026-10-01,Dev Kulkarni,customer01179@example.com,Patna,Bihar,East,PREMIUM
+C01180,I,2026-10-01 02:22:40,2026-10-01,Diya Verma,customer01180@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C01181,I,2026-10-01 02:22:47,2026-10-01,Pooja Iyer,customer01181@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C01182,I,2026-10-01 02:22:54,2026-10-01,Sara Verma,customer01182@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01183,I,2026-10-01 02:23:01,2026-10-01,Anika Iyer,customer01183@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C01184,I,2026-10-01 02:23:08,2026-10-01,Sneha Joshi,customer01184@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C01185,I,2026-10-01 02:23:15,2026-10-01,Isha Nair,customer01185@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C01186,I,2026-10-01 02:23:22,2026-10-01,Anika Verma,customer01186@example.com,Patna,Bihar,East,CONSUMER
+C01187,I,2026-10-01 02:23:29,2026-10-01,Vivek Nair,customer01187@example.com,Chandigarh,Punjab,North,CONSUMER
+C01188,I,2026-10-01 02:23:36,2026-10-01,Riya Iyer,customer01188@example.com,Pune,Maharashtra,West,CONSUMER
+C01189,I,2026-10-01 02:23:43,2026-10-01,Vivek Joshi,customer01189@example.com,Pune,Maharashtra,West,CONSUMER
+C01190,I,2026-10-01 02:23:50,2026-10-01,Kabir Reddy,customer01190@example.com,Kochi,Kerala,South,SMALL_BUSINESS
+C01191,I,2026-10-01 02:23:57,2026-10-01,Rohan Joshi,customer01191@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C01192,I,2026-10-01 02:24:04,2026-10-01,Vivek Patel,customer01192@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C01193,I,2026-10-01 02:24:11,2026-10-01,Arjun Nair,customer01193@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01194,I,2026-10-01 02:24:18,2026-10-01,Tara Gupta,customer01194@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C01195,I,2026-10-01 02:24:25,2026-10-01,Aditya Das,customer01195@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01196,I,2026-10-01 02:24:32,2026-10-01,Anika Sharma,customer01196@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C01197,I,2026-10-01 02:24:39,2026-10-01,Vivek Joshi,customer01197@example.com,Delhi,Delhi,North,CONSUMER
+C01198,I,2026-10-01 02:24:46,2026-10-01,Sara Iyer,customer01198@example.com,Kochi,Kerala,South,CONSUMER
+C01199,I,2026-10-01 02:24:53,2026-10-01,Aarav Joshi,customer01199@example.com,Jaipur,Rajasthan,North,CONSUMER
+C01200,I,2026-10-01 02:25:00,2026-10-01,Pooja Iyer,customer01200@example.com,Patna,Bihar,East,PREMIUM
+C00057,U,2026-10-02 05:11:34,2026-10-02,Diya Reddy,customer00057@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00887,U,2026-10-02 06:31:23,2026-10-02,Rahul Singh,customer00887@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00361,U,2026-10-02 00:03:42,2026-10-02,Nikhil Das,customer00361@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00849,U,2026-10-02 03:39:01,2026-10-02,Rohan Gupta,customer00849@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00738,U,2026-10-02 04:12:53,2026-10-02,Riya Verma,customer00738@example.com,Bengaluru,Karnataka,South,PREMIUM
+C01023,U,2026-10-02 05:59:26,2026-10-02,Pooja Iyer,customer01023@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00494,U,2026-10-02 03:30:10,2026-10-02,Sneha Patel,customer00494@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C01037,U,2026-10-02 06:58:03,2026-10-02,Kabir Singh,customer01037@example.com,Kolkata,West Bengal,East,CONSUMER
+C00012,U,2026-10-02 01:40:46,2026-10-02,Aarav Nair,customer00012@example.com,Pune,Maharashtra,West,CONSUMER
+C00306,U,2026-10-02 04:41:09,2026-10-02,Rahul Joshi,customer00306@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00066,U,2026-10-02 01:10:57,2026-10-02,Diya Rao,customer00066@example.com,Kochi,Kerala,South,PREMIUM
+C00122,U,2026-10-02 08:23:27,2026-10-02,Nikhil Bose,customer00122@example.com,Pune,Maharashtra,West,CONSUMER
+C01200,U,2026-10-02 02:16:51,2026-10-02,Pooja Iyer,customer01200@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00370,U,2026-10-02 08:13:01,2026-10-02,Arjun Patel,customer00370@example.com,Kochi,Kerala,South,CONSUMER
+C00655,U,2026-10-02 02:32:22,2026-10-02,Rahul Joshi,customer00655@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00397,U,2026-10-02 07:32:12,2026-10-02,Aditya Kulkarni,customer00397@example.com,Patna,Bihar,East,CONSUMER
+C00841,U,2026-10-02 05:00:46,2026-10-02,Meera Iyer,customer00841@example.com,Kolkata,West Bengal,East,CONSUMER
+C00789,U,2026-10-02 01:21:14,2026-10-02,Diya Iyer,customer00789@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C01131,U,2026-10-02 00:45:04,2026-10-02,Aditya Patel,customer01131@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00781,U,2026-10-02 01:22:48,2026-10-02,Meera Pillai,customer00781@example.com,Hyderabad,Telangana,South,PREMIUM
+C00464,U,2026-10-02 03:54:00,2026-10-02,Karan Singh,customer00464@example.com,Chandigarh,Punjab,North,CONSUMER
+C00568,U,2026-10-02 01:41:35,2026-10-02,Sneha Menon,customer00568@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00416,U,2026-10-02 00:24:29,2026-10-02,Rohan Singh,customer00416@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00429,U,2026-10-02 05:53:36,2026-10-02,Dev Das,customer00429@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00261,U,2026-10-02 04:57:00,2026-10-02,Rahul Das,customer00261@example.com,Hyderabad,Telangana,South,CONSUMER
+C00278,U,2026-10-02 04:04:10,2026-10-02,Dev Verma,customer00278@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00120,U,2026-10-02 00:01:02,2026-10-02,Sara Kulkarni,customer00120@example.com,Kolkata,West Bengal,East,CONSUMER
+C01001,U,2026-10-02 00:09:03,2026-10-02,Vivek Kulkarni,customer01001@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00735,U,2026-10-02 05:36:24,2026-10-02,Karan Singh,customer00735@example.com,Hyderabad,Telangana,South,PREMIUM
+C01135,U,2026-10-02 06:44:10,2026-10-02,Nikhil Kulkarni,customer01135@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00371,U,2026-10-02 05:16:35,2026-10-02,Tara Bose,customer00371@example.com,Hyderabad,Telangana,South,CONSUMER
+C00160,U,2026-10-02 08:11:46,2026-10-02,Meera Nair,customer00160@example.com,Kolkata,West Bengal,East,CONSUMER
+C00733,U,2026-10-02 05:28:03,2026-10-02,Sara Das,customer00733@example.com,Pune,Maharashtra,West,CONSUMER
+C00207,U,2026-10-02 04:52:20,2026-10-02,Tara Joshi,customer00207@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00326,U,2026-10-02 02:37:55,2026-10-02,Vivek Patel,customer00326@example.com,Patna,Bihar,East,CONSUMER
+C00290,U,2026-10-02 04:12:36,2026-10-02,Riya Iyer,customer00290@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00845,U,2026-10-02 08:15:58,2026-10-02,Vivek Sharma,customer00845@example.com,Chandigarh,Punjab,North,CONSUMER
+C00969,U,2026-10-02 08:30:03,2026-10-02,Sneha Iyer,customer00969@example.com,Delhi,Delhi,North,CONSUMER
+C00614,U,2026-10-02 07:08:45,2026-10-02,Vivek Rao,customer00614@example.com,Hyderabad,Telangana,South,PREMIUM
+C01109,U,2026-10-02 06:33:59,2026-10-02,Tara Nair,customer01109@example.com,Kolkata,West Bengal,East,CONSUMER
+C01014,U,2026-10-03 07:12:34,2026-10-03,Arjun Joshi,customer01014@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00341,U,2026-10-03 01:54:18,2026-10-03,Sara Rao,customer00341@example.com,Kochi,Kerala,South,CONSUMER
+C00866,U,2026-10-03 06:59:56,2026-10-03,Kabir Reddy,customer00866@example.com,Pune,Maharashtra,West,PREMIUM
+C00416,U,2026-10-03 06:07:19,2026-10-03,Rohan Singh,customer00416@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00062,U,2026-10-03 06:51:19,2026-10-03,Sara Verma,customer00062@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00137,U,2026-10-03 01:10:47,2026-10-03,Sara Pillai,customer00137@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00434,U,2026-10-03 00:34:52,2026-10-03,Arjun Joshi,customer00434@example.com,Patna,Bihar,East,PREMIUM
+C00425,U,2026-10-03 03:53:52,2026-10-03,Pooja Singh,customer00425@example.com,Pune,Maharashtra,West,CONSUMER
+C00680,U,2026-10-03 03:30:00,2026-10-03,Kabir Rao,customer00680@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00439,U,2026-10-03 01:07:56,2026-10-03,Diya Reddy,customer00439@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00758,U,2026-10-03 00:42:06,2026-10-03,Riya Kulkarni,customer00758@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C01124,U,2026-10-03 06:45:49,2026-10-03,Rahul Nair,customer01124@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00726,U,2026-10-03 07:48:28,2026-10-03,Riya Joshi,customer00726@example.com,Kochi,Kerala,South,CONSUMER
+C00875,U,2026-10-03 03:41:22,2026-10-03,Dev Singh,customer00875@example.com,Kolkata,West Bengal,East,PREMIUM
+C00349,U,2026-10-03 01:42:22,2026-10-03,Sneha Pillai,customer00349@example.com,Pune,Maharashtra,West,CONSUMER
+C01069,U,2026-10-03 03:56:23,2026-10-03,Pooja Bose,customer01069@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00437,U,2026-10-03 00:11:12,2026-10-03,Sneha Rao,customer00437@example.com,Pune,Maharashtra,West,CONSUMER
+C00736,U,2026-10-03 06:44:40,2026-10-03,Nikhil Iyer,customer00736@example.com,Chandigarh,Punjab,North,CONSUMER
+C00920,U,2026-10-03 00:05:31,2026-10-03,Karan Nair,customer00920@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00374,U,2026-10-03 04:39:55,2026-10-03,Pooja Joshi,customer00374@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00373,U,2026-10-03 00:34:24,2026-10-03,Kabir Nair,customer00373@example.com,Pune,Maharashtra,West,PREMIUM
+C01066,U,2026-10-03 04:52:55,2026-10-03,Arjun Menon,customer01066@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00560,U,2026-10-03 00:25:55,2026-10-03,Pooja Reddy,customer00560@example.com,Chandigarh,Punjab,North,CONSUMER
+C00559,U,2026-10-03 03:41:18,2026-10-03,Aditya Sharma,customer00559@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01054,U,2026-10-03 01:11:38,2026-10-03,Tara Reddy,customer01054@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00454,U,2026-10-03 04:58:47,2026-10-03,Nikhil Verma,customer00454@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C00083,U,2026-10-03 05:18:49,2026-10-03,Arjun Bose,customer00083@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00223,U,2026-10-03 08:08:13,2026-10-03,Nikhil Singh,customer00223@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00504,U,2026-10-03 06:07:10,2026-10-03,Aditya Nair,customer00504@example.com,Patna,Bihar,East,CONSUMER
+C00316,U,2026-10-03 03:03:29,2026-10-03,Dev Joshi,customer00316@example.com,Hyderabad,Telangana,South,CONSUMER
+C00549,U,2026-10-03 00:14:39,2026-10-03,Isha Menon,customer00549@example.com,Mumbai,Maharashtra,West,PREMIUM
+C01070,U,2026-10-03 05:32:10,2026-10-03,Anika Kulkarni,customer01070@example.com,Chandigarh,Punjab,North,PREMIUM
+C00503,U,2026-10-03 06:11:08,2026-10-03,Sneha Joshi,customer00503@example.com,Patna,Bihar,East,CONSUMER
+C01094,U,2026-10-03 00:13:29,2026-10-03,Isha Patel,customer01094@example.com,Chandigarh,Punjab,North,PREMIUM
+C00317,U,2026-10-03 01:26:20,2026-10-03,Riya Menon,customer00317@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00396,U,2026-10-03 05:37:08,2026-10-03,Anika Sharma,customer00396@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00362,U,2026-10-03 01:07:20,2026-10-03,Sneha Singh,customer00362@example.com,Patna,Bihar,East,PREMIUM
+C00874,U,2026-10-03 04:25:15,2026-10-03,Dev Patel,customer00874@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00186,U,2026-10-03 06:12:38,2026-10-03,Anika Iyer,customer00186@example.com,Pune,Maharashtra,West,PREMIUM
+C00791,U,2026-10-03 05:05:42,2026-10-03,Sara Reddy,customer00791@example.com,Hyderabad,Telangana,South,CONSUMER
+C00101,U,2026-10-04 05:48:41,2026-10-04,Kabir Joshi,customer00101@example.com,Patna,Bihar,East,CONSUMER
+C00179,U,2026-10-04 07:46:17,2026-10-04,Nikhil Nair,customer00179@example.com,Patna,Bihar,East,CONSUMER
+C01057,U,2026-10-04 01:24:26,2026-10-04,Arjun Menon,customer01057@example.com,Patna,Bihar,East,CONSUMER
+C00447,U,2026-10-04 07:11:25,2026-10-04,Arjun Reddy,customer00447@example.com,Kochi,Kerala,South,PREMIUM
+C00711,U,2026-10-04 06:37:50,2026-10-04,Dev Bose,customer00711@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00278,U,2026-10-04 01:48:18,2026-10-04,Dev Verma,customer00278@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00369,U,2026-10-04 00:34:29,2026-10-04,Nikhil Pillai,customer00369@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00743,U,2026-10-04 05:59:25,2026-10-04,Aarav Rao,customer00743@example.com,Patna,Bihar,East,CONSUMER
+C00317,U,2026-10-04 01:54:27,2026-10-04,Riya Menon,customer00317@example.com,Patna,Bihar,East,CONSUMER
+C00182,U,2026-10-04 02:33:38,2026-10-04,Sara Bose,customer00182@example.com,Kochi,Kerala,South,CONSUMER
+C00297,U,2026-10-04 06:23:21,2026-10-04,Arjun Rao,customer00297@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00574,U,2026-10-04 06:30:52,2026-10-04,Vivek Gupta,customer00574@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00976,U,2026-10-04 01:21:48,2026-10-04,Sneha Menon,customer00976@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00254,U,2026-10-04 03:38:29,2026-10-04,Aarav Verma,customer00254@example.com,Patna,Bihar,East,CONSUMER
+C00715,U,2026-10-04 05:07:09,2026-10-04,Sara Reddy,customer00715@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00514,U,2026-10-04 02:15:42,2026-10-04,Vivek Sharma,customer00514@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00799,U,2026-10-04 07:43:05,2026-10-04,Vivek Rao,customer00799@example.com,Kolkata,West Bengal,East,PREMIUM
+C00528,U,2026-10-04 07:27:32,2026-10-04,Riya Reddy,customer00528@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00789,U,2026-10-04 03:03:06,2026-10-04,Diya Iyer,customer00789@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00714,U,2026-10-04 06:21:50,2026-10-04,Vivek Iyer,customer00714@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00155,U,2026-10-04 01:37:30,2026-10-04,Vivek Pillai,customer00155@example.com,Patna,Bihar,East,CONSUMER
+C00243,U,2026-10-04 01:16:59,2026-10-04,Nisha Rao,customer00243@example.com,Pune,Maharashtra,West,CONSUMER
+C00901,U,2026-10-04 05:23:23,2026-10-04,Karan Sharma,customer00901@example.com,Chandigarh,Punjab,North,CONSUMER
+C00941,U,2026-10-04 03:43:52,2026-10-04,Nikhil Patel,customer00941@example.com,Bengaluru,Karnataka,South,PREMIUM
+C01144,U,2026-10-04 04:37:01,2026-10-04,Tara Patel,customer01144@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00829,U,2026-10-04 06:22:48,2026-10-04,Rohan Pillai,customer00829@example.com,Kolkata,West Bengal,East,CONSUMER
+C00262,U,2026-10-04 08:58:42,2026-10-04,Meera Reddy,customer00262@example.com,Kochi,Kerala,South,CONSUMER
+C00984,U,2026-10-04 00:47:22,2026-10-04,Arjun Joshi,customer00984@example.com,Chandigarh,Punjab,North,PREMIUM
+C00248,U,2026-10-04 03:46:08,2026-10-04,Dev Menon,customer00248@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00436,U,2026-10-04 00:53:14,2026-10-04,Sneha Joshi,customer00436@example.com,Hyderabad,Telangana,South,PREMIUM
+C00854,U,2026-10-04 03:06:34,2026-10-04,Isha Nair,customer00854@example.com,Patna,Bihar,East,CONSUMER
+C00353,U,2026-10-04 00:09:05,2026-10-04,Sneha Gupta,customer00353@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00380,U,2026-10-04 06:05:05,2026-10-04,Diya Das,customer00380@example.com,Delhi,Delhi,North,CONSUMER
+C00420,U,2026-10-04 07:40:47,2026-10-04,Meera Menon,customer00420@example.com,Delhi,Delhi,North,CONSUMER
+C00914,U,2026-10-04 05:11:05,2026-10-04,Rohan Gupta,customer00914@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00614,U,2026-10-04 01:02:12,2026-10-04,Vivek Rao,customer00614@example.com,Kolkata,West Bengal,East,PREMIUM
+C00281,U,2026-10-04 07:58:42,2026-10-04,Vivek Singh,customer00281@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00619,U,2026-10-04 06:49:22,2026-10-04,Riya Reddy,customer00619@example.com,Pune,Maharashtra,West,CONSUMER
+C00174,U,2026-10-04 00:01:08,2026-10-04,Tara Patel,customer00174@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00037,U,2026-10-04 00:56:11,2026-10-04,Diya Sharma,customer00037@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00805,U,2026-10-05 07:57:12,2026-10-05,Aditya Patel,customer00805@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00781,U,2026-10-05 05:03:39,2026-10-05,Meera Pillai,customer00781@example.com,Hyderabad,Telangana,South,CONSUMER
+C00303,U,2026-10-05 04:02:56,2026-10-05,Vivek Das,customer00303@example.com,Chandigarh,Punjab,North,CONSUMER
+C00911,U,2026-10-05 03:36:30,2026-10-05,Nikhil Verma,customer00911@example.com,Chandigarh,Punjab,North,CONSUMER
+C00817,U,2026-10-05 04:43:10,2026-10-05,Aarav Das,customer00817@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00549,U,2026-10-05 03:38:29,2026-10-05,Isha Menon,customer00549@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00655,U,2026-10-05 03:27:35,2026-10-05,Rahul Joshi,customer00655@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00567,U,2026-10-05 06:19:11,2026-10-05,Kabir Verma,customer00567@example.com,Kolkata,West Bengal,East,CONSUMER
+C00834,U,2026-10-05 01:24:36,2026-10-05,Vivek Bose,customer00834@example.com,Kochi,Kerala,South,PREMIUM
+C00831,U,2026-10-05 08:53:51,2026-10-05,Dev Bose,customer00831@example.com,Kolkata,West Bengal,East,CONSUMER
+C00483,U,2026-10-05 03:00:19,2026-10-05,Rohan Kulkarni,customer00483@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00268,U,2026-10-05 08:54:24,2026-10-05,Riya Patel,customer00268@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00126,U,2026-10-05 02:21:17,2026-10-05,Arjun Kulkarni,customer00126@example.com,Delhi,Delhi,North,CONSUMER
+C00589,U,2026-10-05 00:22:59,2026-10-05,Nikhil Menon,customer00589@example.com,Hyderabad,Telangana,South,SMALL_BUSINESS
+C00667,U,2026-10-05 05:17:06,2026-10-05,Rohan Sharma,customer00667@example.com,Pune,Maharashtra,West,CONSUMER
+C00740,U,2026-10-05 06:56:14,2026-10-05,Pooja Rao,customer00740@example.com,Delhi,Delhi,North,PREMIUM
+C00682,U,2026-10-05 01:43:50,2026-10-05,Vivek Singh,customer00682@example.com,Hyderabad,Telangana,South,CONSUMER
+C00319,U,2026-10-05 07:21:27,2026-10-05,Rahul Bose,customer00319@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00587,U,2026-10-05 03:50:51,2026-10-05,Isha Verma,customer00587@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00382,U,2026-10-05 06:34:42,2026-10-05,Tara Rao,customer00382@example.com,Delhi,Delhi,North,CONSUMER
+C00726,U,2026-10-05 01:35:12,2026-10-05,Riya Joshi,customer00726@example.com,Chandigarh,Punjab,North,CONSUMER
+C00305,U,2026-10-05 04:40:18,2026-10-05,Riya Menon,customer00305@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C01173,U,2026-10-05 04:53:06,2026-10-05,Rohan Rao,customer01173@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00449,U,2026-10-05 04:00:50,2026-10-05,Riya Menon,customer00449@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00045,U,2026-10-05 08:25:25,2026-10-05,Dev Nair,customer00045@example.com,Chandigarh,Punjab,North,CONSUMER
+C00321,U,2026-10-05 01:56:23,2026-10-05,Nikhil Reddy,customer00321@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C01086,U,2026-10-05 03:36:56,2026-10-05,Riya Nair,customer01086@example.com,Kolkata,West Bengal,East,CONSUMER
+C00900,U,2026-10-05 00:04:26,2026-10-05,Rohan Patel,customer00900@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00096,U,2026-10-05 01:36:02,2026-10-05,Aarav Joshi,customer00096@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01139,U,2026-10-05 02:16:05,2026-10-05,Nisha Rao,customer01139@example.com,Kochi,Kerala,South,PREMIUM
+C00189,U,2026-10-05 00:33:08,2026-10-05,Nisha Rao,customer00189@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00535,U,2026-10-05 03:23:12,2026-10-05,Sara Patel,customer00535@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00942,U,2026-10-05 02:35:02,2026-10-05,Anika Nair,customer00942@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00712,U,2026-10-05 05:42:23,2026-10-05,Rahul Reddy,customer00712@example.com,Pune,Maharashtra,West,CONSUMER
+C00612,U,2026-10-05 01:40:26,2026-10-05,Rahul Bose,customer00612@example.com,Kolkata,West Bengal,East,PREMIUM
+C00234,U,2026-10-05 02:51:01,2026-10-05,Nikhil Bose,customer00234@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00158,U,2026-10-05 00:53:15,2026-10-05,Sara Pillai,customer00158@example.com,Delhi,Delhi,North,PREMIUM
+C01068,U,2026-10-05 02:53:13,2026-10-05,Sara Pillai,customer01068@example.com,Kochi,Kerala,South,CONSUMER
+C00297,U,2026-10-05 03:21:27,2026-10-05,Arjun Rao,customer00297@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C01055,U,2026-10-05 05:31:43,2026-10-05,Sara Patel,customer01055@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00481,U,2026-10-06 07:30:08,2026-10-06,Karan Verma,customer00481@example.com,Patna,Bihar,East,CONSUMER
+C00274,U,2026-10-06 02:43:38,2026-10-06,Vivek Iyer,customer00274@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00609,U,2026-10-06 06:45:48,2026-10-06,Sara Iyer,customer00609@example.com,Chandigarh,Punjab,North,PREMIUM
+C00289,U,2026-10-06 07:39:20,2026-10-06,Pooja Nair,customer00289@example.com,Kolkata,West Bengal,East,CONSUMER
+C00637,U,2026-10-06 07:28:49,2026-10-06,Sneha Nair,customer00637@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00678,U,2026-10-06 07:42:38,2026-10-06,Dev Verma,customer00678@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00730,U,2026-10-06 05:16:01,2026-10-06,Arjun Reddy,customer00730@example.com,Kolkata,West Bengal,East,CONSUMER
+C00931,U,2026-10-06 02:27:54,2026-10-06,Rahul Menon,customer00931@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00367,U,2026-10-06 01:13:25,2026-10-06,Aditya Menon,customer00367@example.com,Kochi,Kerala,South,CONSUMER
+C00860,U,2026-10-06 08:47:56,2026-10-06,Nisha Sharma,customer00860@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00804,U,2026-10-06 01:55:46,2026-10-06,Nikhil Patel,customer00804@example.com,Delhi,Delhi,North,CONSUMER
+C00725,U,2026-10-06 01:47:20,2026-10-06,Karan Gupta,customer00725@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01111,U,2026-10-06 08:06:27,2026-10-06,Nikhil Singh,customer01111@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00614,U,2026-10-06 03:50:17,2026-10-06,Vivek Rao,customer00614@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00082,U,2026-10-06 03:43:36,2026-10-06,Kabir Gupta,customer00082@example.com,Pune,Maharashtra,West,CONSUMER
+C00685,U,2026-10-06 00:24:49,2026-10-06,Aarav Kulkarni,customer00685@example.com,Chandigarh,Punjab,North,CONSUMER
+C01101,U,2026-10-06 08:03:50,2026-10-06,Meera Kulkarni,customer01101@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00394,U,2026-10-06 07:16:35,2026-10-06,Rahul Singh,customer00394@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00040,U,2026-10-06 06:47:59,2026-10-06,Kabir Bose,customer00040@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00899,U,2026-10-06 04:51:38,2026-10-06,Riya Verma,customer00899@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00548,U,2026-10-06 01:42:34,2026-10-06,Tara Rao,customer00548@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00669,U,2026-10-06 04:26:53,2026-10-06,Aarav Bose,customer00669@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00074,U,2026-10-06 04:57:44,2026-10-06,Meera Das,customer00074@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00427,U,2026-10-06 06:48:33,2026-10-06,Aditya Das,customer00427@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00512,U,2026-10-06 02:23:29,2026-10-06,Isha Das,customer00512@example.com,Chandigarh,Punjab,North,SMALL_BUSINESS
+C00704,U,2026-10-06 07:00:49,2026-10-06,Rahul Bose,customer00704@example.com,Hyderabad,Telangana,South,PREMIUM
+C00980,U,2026-10-06 01:19:30,2026-10-06,Pooja Nair,customer00980@example.com,Bhubaneswar,Odisha,East,SMALL_BUSINESS
+C00994,U,2026-10-06 04:07:48,2026-10-06,Diya Singh,customer00994@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00385,U,2026-10-06 01:55:34,2026-10-06,Aarav Das,customer00385@example.com,Chandigarh,Punjab,North,CONSUMER
+C00642,U,2026-10-06 02:28:54,2026-10-06,Anika Kulkarni,customer00642@example.com,Pune,Maharashtra,West,SMALL_BUSINESS
+C00986,U,2026-10-06 07:43:56,2026-10-06,Arjun Iyer,customer00986@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C00127,U,2026-10-06 01:22:06,2026-10-06,Aditya Verma,customer00127@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00150,U,2026-10-06 03:18:24,2026-10-06,Nikhil Rao,customer00150@example.com,Bengaluru,Karnataka,South,CONSUMER
+C00408,U,2026-10-06 07:18:44,2026-10-06,Aarav Patel,customer00408@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01174,U,2026-10-06 08:02:13,2026-10-06,Aarav Menon,customer01174@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00280,U,2026-10-06 06:31:07,2026-10-06,Nisha Singh,customer00280@example.com,Hyderabad,Telangana,South,PREMIUM
+C00465,U,2026-10-06 05:37:18,2026-10-06,Sneha Pillai,customer00465@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00792,U,2026-10-06 08:06:20,2026-10-06,Pooja Bose,customer00792@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00812,U,2026-10-06 07:20:25,2026-10-06,Tara Kulkarni,customer00812@example.com,Pune,Maharashtra,West,CONSUMER
+C00519,U,2026-10-06 08:00:11,2026-10-06,Riya Patel,customer00519@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00344,U,2026-10-07 01:26:30,2026-10-07,Vivek Nair,customer00344@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C01075,U,2026-10-07 01:12:19,2026-10-07,Dev Sharma,customer01075@example.com,Patna,Bihar,East,CONSUMER
+C00197,U,2026-10-07 06:10:00,2026-10-07,Aditya Das,customer00197@example.com,Pune,Maharashtra,West,CONSUMER
+C00680,U,2026-10-07 01:24:24,2026-10-07,Kabir Rao,customer00680@example.com,Mumbai,Maharashtra,West,SMALL_BUSINESS
+C00551,U,2026-10-07 07:41:56,2026-10-07,Meera Pillai,customer00551@example.com,Hyderabad,Telangana,South,PREMIUM
+C01147,U,2026-10-07 02:26:16,2026-10-07,Aditya Iyer,customer01147@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00363,U,2026-10-07 00:23:55,2026-10-07,Aarav Joshi,customer00363@example.com,Bhubaneswar,Odisha,East,PREMIUM
+C00427,U,2026-10-07 00:57:43,2026-10-07,Aditya Das,customer00427@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00150,U,2026-10-07 06:35:54,2026-10-07,Nikhil Rao,customer00150@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00888,U,2026-10-07 04:54:45,2026-10-07,Meera Pillai,customer00888@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00421,U,2026-10-07 04:50:02,2026-10-07,Aarav Patel,customer00421@example.com,Jaipur,Rajasthan,North,SMALL_BUSINESS
+C01161,U,2026-10-07 01:06:55,2026-10-07,Rohan Verma,customer01161@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C00579,U,2026-10-07 01:13:15,2026-10-07,Sneha Nair,customer00579@example.com,Hyderabad,Telangana,South,CONSUMER
+C00304,U,2026-10-07 02:04:08,2026-10-07,Kabir Pillai,customer00304@example.com,Kolkata,West Bengal,East,CONSUMER
+C00315,U,2026-10-07 05:06:37,2026-10-07,Aditya Menon,customer00315@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00182,U,2026-10-07 04:15:56,2026-10-07,Sara Bose,customer00182@example.com,Kochi,Kerala,South,CONSUMER
+C00190,U,2026-10-07 01:39:29,2026-10-07,Rohan Das,customer00190@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C01035,U,2026-10-07 02:58:12,2026-10-07,Sneha Pillai,customer01035@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C00393,U,2026-10-07 02:15:14,2026-10-07,Dev Reddy,customer00393@example.com,Mumbai,Maharashtra,West,CONSUMER
+C01175,U,2026-10-07 07:33:09,2026-10-07,Kabir Iyer,customer01175@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00940,U,2026-10-07 05:21:36,2026-10-07,Nikhil Iyer,customer00940@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00347,U,2026-10-07 02:29:38,2026-10-07,Tara Verma,customer00347@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00109,U,2026-10-07 00:38:44,2026-10-07,Arjun Das,customer00109@example.com,Patna,Bihar,East,CONSUMER
+C01022,U,2026-10-07 07:31:03,2026-10-07,Rohan Patel,customer01022@example.com,Patna,Bihar,East,SMALL_BUSINESS
+C00660,U,2026-10-07 02:43:21,2026-10-07,Rahul Pillai,customer00660@example.com,Lucknow,Uttar Pradesh,North,PREMIUM
+C00157,U,2026-10-07 01:17:53,2026-10-07,Rohan Kulkarni,customer00157@example.com,Kochi,Kerala,South,CONSUMER
+C00403,U,2026-10-07 02:08:52,2026-10-07,Nikhil Patel,customer00403@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C01172,U,2026-10-07 03:57:51,2026-10-07,Aditya Joshi,customer01172@example.com,Delhi,Delhi,North,CONSUMER
+C00161,U,2026-10-07 05:20:34,2026-10-07,Kabir Rao,customer00161@example.com,Kochi,Kerala,South,CONSUMER
+C00641,U,2026-10-07 01:02:51,2026-10-07,Sara Bose,customer00641@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00628,U,2026-10-07 04:49:24,2026-10-07,Tara Pillai,customer00628@example.com,Patna,Bihar,East,PREMIUM
+C00755,U,2026-10-07 06:39:16,2026-10-07,Anika Sharma,customer00755@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00986,U,2026-10-07 07:58:48,2026-10-07,Arjun Iyer,customer00986@example.com,Lucknow,Uttar Pradesh,North,SMALL_BUSINESS
+C00918,U,2026-10-07 04:15:53,2026-10-07,Riya Singh,customer00918@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00606,U,2026-10-07 01:00:28,2026-10-07,Nisha Singh,customer00606@example.com,Kolkata,West Bengal,East,CONSUMER
+C01127,U,2026-10-07 08:21:39,2026-10-07,Sneha Bose,customer01127@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00656,U,2026-10-07 01:20:24,2026-10-07,Pooja Joshi,customer00656@example.com,Chandigarh,Punjab,North,PREMIUM
+C00984,U,2026-10-07 05:24:07,2026-10-07,Arjun Joshi,customer00984@example.com,Chandigarh,Punjab,North,PREMIUM
+C00710,U,2026-10-07 05:36:07,2026-10-07,Pooja Kulkarni,customer00710@example.com,Kochi,Kerala,South,CONSUMER
+C00386,U,2026-10-07 02:32:40,2026-10-07,Sneha Kulkarni,customer00386@example.com,Kolkata,West Bengal,East,CONSUMER
+C01176,U,2026-10-08 07:18:45,2026-10-08,Sara Das,customer01176@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00650,U,2026-10-08 07:58:43,2026-10-08,Aarav Joshi,customer00650@example.com,Bengaluru,Karnataka,South,CONSUMER
+C01162,U,2026-10-08 06:36:45,2026-10-08,Tara Das,customer01162@example.com,Delhi,Delhi,North,SMALL_BUSINESS
+C00865,U,2026-10-08 06:45:25,2026-10-08,Rohan Verma,customer00865@example.com,Bengaluru,Karnataka,South,PREMIUM
+C00672,U,2026-10-08 02:35:17,2026-10-08,Sara Singh,customer00672@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00484,U,2026-10-08 05:58:11,2026-10-08,Arjun Gupta,customer00484@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00632,U,2026-10-08 01:49:51,2026-10-08,Aarav Verma,customer00632@example.com,Kochi,Kerala,South,PREMIUM
+C00046,U,2026-10-08 02:38:13,2026-10-08,Arjun Gupta,customer00046@example.com,Hyderabad,Telangana,South,CONSUMER
+C00898,U,2026-10-08 01:52:16,2026-10-08,Rohan Verma,customer00898@example.com,Jaipur,Rajasthan,North,CONSUMER
+C00397,U,2026-10-08 06:33:35,2026-10-08,Aditya Kulkarni,customer00397@example.com,Kolkata,West Bengal,East,CONSUMER
+C00640,U,2026-10-08 07:20:29,2026-10-08,Anika Singh,customer00640@example.com,Lucknow,Uttar Pradesh,North,CONSUMER
+C00283,U,2026-10-08 06:01:10,2026-10-08,Nisha Verma,customer00283@example.com,Ahmedabad,Gujarat,West,SMALL_BUSINESS
+C00577,U,2026-10-08 08:57:55,2026-10-08,Riya Singh,customer00577@example.com,Kolkata,West Bengal,East,CONSUMER
+C00293,U,2026-10-08 07:22:34,2026-10-08,Karan Bose,customer00293@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C00992,U,2026-10-08 03:20:01,2026-10-08,Rahul Singh,customer00992@example.com,Bhubaneswar,Odisha,East,CONSUMER
+C01026,U,2026-10-08 03:49:24,2026-10-08,Rahul Joshi,customer01026@example.com,Mumbai,Maharashtra,West,PREMIUM
+C00706,U,2026-10-08 08:08:02,2026-10-08,Rahul Verma,customer00706@example.com,Chennai,Tamil Nadu,South,CONSUMER
+C00234,U,2026-10-08 05:47:23,2026-10-08,Nikhil Bose,customer00234@example.com,Pune,Maharashtra,West,PREMIUM
+C01089,U,2026-10-08 05:53:31,2026-10-08,Aditya Rao,customer01089@example.com,Chandigarh,Punjab,North,CONSUMER
+C00670,U,2026-10-08 04:25:17,2026-10-08,Rohan Bose,customer00670@example.com,Hyderabad,Telangana,South,CONSUMER
+C00858,U,2026-10-08 01:22:05,2026-10-08,Diya Pillai,customer00858@example.com,Patna,Bihar,East,PREMIUM
+C00282,U,2026-10-08 01:44:31,2026-10-08,Rahul Das,customer00282@example.com,Pune,Maharashtra,West,PREMIUM
+C01069,U,2026-10-08 04:38:17,2026-10-08,Pooja Bose,customer01069@example.com,Kolkata,West Bengal,East,SMALL_BUSINESS
+C01002,U,2026-10-08 06:38:11,2026-10-08,Aarav Pillai,customer01002@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00520,U,2026-10-08 05:18:12,2026-10-08,Karan Das,customer00520@example.com,Kochi,Kerala,South,CONSUMER
+C01058,U,2026-10-08 04:41:18,2026-10-08,Arjun Singh,customer01058@example.com,Ahmedabad,Gujarat,West,PREMIUM
+C00748,U,2026-10-08 00:44:12,2026-10-08,Vivek Verma,customer00748@example.com,Ahmedabad,Gujarat,West,CONSUMER
+C01049,U,2026-10-08 04:12:44,2026-10-08,Vivek Menon,customer01049@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00505,U,2026-10-08 05:31:54,2026-10-08,Sara Singh,customer00505@example.com,Delhi,Delhi,North,PREMIUM
+C00639,U,2026-10-08 04:53:16,2026-10-08,Pooja Iyer,customer00639@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00074,U,2026-10-08 02:41:20,2026-10-08,Meera Das,customer00074@example.com,Chennai,Tamil Nadu,South,PREMIUM
+C00062,U,2026-10-08 07:01:41,2026-10-08,Sara Verma,customer00062@example.com,Bengaluru,Karnataka,South,SMALL_BUSINESS
+C00918,U,2026-10-08 04:37:01,2026-10-08,Riya Singh,customer00918@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00056,U,2026-10-08 06:07:48,2026-10-08,Arjun Gupta,customer00056@example.com,Kochi,Kerala,South,CONSUMER
+C01150,U,2026-10-08 02:46:40,2026-10-08,Kabir Nair,customer01150@example.com,Chandigarh,Punjab,North,CONSUMER
+C00540,U,2026-10-08 05:50:59,2026-10-08,Aditya Sharma,customer00540@example.com,Hyderabad,Telangana,South,CONSUMER
+C01098,U,2026-10-08 01:44:03,2026-10-08,Meera Verma,customer01098@example.com,Chennai,Tamil Nadu,South,SMALL_BUSINESS
+C01185,U,2026-10-08 07:28:33,2026-10-08,Isha Nair,customer01185@example.com,Mumbai,Maharashtra,West,CONSUMER
+C00014,U,2026-10-08 07:26:12,2026-10-08,Dev Sharma,customer00014@example.com,Jaipur,Rajasthan,North,PREMIUM
+C00567,U,2026-10-08 02:46:18,2026-10-08,Kabir Verma,customer00567@example.com,Kolkata,West Bengal,East,CONSUMER

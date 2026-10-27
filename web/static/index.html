@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DataTrust AI</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/vendor/chart.umd.js"></script>   <!-- Chart.js 4.4.1 (MIT), bundled: works offline -->
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><button id="navToggle" class="nav-toggle" aria-label="Show or hide menu" title="Show or hide menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><b>DataTrust AI</b><span>The Autonomous Data Trust Mesh</span></div>
+  <div class="topright">
+    <span id="refreshInfo" class="muted-light">loading…</span>
+    <span id="topScore" class="topscore">Trust score –</span>
+  </div>
+</header>
+
+<div class="layout">
+<nav class="sidebar" id="tabs" aria-label="Main menu">
+  <div class="nav-group"><div class="nav-title">Monitor</div>
+    <button data-page="observe" title="1. Observe" class="active"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg><span class="label">1. Observe</span></button>
+    <button data-page="detect" title="2. Detect"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg><span class="label">2. Detect</span></button>
+  </div>
+  <div class="nav-group"><div class="nav-title">Analyse</div>
+    <button data-page="investigate" title="3. Investigate"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg><span class="label">3. Investigate</span></button>
+    <button data-page="lineage" title="4. Explain (lineage)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="12" r="2"/><path d="M7 6h4l4 6M7 18h4l4-6"/></svg><span class="label">4. Explain (lineage)</span></button>
+    <button data-page="impact" title="5. Impact &amp; decide"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg><span class="label">5. Impact &amp; decide</span></button>
+    <button data-page="verify" title="6. Verify"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span class="label">6. Verify</span></button>
+  </div>
+  <div class="nav-group"><div class="nav-title">Assistant</div>
+    <button data-page="ask" title="Ask DataTrust AI"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.6A8 8 0 1 1 21 12z"/></svg><span class="label">Ask DataTrust AI</span></button>
+  </div>
+  <div class="nav-group"><div class="nav-title">Operations</div>
+    <button data-page="pipeline" title="Pipeline log"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span class="label">Pipeline log</span></button>
+  </div>
+  <div class="nav-group"><div class="nav-title">Data estate</div>
+    <button data-page="estate-connections" title="Connections"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3z"/><path d="M4 7v10c0 1.7 3.6 3 8 3s8-1.3 8-3V7"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg><span class="label">Connections</span></button>
+    <button data-page="estate-catalog" title="Catalog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h7v7H3zM14 4h7v7h-7zM3 15h7v5H3zM14 15h7v5h-7z"/></svg><span class="label">Catalog</span></button>
+    <button data-page="estate-activity" title="Changes &amp; failures"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg><span class="label">Changes &amp; failures</span></button>
+    <button data-page="estate-access" title="Access"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M17 11l2 2 3-4"/></svg><span class="label">Access</span></button>
+    <button data-page="estate-ask" title="Estate assistant"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.6A8 8 0 1 1 21 12z"/><path d="M9 11h6"/></svg><span class="label">Estate assistant</span></button>
+  </div>
+  <!-- add new menu items here: <button data-page="NAME"> + a matching <section id="page-NAME"> -->
+</nav>
+<div class="backdrop" id="navBackdrop"></div>
+<main>
+  <div id="errorBox" class="error-box hidden"></div>
+
+  <!-- 1. OBSERVE -->
+  <section id="page-observe" class="page">
+    <h1 id="obsTitle">1. Observe</h1>
+    <p class="sub">Source files → Bronze → Silver → Gold, monitored after every pipeline run. <span id="obsCoverage"></span></p>
+    <div class="grid g-1-2">
+      <div class="card center">
+        <div id="gauge"></div>
+        <div id="gaugeLabel" class="gauge-label"></div>
+        <div class="muted">Data Trust Score</div>
+      </div>
+      <div class="card"><h3>Trust score by business date</h3><div class="chartbox"><canvas id="trendChart"></canvas></div></div>
+    </div>
+    <div class="kpis" id="obsKpis"></div>
+    <div class="grid g-2">
+      <div class="card"><h3>Data quality</h3><div id="dims"></div><div id="reasons" class="small muted"></div></div>
+      <div class="card"><h3>Revenue by business date (gold.daily_revenue)</h3><div class="chartbox"><canvas id="revChart"></canvas></div></div>
+    </div>
+    <div class="card"><h3>Connected estate</h3><div id="estate" class="estate"></div></div>
+  </section>
+
+  <!-- ASK -->
+  <section id="page-ask" class="page hidden">
+    <h1>Ask DataTrust AI</h1>
+    <p class="sub">Questions are answered from your gold views and audit tables. <span id="askMode"></span></p>
+    <div class="ask-layout">
+      <div class="card chat">
+        <div id="chatLog" class="chatlog"></div>
+        <form id="askForm" class="askform">
+          <input id="askInput" autocomplete="off" placeholder="e.g. Revenue last 7 days by day, or: is any data missing from source to target?">
+          <button type="submit">Ask</button>
+        </form>
+      </div>
+      <div class="card">
+        <h3>Try asking</h3>
+        <div id="examples" class="examples"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. DETECT -->
+  <section id="page-detect" class="page hidden">
+    <h1>2. Detect</h1>
+    <p class="sub">Issues found in the data right now. They close themselves when a later run no longer shows them.</p>
+    <div id="detectBanner"></div>
+    <div class="grid g-1-2">
+      <div class="card center"><div id="gauge2"></div><div id="gaugeLabel2" class="gauge-label"></div></div>
+      <div class="card"><h3>Trust score by business date</h3><div class="chartbox"><canvas id="trendChart2"></canvas></div></div>
+    </div>
+    <div class="card"><h3>Open incidents</h3><div id="incidentList"></div></div>
+  </section>
+
+  <!-- 3. INVESTIGATE -->
+  <section id="page-investigate" class="page hidden">
+    <h1>3. Investigate: evidence from the data</h1>
+    <p class="sub">Every check below is a query on your tables; the source is named under each one.
+      <select id="invSelect"></select></p>
+    <div id="invBody"></div>
+  </section>
+
+  <!-- 4. LINEAGE -->
+  <section id="page-lineage" class="page hidden">
+    <h1>4. Explain: source → target lineage</h1>
+    <p class="sub" id="linSub"></p>
+    <div id="linBody"></div>
+  </section>
+
+  <!-- 5. IMPACT -->
+  <section id="page-impact" class="page hidden">
+    <h1>5. Impact and decide</h1>
+    <p class="sub">What the issue touches (from the database catalog) and what to do. Remediation waits for human approval.
+      <select id="impSelect"></select></p>
+    <div id="impBody"></div>
+  </section>
+
+  <!-- 6. VERIFY -->
+  <section id="page-verify" class="page hidden">
+    <h1>6. Verify</h1>
+    <p class="sub">An approved incident is marked resolved only when the next pipeline run no longer shows it.</p>
+    <div id="verifyBody"></div>
+  </section>
+
+  <!-- PIPELINE LOG -->
+  <section id="page-pipeline" class="page hidden">
+    <h1>Pipeline log</h1>
+    <p class="sub">audit.batch_control, audit.step_log and audit.error_log.</p>
+    <div id="pipeBody"></div>
+  </section>
+  <!-- DATA ESTATE: Connections -->
+  <section id="page-estate-connections" class="page hidden">
+    <h1>Connections</h1>
+    <p class="sub">Every database or warehouse the portal watches. Browsing is read-only; changes need an admin.</p>
+    <div id="body-estate-connections"></div>
+  </section>
+
+  <!-- DATA ESTATE: Catalog -->
+  <section id="page-estate-catalog" class="page hidden">
+    <h1>Catalog</h1>
+    <p class="sub">Databases, schemas, tables, views, procedures, columns, indexes, lineage and who has access.</p>
+    <div id="body-estate-catalog"></div>
+  </section>
+
+  <!-- DATA ESTATE: Changes &amp; failures -->
+  <section id="page-estate-activity" class="page hidden">
+    <h1>Changes &amp; failures</h1>
+    <p class="sub">Who changed which object, when and from where; what failed.</p>
+    <div id="body-estate-activity"></div>
+  </section>
+
+  <!-- DATA ESTATE: Access -->
+  <section id="page-estate-access" class="page hidden">
+    <h1>Access</h1>
+    <p class="sub">Who can see what, and access requests: request, approve, apply. Every step is logged.</p>
+    <div id="body-estate-access"></div>
+  </section>
+
+  <!-- DATA ESTATE: Estate assistant -->
+  <section id="page-estate-ask" class="page hidden">
+    <h1>Estate assistant</h1>
+    <p class="sub">Ask about any connected source in plain words.</p>
+    <div id="body-estate-ask"></div>
+  </section>
+</main>
+</div>
+<div id="toast" class="toast hidden"></div>
+<script>
+  // Sidebar toggle (layout only; the pages themselves are handled by app.js)
+  (function () {
+    const wide = () => window.matchMedia("(min-width: 901px)").matches;
+    let collapsed = false;
+    try { collapsed = localStorage.getItem("dt.sidebar") === "collapsed"; } catch (e) {}
+    if (collapsed) document.body.classList.add("nav-collapsed");
+    document.getElementById("navToggle").addEventListener("click", () => {
+      if (wide()) {
+        const c = document.body.classList.toggle("nav-collapsed");
+        try { localStorage.setItem("dt.sidebar", c ? "collapsed" : "open"); } catch (e) {}
+      } else {
+        document.body.classList.toggle("nav-open");
+      }
+    });
+    const close = () => document.body.classList.remove("nav-open");
+    document.getElementById("navBackdrop").addEventListener("click", close);
+    document.querySelectorAll("#tabs button").forEach((b) => b.addEventListener("click", () => {
+      close();
+      document.querySelector("main").scrollTop = 0;          // every page opens at its top
+    }));
+  })();
+</script>
+<script src="/static/app.js"></script>
+<script src="/static/estate.js"></script>   <!-- Data Estate module -->
+</body>
+</html>
