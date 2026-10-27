@@ -1,0 +1,81 @@
+Admin@1234
+
+DataTrust AI: Proof of Concept
+
+
+
+Short opener:
+Today, when a KPI drops, we can't quickly tell whether the business changed or the data broke. DataTrust AI checks every day's data from source to dashboard, marks each number as trusted or not, finds the root cause automatically, and lets anyone ask why in plain English. In our demo it caught a 25% revenue drop, traced it to four specific failures in minutes, and recovered the missing data after one approval."
+
+
+The problem
+When a revenue number looks wrong, teams spend hours or days working out why. Was it the business, a failed API, a broken pipeline, or bad data? Dashboards and AI tools today show numbers but don't say whether those numbers can be trusted.
+
+What DataTrust AI does:
+It is a trust and observability layer on Snowflake that checks every day's data from source to dashboard and answers our questions automatically:
+
+Did the source systems send everything they should?
+Did the APIs, services and pipelines move it correctly?
+Is the final data complete, correct and on time?
+Can a business user or AI agent rely on the number, and if not, why not?
+
+How it works:
+Data pipeline (Bronze → Silver → Gold): raw source data, then cleaned and validated data, then business KPIs. Each layer runs only if the previous one succeeded, every step can be fully rolled back, and every error is logged against its batch and pipeline.
+
+Trust engine: reconciles source against target down to individual records, checks data quality and API health, and gives each KPI a trust score of Trusted, Warning or Untrusted.
+Root-cause detection: follows the data lineage to the original failure instead of raising dozens of separate alerts.
+AI agents: answer plain-English questions like "Why is revenue lower today?" and "Where did this payment go?", using only verified data.
+Controlled fixes: recovery actions run only after a person approves them.
+
+What the demo shows (8 days of sample retail data, 5 real-world failures injected)
+
+On the incident day, revenue dropped 25.7%. The platform marked the number Untrusted without being told to.
+It found 4 root causes automatically:
+a Payment API outage, with 179 payments missing (₹2.0 lakh)
+45 orders rejected for bad data
+a format change in the store sales file
+a slow Customer API
+It explained ₹4.7 lakh of the drop.
+After one approved replay, the missing payments were recovered, revenue was corrected to ₹17.47 lakh, and that incident closed itself.
+
+Business value
+
+Root cause in minutes instead of days.
+Leaders and AI tools work only from numbers that can be trusted.
+Every record has a clear audit trail of where it went and why it was dropped. This matters for finance and regulated reporting.
+Built 100% on Snowflake, with no extra platform to buy.
+
+Next steps
+
+Deploy the POC on our Snowflake environment. It has been tested end to end on a local test setup, with all checks passing.
+Connect one real source system and one real KPI as a pilot.
+Open the AI agents to business users through a dashboard or chat.
+
+
+
+
+
+Design principle: telemetry tells us how systems behave; data reconciliation proves whether business data is complete and correct. Start small, make trust measurable, then scale to AI.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

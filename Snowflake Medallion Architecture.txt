@@ -1,0 +1,66 @@
+Snowflake Medallion Architecture:
+==================================
+
+1. End-to-End Metadata-Driven Medallion Architecture on Snowflake
+Designed and delivered a production-grade, metadata-driven Medallion Architecture pipeline on Snowflake for the Mainetti UK client engagement, covering Stage, Bronze, Silver, Dimension, Fact and Gold layers — with full automation using Snowflake Stored Procedures, Streams and Tasks, eliminating manual intervention across all pipeline stages.
+
+2. Robust Data Quality Framework with Two-Tier Rule Enforcement
+Implemented a comprehensive Data Quality framework within the Silver layer enforcing Hard Rules (quarantine with full JSON audit trail) and Soft Rules (warn and retain) — ensuring data integrity from source to Gold views, with a dedicated DQ Health Dashboard tracking pass rates, violation counts and top failing rules per batch.
+
+3. Proactive Email Notification System for Critical Database Events
+Built an automated email alert mechanism to notify stakeholders of critical pipeline events including data deletion, table truncation, unexpected updates and pipeline failures — enabling real-time visibility and reducing mean time to resolution for data incidents across all layers.
+
+4. Automated Retry Mechanism and Fault-Tolerant Pipeline Design
+Engineered a fault-tolerant pipeline with an automated retry mechanism at each layer, ensuring failed batches are safely recovered without data loss or duplication — with file movement logic routing files to Processed or Unprocessed folders based on pipeline outcome and full rollback capability via transaction management in Stored Procedures.
+
+5. Centralised Audit Logging and Batch Lifecycle Tracking
+Delivered a centralised audit and observability framework comprising BATCH_LOG, BATCH_STEP_LOG, ERROR_LOG and FILE_LOAD_TRACKER — capturing every step, row count, load mode, error message and timestamp across all pipeline layers, providing complete end-to-end traceability for client sign-off and production readiness validation.
+
+
+PDF Extraction  for:
+=======================
+
+1. Scalable Multi-Format PDF Extraction Pipeline for 300+ Documents
+Designed and delivered a scalable PDF extraction pipeline capable of processing over 300 PDF documents of varying formats uploaded to a Snowflake internal stage — automating the end-to-end extraction of invoice and settlement data that was previously handled manually, significantly reducing processing time and human effort.
+
+2. Dynamic Field Extraction with Zero Hardcoded Values
+Engineered a fully dynamic extraction engine using PyMuPDF (fitz) that reads AcroForm field values, multi-line item tables, header metadata and summary totals directly from each PDF at runtime — with no hardcoded values in the codebase, making the solution adaptable to varying document structures and field layouts across all 300+ documents.
+
+3. Structured Data Transformation from Unstructured PDF Sources
+Converted raw unstructured PDF content — including invoice headers, line items, billing details, settlement information and financial totals — into clean, typed Pandas DataFrames with 33+ columns, enabling structured storage in Snowflake tables and making the data ready for downstream analysis, reporting and reconciliation workflows.
+
+4. Stage-Integrated Pipeline with In-Memory Processing
+Built a Snowflake stage-integrated pipeline that reads each PDF directly from the stage into an in-memory buffer using io.BytesIO — eliminating the need for local file storage, ensuring no sensitive document data is persisted to disk, and making the solution fully compatible with cloud-native Snowflake environments without requiring external file system access.
+
+5. Invoice and Settlement Data Validation with Financial Reconciliation
+Implemented automated financial reconciliation logic to validate extracted totals — verifying subtotals, discount calculations and tax computations against expected formula outcomes for every document processed — ensuring data accuracy before loading into Snowflake target tables and providing an auditable extraction record per batch for compliance and settlement analysis.
+
+6. Leveraged Snowflake Cortex Built-in LLM (Snowflake Arctic) for Intelligent Document Processing
+Utilised Snowflake's native built-in Large Language Model capabilities through Snowflake Cortex — specifically SNOWFLAKE.CORTEX.COMPLETE with the Snowflake Arctic model — to intelligently extract, interpret and structure content from 300+ multi-format PDF invoices and settlement documents directly within the Snowflake environment, eliminating the need for any external AI/ML infrastructure or third-party API dependencies.
+
+7. Zero-Copy AI Processing — LLM Runs Inside Snowflake Data Perimeter
+Implemented the entire LLM-based extraction pipeline within Snowflake's secure data perimeter using Cortex AI functions — ensuring sensitive invoice and settlement document data never leaves the Snowflake environment, maintaining full data governance, compliance and security posture required for client-facing financial document processing.
+
+8. Prompt Engineering for Structured JSON Extraction from Variable PDF Formats
+Designed and fine-tuned extraction prompts for Snowflake Cortex LLM to handle 300+ PDFs with varying layouts, field positions and document structures — instructing the model to return consistently structured JSON outputs containing invoice number, billing parties, line items, settlement amounts and tax details, which were then parsed and loaded into target Snowflake tables for downstream analysis.
+
+
+Databricks POC:
+=================
+
+
+1. Data Modeling — Designed a Medallion-based dimensional model for a retail dataset (Walmart POS + order/inventory data): Bronze as raw/append-only source replicas, Silver as 10 conformed dimension and fact tables with SCD Type 2 applied selectively (5 of 7 dimensions) based on which attributes genuinely needed history tracking versus simple overwrite.
+
+2. Data Architecture Design — Architected a metadata-driven CONTROL/CONFIG/OPERATIONAL schema (source registration, connection management, transformation rules, column mapping, and batch/error logging) that decouples pipeline logic from source-specific code, enabling new sources to be onboarded via configuration rather than new development.
+
+3. Implementation — Built the end-to-end pipeline in PySpark/Spark SQL on Azure Databricks using idempotent Delta MERGE patterns for both SCD2 and fact upserts, with a source-type router (API / Azure Blob / SQL Server) dispatching to Bronze→Silver→Gold notebook chains, and widget-driven environment parameterization (Dev/QA/Preprod/Prod) for consistent promotion across environments.
+
+4. Design Trade-off Thinking — Evaluated the hand-rolled framework against platform-native alternatives (Delta Live Tables, dbt), consciously scoping custom metadata-driven logic to where it adds real value (source onboarding) while keeping transformation logic in reviewable, testable code rather than over-templatizing business rules into metadata.
+
+5. Traceability & Governance — Established end-to-end operational logging (batch run, batch detail, error log) for full run/table-level lineage, cross-validated the schema design against a formal ER diagram, and built the framework with environment promotion as a first-class concern from the outset.
+
+
+
+Combined Impact Statement for Apprsl Summary Section:
+
+Delivered two end-to-end data engineering POCs for client engagements — a production-grade Metadata-Driven Medallion Architecture pipeline on Snowflake for Mainetti Singapore covering Bronze to Gold with DQ, audit logging, retry and email notifications; and a scalable PDF extraction pipeline processing 300+ multi-format invoices and settlement documents from Snowflake stage into structured analytical tables — both demonstrating full ownership from design through delivery.

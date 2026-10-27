@@ -1,0 +1,38 @@
+# Try the cloud setup on one machine: web app container + a PostgreSQL 17 container.
+#   docker compose -f docker-compose.web.yml up -d --build      then open http://localhost:8000
+# In the cloud, DevOps replaces the "db" service with a managed PostgreSQL and sets the same variables as secrets.
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: datatrust_poc
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-change-me}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d datatrust_poc"]
+      interval: 5s
+      retries: 20
+
+  web:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    environment:
+      PG_HOST: db
+      PG_PORT: "5432"
+      PG_DATABASE: datatrust_poc
+      PG_USER: postgres
+      PG_PASSWORD: ${PG_PASSWORD:-change-me}
+      PORTAL_ADMIN_USER: ${PORTAL_ADMIN_USER:-admin}
+      PORTAL_ADMIN_PASSWORD: ${PORTAL_ADMIN_PASSWORD:-}
+      PORTAL_SECRET: ${PORTAL_SECRET:-}
+      PORTAL_COOKIE_SECURE: "false"        # true when served over HTTPS
+      LLM_PROVIDER: ${LLM_PROVIDER:-none}
+
+volumes:
+  db-data:

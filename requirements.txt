@@ -1,0 +1,14 @@
+pyspark==4.0.*            # needs Java 17 or 21
+psycopg[binary]>=3.2      # PostgreSQL driver
+python-dotenv>=1.0        # reads the .env file
+azure-storage-blob>=12.19 # ADLS Gen2 connection
+azure-identity>=1.15      # optional: Azure AD login instead of an account key
+pandas>=2.2               # .toPandas() in explore.py
+ipykernel>=6.29           # run the # %% cells in explore.py
+
+# Only what the web app needs (no Spark/Java): used by the Dockerfile
+fastapi>=0.110
+uvicorn>=0.29
+psycopg[binary]>=3.2
+python-dotenv>=1.0
+requests>=2.31
